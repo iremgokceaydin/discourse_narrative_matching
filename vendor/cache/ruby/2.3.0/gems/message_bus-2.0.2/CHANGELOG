@@ -1,0 +1,206 @@
+25-08-2016
+
+- Version 2.0.2
+- Feature: Add on_middleware_error callback for remapping middleware errors to HTTP results
+
+
+25-07-2016
+
+- Feature: Add JavaScript MessageBus.status() function
+
+
+21-06-2016
+
+- Version 2.0.1
+- Fix: build using old ruby cause new ruby breaks stuff @sam
+
+21-06-2016
+
+- Version 2.0.0
+- Fix: forked process terminates parent more cleanly (does not kill -9 parent if already terminated) @uri
+- Fix: add async true explicitly on ajax reqs to ensure it always works even if disabled by globally @washu
+
+11-05-2016
+
+- Version 2.0.0.beta.11
+- Fix: for https://github.com/rubygems/rubygems/issues/1448 which is still broken, build under Ruby 2.0
+
+11-05-2016
+
+- Version 2.0.0.beta.10
+- Fix: for https://github.com/rubygems/rubygems/issues/1448
+
+11-05-2016
+
+- Version 2.0.0.beta.9
+- Fix: requests without content type were erroring out, breaks CORS
+
+27-04-2016
+
+- Version 2.0.0.beta.8
+- Fix: exception raised sometimes when subscribing at a particular position
+
+26-04-2016
+
+- Version 2.0.0.beta.7
+
+- Feature: Support custom HTTP headers without depending on jQuery @nathanstitt
+- Feature: Allow subscribe at a particular position from server side @sam
+
+29-02-2016
+
+- Version 2.0.0.beta.6
+
+- Feature: Support standalone opertion without depending on jQuery @nathanstitt
+- Feature: Support a noconflict mode @nathanstitt
+- Feature: Support JSON POST payload @nathanstitt
+
+29-02-2016
+
+- Version 2.0.0.beta.5
+
+- Fix: JavaScript unsubscribe was not updating publicly visible MessageBus.callbacks @sam
+- Fix: When MessageBus is talking to a readonly redis buffering may cause a infinite loop @tgxworld
+
+- Version 2.0.0.beta.4
+
+- Feature: allow verbose redis logging by specifying `enable_redis_logger` in config, default disabled
+
+- Version 2.0.0.beta.3
+
+- Feature: Postgresql backend @jeremyevans
+- Breaking Change: Configuration API changed see Readme for details @jeremyevans
+- Breaking Change: Remove runtime dependency on Redis @jeremyevans
+- Dev: Convert all specs to minitest @jeremyevans
+- Feature: Support passing channels to Rack middleware via env['message_bus.channels'] via @jeremyevans
+
+03-01-2016
+
+- Version 2.0.0.beta.2
+- Fix: Remove stray console.log
+
+- Version 2.0.0.beta.1
+- Feature: add support for chunked encoding transport, this significnatlly improves long polling performance
+- Feature: strip around_filters and client filters, which were speculative
+- Fix: Message delivery race condition when a message was published just as long poll started. Ben Langfeld
+- Feature: strip support for message_handlers, speculative feature that was not used
+
+09-12-2015
+
+- Version 1.1.1
+- Fix: In multisite config there was no way to specify site for last_id or backlog
+   to resolve overrides were added to #last_id and #backlog, MessageBus::Client now
+   uses the new overrides
+
+07-12-2015
+
+- Version 1.1.0
+- Fix: keep track of client sequence on server, abandon old subscribes
+- Fix: rare concurrency issue when subscribing concurrently
+- Fature: remove most jQuery dependency from message-bus.js
+
+09-07-2015
+- Version 1.0.16
+- Fix: correct edge cases around keepalive checks on bus
+
+09-07-2015
+- Version 1.0.15
+- Feature: MessageBus.reliable_pub_sub.max_backlog_age (in secs) configurable (default to 7 days)
+- Fix: API for MessageBus.backlog("/bla") was returning global backlog by mistake
+- Change: Max global backlog size reduced to 2000 elements
+
+08-06-2015
+- Version 1.0.14
+- Fix: we can not use Thread#kill best keepalive can do is terminate process cleanly
+- Feature: you can opt-out of keepalive with MessageBus.keepalive_timeout = 0
+
+08-06-2015
+- Version 1.0.13
+- Fix: on global subscribe reconnect replay missed messages
+- Feature: keepalive tests for global subscribe, catches hung redis connections
+
+28-05-2015
+- Version 1.0.12
+- Feature: Support client_id targetted message
+
+06-05-2015
+- Version 1.0.11
+- Fix: race condition in TimerThread
+
+01-05-2015
+- Version: 1.0.10
+- Feature: no longer depends on EventMachine (only used for Thin backend)
+- Feature: realiable pub sub will queue messages in memory if redis is readonly, configurable
+- Fix: if redis is flushed we will continue to deliver messages
+
+23-03-2015
+- Version 1.0.9
+- Fix: inherit off StandardError not Exception for all exceptions raised
+
+20-03-2015
+- Version 1.0.8
+- Fix: aggressive short polling in background
+
+16-03-2015
+- Version 1.0.7
+- Feature: added pause and resume methods
+
+03-02-2015
+- Version 1.0.6
+- Fix: global backlog not truncating correctly
+
+23-09-2014
+- Version 1.0.5
+- Fix: missing custom headers from long polls
+
+23-09-2014
+- Version 1.0.4
+- Change: MessageBus.access_control_allow_origin_lookup to extra_response_headers_lookup
+
+23-09-2014
+- Version 1.0.3
+- Change: MessageBus.access_control_allow_origin to MessageBus.access_control_allow_origin_lookup
+
+23-09-2014
+- Version 1.0.2
+- Feature: MessageBus.access_control_allow_origin to control origin header
+
+23-09-2014
+- Version 1.0.1
+- Feature: $.ajax dependency can be passed in.
+- Feature: unsubscribe accepts a second param for the function to unsubscribe.
+
+22-09-2014
+- Version 1.0.0
+- Feature: add backgroundCallbackInterval - interval to send polls when page is in the background
+- Feature: issue a long poll as soon as page moves into the foreground
+
+11-08-2014
+- Version 0.9.5
+- Fix: release db connection a lot earlier for long polling (rails defer closes)
+
+13-01-2014
+- Version 0.9.4
+- Added support for /global/ channel to publish messages across a multisite
+- Cleaned up test harness so it uses local bus as opposed to global
+- Fix bug where we could subscribe to a channel but miss starting messages
+- Added method for destroying a local MessageBus instance
+- ensure_reactor could say the reactor is running, but it was not, on first call
+
+06-12-2013
+- Version 0.9.3.2
+- Fix permissions in gem
+
+05-12-2013
+- Version 0.9.3.1
+- Add MessageBus.diagnostics() for diagnosing bus issues client side
+- Add more robustness to JavaScript, if callbacks used to fail they would halt the chain
+
+03-12-2013
+- Version 0.9.3
+- Remove thin dependency
+- Improve robustness under failure conditions
+
+30-09-2013
+- Fix failures in Ruby 1.9
+- Set up rack hijack by default in light of passengers new setting

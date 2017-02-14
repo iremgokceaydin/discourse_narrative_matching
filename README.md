@@ -103,4 +103,6 @@ Discourse logo and “Discourse Forum” ®, Civilized Discourse Construction Ki
 ## Dedication
 
 Discourse is built with [love, Internet style.](http://www.youtube.com/watch?v=Xe1TZaElTAs)
-# Narrative Matching Social Platform using Discourse
+
+## Narrative Matching Social Platform using Discourse
+ruby-2.3.3, rails-5.0.1, postgresql-9.3 

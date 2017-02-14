@@ -1,0 +1,19 @@
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/rinku-2.0.0/ext/rinku
+/home/irem/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20170213-20032-1mloo8a.rb extconf.rb 
+creating Makefile
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/rinku-2.0.0/ext/rinku
+make "DESTDIR=" clean
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/rinku-2.0.0/ext/rinku
+make "DESTDIR="
+compiling autolink.c
+compiling buffer.c
+compiling rinku.c
+compiling rinku_rb.c
+compiling utf8.c
+linking shared-object rinku.so
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/rinku-2.0.0/ext/rinku
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 rinku.so ./.gem.20170213-20032-1ycnpl7

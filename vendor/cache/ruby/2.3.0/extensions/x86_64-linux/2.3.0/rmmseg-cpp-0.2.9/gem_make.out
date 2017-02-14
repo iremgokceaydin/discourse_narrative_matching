@@ -1,0 +1,26 @@
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/rmmseg-cpp-0.2.9/ext/rmmseg
+/home/irem/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20170213-14874-d40b6n.rb extconf.rb 
+creating Makefile
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/rmmseg-cpp-0.2.9/ext/rmmseg
+make "DESTDIR=" clean
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/rmmseg-cpp-0.2.9/ext/rmmseg
+make "DESTDIR="
+compiling algor.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+compiling dict.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+compiling memory.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+compiling rmmseg.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+linking shared-object rmmseg.so
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/rmmseg-cpp-0.2.9/ext/rmmseg
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 rmmseg.so ./.gem.20170213-14874-sjvffg

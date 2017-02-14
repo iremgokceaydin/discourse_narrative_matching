@@ -1,0 +1,17 @@
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/fast_xs-0.8.0/ext/fast_xs_extra
+/home/irem/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20170213-20032-9r8fey.rb extconf.rb 
+checking for assert.h... yes
+checking for gcc.h in ./../fast_xs... yes
+creating Makefile
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/fast_xs-0.8.0/ext/fast_xs_extra
+make "DESTDIR=" clean
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/fast_xs-0.8.0/ext/fast_xs_extra
+make "DESTDIR="
+compiling fast_xs_extra.c
+linking shared-object fast_xs_extra.so
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/fast_xs-0.8.0/ext/fast_xs_extra
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fast_xs_extra.so ./.gem.20170213-20032-hbd8is

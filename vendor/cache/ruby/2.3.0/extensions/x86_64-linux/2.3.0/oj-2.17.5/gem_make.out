@@ -1,0 +1,34 @@
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/oj-2.17.5/ext/oj
+/home/irem/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20170213-14874-h2fa5d.rb extconf.rb 
+>>>>> Creating Makefile for ruby version 2.3.3 on x86_64-linux <<<<<
+creating Makefile
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/oj-2.17.5/ext/oj
+make "DESTDIR=" clean
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/oj-2.17.5/ext/oj
+make "DESTDIR="
+compiling cache8.c
+compiling circarray.c
+compiling compat.c
+compiling dump.c
+compiling err.c
+compiling fast.c
+compiling hash.c
+compiling hash_test.c
+compiling object.c
+compiling odd.c
+compiling oj.c
+compiling parse.c
+compiling reader.c
+compiling resolve.c
+compiling saj.c
+compiling scp.c
+compiling sparse.c
+compiling strict.c
+compiling val_stack.c
+linking shared-object oj/oj.so
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/oj-2.17.5/ext/oj
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 oj.so ./.gem.20170213-14874-1ljwkel/oj

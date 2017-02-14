@@ -1,0 +1,3040 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="a-no-js a-lt-ie10 a-lt-ie9 a-lt-ie8 a-lt-ie7 a-ie6 a-touch a-mobile" data-19ax5a9jf="mongoose"><![endif]--><!--[if IE 7]><html class="a-no-js a-lt-ie10 a-lt-ie9 a-lt-ie8 a-ie7 a-touch a-mobile" data-19ax5a9jf="mongoose"><![endif]--><!--[if IE 8]><html class="a-no-js a-lt-ie10 a-lt-ie9 a-ie8 a-touch a-mobile" data-19ax5a9jf="mongoose"><![endif]--><!--[if IE 9]><html class="a-no-js a-lt-ie10 a-ie9 a-touch a-mobile" data-19ax5a9jf="mongoose"><![endif]--><!--[if !IE]><!--><html class="a-no-js a-touch a-mobile" data-19ax5a9jf="mongoose">
+<!--<![endif]-->
+<head>
+<script type="text/javascript">var ue_t0=ue_t0||+new Date();</script>
+<script type="text/javascript">
+var ue_hob=+new Date();
+
+var ue_id='1VGN4TEE63ST5RTPH4EJ',
+ue_csm = window,
+ue_err_chan = 'jserr-rw',
+ue = {};
+(function(a){var d=a.ue=a.ue||{},f=Date.now||function(){return+new Date};d.d=function(b){return f()-(b?0:a.ue_t0)};d.stub=function(b,c){if(!b[c]){var e=[];b[c]=function(){e.push([e.slice.call(arguments),d.d(),a.ue_id])};b[c].replay=function(b){for(var a;a=e.shift();)b(a[0],a[1],a[2])};b[c].isStub=1}}})(ue_csm);
+
+ue.stub(ue,"log");ue.stub(ue,"onunload");ue.stub(ue,"onflush");
+
+(function(c,d){function e(f,b){if(!(a.ec>a.mxe)&&f){a.ec++;a.ter.push(f);b=b||{};var c=f.logLevel||b.logLevel;c&&c!=h||a.ecf++;b.pageURL=""+(d.location?d.location.href:"");b.logLevel=c;b.attribution=f.attribution||b.attribution;a.erl.push({ex:f,info:b})}}function g(a,b,d,e,g){c.ueLogError({m:a,f:b,l:d,c:""+e,err:g,fromOnError:1,args:arguments});return!1}var h="FATAL",a={ec:0,ecf:0,pec:0,ts:0,erl:[],ter:[],mxe:50,startTimer:function(){a.ts++;setInterval(function(){c.ue&&a.pec<a.ec&&c.uex("at");a.pec=
+a.ec},1E4)}};g.skipTrace=1;e.skipTrace=1;e.isStub=1;c.ueLogError=e;c.ue_err=a;d.onerror=g})(ue_csm,window);
+
+
+
+var ue_url='/gp/aw/d/193435659X/uedata/nvp/unsticky/184-9743298-0728138/DetailAW/ntpoffrw',
+ue_sid='184-9743298-0728138',
+ue_mid='ATVPDKIKX0DER',
+ue_sn='www.amazon.com',
+ue_furl='fls-na.amazon.com',
+ue_navtiming=1,
+ue_log_idx=0,
+ue_fcsn=1,
+ue_isrw=true,
+ue_fpf='//fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:184-9743298-0728138:1VGN4TEE63ST5RTPH4EJ$uedata=s:',
+ue_lnb=0,
+ue_lwl=0,
+ue_ran=0,
+ue_novizfix=0,
+ue_qsl=2000,
+ue_bli=1,
+ue_blc=0,
+ue_ueh=1,
+ue_sbl=0,
+ue_mce='click';
+if (!window.ue_csm) {var ue_csm = window;}
+function ue_viz(){(function(c,e,p){function k(a){if(c.ue.viz.length<q&&!l){var b=a.type;a=a.originalEvent;/^focus./.test(b)&&a&&(a.toElement||a.fromElement||a.relatedTarget)||(b=e[m]||("blur"==b||"focusout"==b?"hidden":"visible"),c.ue.viz.push(b+":"+(+new Date-c.ue.t0)),"visible"==b&&(ue.isl&&uex("at"),l=1))}}for(var l=0,a,f,g,m,n=["webkit","o","ms","moz",""],d=0,q=20,h=0;h<n.length&&!d;h++)if(a=n[h],f=(a?a+"H":"h")+"idden",d="boolean"==typeof e[f])g=a+"visibilitychange",m=1!=p.ue_novizfix?(a?a+"V":
+"v")+"isibilityState":a+"VisibilityState";k({});d&&e.addEventListener(g,k,0);c.ue&&d&&(c.ue.pageViz={event:g,propHid:f})})(ue_csm,document,window)};
+
+(function(a,g){function v(a){return a&&a.replace&&a.replace(/^\s+|\s+$/g,"")}function p(a){return"undefined"===typeof a}function t(d,c,e,h){h=h||+new Date;var g,m;if(c||p(e)){if(d)for(m in g=c?f("t",c)||f("t",c,{}):a.ue.t,g[d]=h,e)e.hasOwnProperty(m)&&f(m,c,e[m]);return h}}function f(d,c,e){var g=a.ue,f=c&&c!=g.id?g.sc[c]:g;f||(f=g.sc[c]={});"id"==d&&e&&(g.cfa2=1,a.ue_ran&&(a.ue_cel&&a.ue_cel.reset(e),a.ue.log.reset&&a.ue.log.reset()));return f[d]=e||f[d]}function A(d,c,e,g,f){e="on"+e;var m=c[e];
+"function"===typeof m?d&&(a.ue.h[d]=m):m=function(){};c[e]=f?function(a){g(a);m(a)}:function(a){m(a);g(a)};c[e].isUeh=1}function B(d,c,e){function h(c,e){var b=[c],F=0,g={},m,h;e?(b.push("m=1"),g[e]=1):g=a.ue.sc;for(h in g)if(g.hasOwnProperty(h)){var k=f("wb",h),l=f("t",h)||{},q=f("t0",h)||a.ue.t0,n;if(e||2==k){k=k?F++:"";b.push("sc"+k+"="+h);for(n in l)3>=n.length&&!p(l[n])&&null!==l[n]&&b.push(n+k+"="+(l[n]-q));b.push("t"+k+"="+l[d]);if(f("ctb",h)||f("wb",h))m=1}}!w&&m&&b.push("ctb=1");return b.join("&")}
+function z(c,b,e,d){if(c){var f=a.ue_err,h;if(!d||!a.ue.log)if(G&&g[x]&&g[x][C])g[x][C](c);else h=new Image,a.ue.iel.push(h),h.src=c;H?a.ue_fpf&&g.encodeURIComponent&&c&&(d=new Image,c=""+a.ue_fpf+g.encodeURIComponent(c)+":"+(+new Date-a.ue_t0),a.ue.iel.push(d),d.src=c):a.ue.log&&(h=g.chrome&&"ul"==b,a.ue.log(c,"uedata",a.ue_svi?{n:1,img:!d&&h?1:0}:{n:1}),a.ue.ielf.push(c));f&&!f.ts&&f.startTimer();a.ue.b&&(f=a.ue.b,a.ue.b="",z(f,b,e,1))}}function m(c){if(!ue.collected){var b=c.timing,e=c.navigation,
+d=ue.t;b&&(d.na_=b.navigationStart,d.ul_=b.unloadEventStart,d._ul=b.unloadEventEnd,d.rd_=b.redirectStart,d._rd=b.redirectEnd,d.fe_=b.fetchStart,d.lk_=b.domainLookupStart,d._lk=b.domainLookupEnd,d.co_=b.connectStart,d._co=b.connectEnd,d.sc_=b.secureConnectionStart,d.rq_=b.requestStart,d.rs_=b.responseStart,d._rs=b.responseEnd,d.dl_=b.domLoading,d.di_=b.domInteractive,d.de_=b.domContentLoadedEventStart,d._de=b.domContentLoadedEventEnd,d._dc=b.domComplete,d.ld_=b.loadEventStart,d._ld=b.loadEventEnd,
+b=d.na_,c="function"!==typeof c.now||p(b)?0:new Date(b+c.now())-new Date,d.ntd=c+a.ue.t0);e&&(d.ty=e.type+a.ue.t0,d.rc=e.redirectCount+a.ue.t0);ue.collected=1}}function s(b){var c=n&&n.navigation?n.navigation.type:y,d=c&&2!=c,e=a.ue.bfini;a.ue.cfa2||(e&&1<e&&(b+="&bfform=1",d||(a.ue.isBFT=e-1)),2==c&&(b+="&bfnt=1",a.ue.isBFT=a.ue.isBFT||1),a.ue.ssw&&a.ue.isBFT&&(p(a.ue.isNRBF)&&(c=a.ue.ssw(a.ue.oid),c.e||p(c.val)||(a.ue.isNRBF=1<c.val?0:1)),p(a.ue.isNRBF)||(b+="&nrbf="+a.ue.isNRBF)),a.ue.isBFT&&!a.ue.isNRBF&&
+(b+="&bft="+a.ue.isBFT));return b}if(c||p(e)){for(var q in e)e.hasOwnProperty(q)&&f(q,c,e[q]);t("pc",c,e);q=f("id",c)||a.ue.id;var b=a.ue.url+"?"+d+"&v="+a.ue.v+"&id="+q,w=f("ctb",c)||f("wb",c),n=g.performance||g.webkitPerformance,k,l;w&&(b+="&ctb="+w);1<a.ueinit&&(b+="&ic="+a.ueinit);!a.ue._fi||"at"!=d||c&&c!=q||(b+=a.ue._fi());if(!("ld"!=d&&"ul"!=d||c&&c!=q)){if("ld"==d){g.onbeforeunload&&g.onbeforeunload.isUeh&&(g.onbeforeunload=null);if(g.chrome)for(l=0;l<ue.ulh.length;l++)D("beforeunload",ue.ulh[l]);
+(l=document.ue_backdetect)&&l.ue_back&&l.ue_back.value++;a._uess&&(k=a._uess());a.ue.isl=1}a.ue_navtiming&&n&&n.timing&&(f("ctb",q,"1"),1==a.ue_navtiming&&t("tc",y,y,n.timing.navigationStart));n&&m(n);a.ue.t.hob=a.ue_hob;a.ue.t.hoe=a.ue_hoe;a.ue.ifr&&(b+="&ifr=1")}t(d,c,e);e="ld"==d&&c&&f("wb",c);var u;e?f("wb",c,2):"ld"==d&&(r.lid=v(q));for(u in a.ue.sc)if(1==f("wb",u))break;if(e){if(a.ue.s)return;b=h(b,null)}else l=h(b,null),l!=b&&(l=s(l),a.ue.b=l),k&&(b+=k),b=h(b,c||a.ue.id);b=s(b);if(a.ue.b||
+e)for(u in a.ue.sc)2==f("wb",u)&&delete a.ue.sc[u];k=0;ue._rt&&(b+="&rt="+ue._rt());ue._bf&&(b+="&bf="+ue._bf());e||(a.ue.s=0,(k=a.ue_err)&&0<k.ec&&k.pec<k.ec&&(k.pec=k.ec,b+="&ec="+k.ec+"&ecf="+k.ecf),k=f("ctb",c),f("t",c,{}));b&&a.ue.tag&&0<a.ue.tag().length&&(b+="&csmtags="+a.ue.tag().join("|"),a.ue.tag=a.ue.tagC());b&&a.ue.viz&&0<a.ue.viz.length&&(b+="&viz="+a.ue.viz.join("|"),a.ue.viz=[]);b&&!p(a.ue_pty)&&(b+="&pty="+a.ue_pty+"&spty="+a.ue_spty+"&pti="+a.ue_pti);b&&a.ue.tabid&&(b+="&tid="+a.ue.tabid);
+b&&a.ue.aftb&&(b+="&aftb=1");b&&a.ue.sbf&&(b+="&sbf=1");!a.ue._ui||c&&c!=q||(b+=a.ue._ui());a.ue.count&&1===a.ue_blc&&a.ue.count("baselineCounter1",1);a.ue.a=b;z(b,d,k,e)}}function s(a,c,e){e=e||g;e.addEventListener?e.addEventListener(a,c,!1):e.attachEvent&&e.attachEvent("on"+a,c)}function D(a,c,e){e=e||g;e.removeEventListener?e.removeEventListener(a,c,!1):e.detachEvent&&e.detachEvent("on"+a,c)}function E(){function d(){a.onUl()}function c(a){return function(){e[a]||(e[a]=1,B(a))}}var e=a.ue.r,f,
+p;a.onLd=c("ld");a.onLdEnd=c("ld");a.onUl=c("ul");f={stop:c("os")};g.chrome?(s("beforeunload",d),ue.ulh.push(d)):f[I]=a.onUl;for(p in f)f.hasOwnProperty(p)&&A(0,g,p,f[p]);a.ue_viz&&ue_viz();s("load",a.onLd);t("ue")}a.ueinit=(a.ueinit||0)+1;var r={t0:g.aPageStart||a.ue_t0,id:a.ue_id,url:a.ue_url,rid:a.ue_id,a:"",b:"",h:{},r:{ld:0,oe:0,ul:0},s:1,t:{},sc:{},iel:[],ielf:[],fc_idx:{},viz:[],v:"0.735.0",d:a.ue&&a.ue.d,log:a.ue&&a.ue.log,clog:a.ue&&a.ue.clog,onflush:a.ue&&a.ue.onflush,onunload:a.ue&&a.ue.onunload,
+stub:a.ue&&a.ue.stub,lr:a.ue&&a.ue.lr,ulh:[],cfa2:0},H=a.ue_fpf?1:0,G=a.ue_sbl,I="beforeunload",x="navigator",C="sendBeacon",y;r.oid=v(r.id);r.lid=v(r.id);a.ue=r;a.ue._t0=a.ue.t0;a.ue.tagC=function(){var a={};return function(c){c&&(a[c]=1);c=[];for(var e in a)a.hasOwnProperty(e)&&c.push(e);return c}};a.ue.tag=a.ue.tagC();a.ue.ifr=g.top!==g.self||g.frameElement?1:0;ue.attach=s;ue.detach=D;ue.reset=function(d,c){d&&(a.ue_cel&&a.ue_cel.reset(),a.ue.t0=+new Date,a.ue.rid=d,a.ue.id=d,a.ue.fc_idx={},a.ue.viz=
+[])};a.uei=E;a.ueh=A;a.ues=f;a.uet=t;a.uex=B;E()})(ue_csm,window);
+
+
+
+(function(g){var a=g.ue;a.cv={};a.cv.scopes={};a.count=function(d,e,c){var b={},f=a.cv;b.counter=d;b.value=e;b.t=a.d();c&&c.scope&&(f=a.cv.scopes[c.scope]=a.cv.scopes[c.scope]||{},b.scope=c.scope);if(void 0===e)return f[d];f[d]=e;a.clog?a.clog(b,"csmcount"):a.log&&a.log(b,"csmcount",{c:1})};3===g.ue_blc&&a.count("baselineCounter2",1)})(ue_csm);
+
+var ue_hoe=+new Date();
+</script>
+<script>var aPageStart = (new Date()).getTime();</script><meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta charset="utf-8">
+
+
+
+
+
+    <link rel="dns-prefetch" href="//g-ecx.images-amazon.com">
+    <link rel="dns-prefetch" href="//z-ecx.images-amazon.com">
+    <link rel="dns-prefetch" href="//ecx.images-amazon.com">
+    <link rel="dns-prefetch" href="//images-na.ssl-images-amazon.com">
+<script type="text/javascript">
+var CSMReqs={af:{c:2,p:'atf'},cf:{c:2,p:'cf'}};
+var setCSMReq = function(a){
+    a=a.toLowerCase();
+    var b=CSMReqs[a];
+    if(--b.c==0){
+        if(typeof b.f == 'function'){
+            b.f();
+        }
+        else{
+            if(typeof
+                    uet=='function'){uet(a);};
+            if(typeof P !=
+                    'undefined'){P.register(b.p);};
+        }
+    }
+}
+
+var addlongPoleTag = function(marker,customtag){
+    marker=marker.toLowerCase();
+    var b=CSMReqs[marker];
+    if(b.c==0){
+        if(window.ue && ue.tag) {ue.tag(customtag);}
+    }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="subresource" href="http://z-ecx.images-amazon.com/images/I/01DV5-zjVfL._RC%7C11bLr-gKTOL.css,01fiOaZnvgL.css,21evmLvoBLL.css,01X8BhwTaiL.css,01kBs8Ea2RL.css,01UibEE8n4L.css,11LAzIH6T3L.css_.css#AUIClients/DetailPageMobileWebMetaAsset">
+<link rel="subresource" href="http://z-ecx.images-amazon.com/images/G/01/AUIClients/AmazonUI-cd078a69eaec4787e96e6311ed5750485f0a4a78.device_type-mobile.rendering_engine-not-trident.min._V2_.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+(function(o,b,l,m){function k(a,b){F&&F.count&&F.count("aui:"+a,b===0?0:b||(F.count("aui:"+a)||0)+1)}function j(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function h(a,b,c,d){b=b&&c?b+a+c:b||c;return d?h(a,b,d):b}function g(a,b){try{Object.defineProperty(o,a,{value:b})}catch(c){o[a]=b}}function f(){return setTimeout(B,0)}function d(a,b){var c=a.length,d=c,e=function(){d--||(E.push(b),v||(f(),v=!0))};for(e();c--;)A[a[c]]?e():(n[a[c]]=n[a[c]]||[]).push(e)}
+function c(a,c,d,e){var f=b.createElement(a?"script":"link");j(f,"error",e);a?(f.type="text/javascript",f.async=!0,d&&(c.indexOf("images/I")!==-1||/AUIClients/.test(c))&&f.setAttribute("crossorigin","anonymous"),f.src=c):(f.rel="stylesheet",f.href=c);b.getElementsByTagName("head")[0].appendChild(f)}function a(a,b){return function(d){function e(){c(b,d,f,function(){f?(f=!1,k("resource_retry"),e()):(k("resource_error"),a.log("Asset failed to load: "+d))})}if(z[d])return!1;z[d]=!0;k("resource_count");
+var f=!0;return!e()}}function e(a,b,c,e,f){return function(g,h){var i=f||this;typeof g==="function"&&(h=g,g="anon"+G++);var j=i.guardError(g,function(){for(var c=[],d=0;d<a.length;d++)c[d]=H.hasOwnProperty(a[d])?H[a[d]]:m;d=null;e?d=h:typeof h==="function"&&(d=h.apply(o,c));if(b){H[g]=d;c=g;for(A[c]=!0;(n[c]||[]).length;)n[c].shift()();delete n[c]}});H.hasOwnProperty(g)&&i.error("Component already registered",g);H[g]=m;c?j():d(a,j)}}function i(a){return function(){return{execute:e(arguments,!1,a,
+!1,this),register:e(arguments,!0,a,!1,this)}}}function p(a,b){return function(c,d){var e=this;return function(){d||(d=c,c=m);try{d.apply(this,arguments)}catch(f){var g=o.console;if(g&&g.error&&e.log(f,b,c))g.error(h(String.fromCharCode(10),h(": ",a,c,f.message),f.stack||f));else throw f instanceof Error?f:Error(h(": ",a,c,f));}}}}function r(b){this.log=function(a,c,d){var e=o.ueLogError;return e?(e({message:a,logLevel:c||"ERROR",attribution:h(":",b,d)}),!0):!1};this.error=function(a,c,d,e){throw Error(h(" @ ",
+h(":",e,a),h(":",b,c,d)));};this.guardError=p(b);this.guardFatal=p(b,"FATAL");this.load={js:a(this,!0),css:a(this)}}function s(a,b){for(var c=a.className.split(" "),d=c.length;d--;)if(c[d]===b)return;a.className+=" "+b}function q(a,b){for(var c=a.className.split(" "),d=[],e;(e=c.pop())!==m;)e&&e!==b&&d.push(e);a.className=d.join(" ")}function w(a){try{return a()}catch(b){return!1}}function t(){if(sa){var a=o.innerWidth?{w:o.innerWidth,h:o.innerHeight}:{w:I.clientWidth,h:I.clientHeight},b=!1;Math.abs(a.w-
+ta.w)>5||a.h-ta.h>50?(ta=a,ua=4,(b=Q.mobile||Q.tablet?a.w>a.h:a.w>=1250)?s(I,"a-ws"):q(I,"a-ws")):ua--&&(wa=setTimeout(t,16))}}function u(){clearTimeout(wa);ua=4;t()}function x(a){(sa=a===m?!sa:!!a)&&t()}function D(){return sa}var y=o.AmazonUIPageJS||o.P;if(y&&y.when&&y.register)throw Error("A copy of P has already been loaded on this page.");var F=o.ue;F&&F.tag&&(F.tag("aui"),F.tag("aui:aui_build_date:3.15.6-2015-06-10"));var C=l.now=l.now||function(){return+new l},E=[],v=!1,B;B=function(){for(var a=
+f(),b=C();E.length;)if(E.shift()(),C()-b>50)return;clearTimeout(a);v=!1};(function(a){try{return a.test(navigator.userAgent)}catch(b){return!1}})(/OS 6_[0-9]+ like Mac OS X/i)&&j(o,"scroll",f);var A={},n={},z={},G=0,H={},M;r.prototype={declare:e([],!0,!0,!0),register:e([],!0),execute:e([]),AUI_BUILD_DATE:"3.15.6-2015-06-10",when:i(),now:i(!0),trigger:function(a,b){var c=o.aPageStart||NaN,d=C(),c={data:b,pageElapsedTime:d-c,triggerTime:d};this.declare(a,c);M&&M(a,c)},handleTriggers:function(a){M&&
+this.error("Trigger handler already registered");M=a},attributeErrors:function(a){return new r(a)}};g("AmazonUIPageJS",new r);g("P",o.AmazonUIPageJS);if(b.addEventListener){var K;b.addEventListener("DOMContentLoaded",K=function(){o.AmazonUIPageJS.trigger("a-domready");b.removeEventListener("DOMContentLoaded",K,!1)},!1)}var I=b.documentElement,U;try{U=navigator.userAgent}catch(ba){U=""}var X=function(){var a="O,ms,Moz,Webkit".split(","),c=b.createElement("div");return{testGradients:function(){c.style.cssText=
+("background-image:"+"-webkit- ".split(" ").join("gradient(linear,left top,right bottom,from(#9f9),to(white));background-image:")+a.join("linear-gradient(left top,#9f9, white);background-image:")).slice(0,-17);return c.style.backgroundImage.indexOf("gradient")>-1},test:function(b){for(var d=b.charAt(0).toUpperCase()+b.substr(1),b=(a.join(d+" ")+d+" "+b).split(" "),d=b.length;d--;)if(c.style[b[d]]==="")return!0;return!1},testTransform3d:function(){var a=!1;if(o.matchMedia)a=o.matchMedia("(-webkit-transform-3d)").matches;
+return a}}}(),y=I.className,T=/(^| )a-mobile( |$)/.test(y),L=/(^| )a-tablet( |$)/.test(y),Q={audio:function(){return!!b.createElement("audio").canPlayType},video:function(){return!!b.createElement("video").canPlayType},canvas:function(){return!!b.createElement("canvas").getContext},offline:function(){return navigator.hasOwnProperty&&navigator.hasOwnProperty("onLine")&&navigator.onLine},dragDrop:function(){return"draggable"in b.createElement("span")},geolocation:function(){return!!navigator.geolocation},
+history:function(){return!(!o.history||!o.history.pushState)},webworker:function(){return!!o.Worker},autofocus:function(){return"autofocus"in b.createElement("input")},inputPlaceholder:function(){return"placeholder"in b.createElement("input")},textareaPlaceholder:function(){return"placeholder"in b.createElement("textarea")},localStorage:function(){return"localStorage"in o&&o.localStorage!==null},orientation:function(){return"orientation"in o},touch:function(){return"ontouchend"in b},gradients:function(){return X.testGradients()},
+hires:function(){var a=o.devicePixelRatio&&o.devicePixelRatio>=1.5||o.matchMedia&&o.matchMedia("(min-resolution:144dpi)").matches;k("hiRes"+(T?"Mobile":L?"Tablet":"Desktop"),a?1:0);return a},transform3d:function(){return X.testTransform3d()},touchScrolling:function(){return RegExp("Windowshop|android.([3-9]|[L-Z])|OS ([5-9]|[1-9][0-9]+)(_[0-9]{1,2})+ like Mac OS X|Chrome|Silk|Firefox|Trident"+String.fromCharCode(92)+"/.+?; Touch","i").test(U)},ios:function(){return!!U.match(/OS [1-9][0-9]*(_[0-9]*)+ like Mac OS X/i)},
+android:function(){return!!U.match(/android.([1-9]|[L-Z])/i)&&!/trident/i.test(U)},mobile:function(){return T},tablet:function(){return L}},ca;for(ca in Q)Q.hasOwnProperty(ca)&&(Q[ca]=w(Q[ca]));for(var fa="textShadow textStroke boxShadow borderRadius borderImage opacity transform transition".split(" "),da=0;da<fa.length;da++)Q[fa[da]]=w(function(){return X.test(fa[da])});var sa=!0,wa=0,ta={w:0,h:0},ua=4;t();typeof o.addEventListener==="function"?o.addEventListener("resize",u,!1):o.attachEvent("onresize",
+u);q(I,"a-no-js");s(I,"a-js");y=[];for(ca in Q)Q.hasOwnProperty(ca)&&Q[ca]&&y.push("a-"+ca.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));s(I,y.join(" "));I.setAttribute("data-aui-build-date",o.AmazonUIPageJS.AUI_BUILD_DATE);o.AmazonUIPageJS.register("p-detect",function(){return{capabilities:Q,toggleResponsiveGrid:x,responsiveGridEnabled:D}})})(window,document,Date);
+//Locally override
+</script>
+<script>
+(window.AmazonUIPageJS ? AmazonUIPageJS : P).when('atf').execute(function() {
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('http://z-ecx.images-amazon.com/images/I/01r5SF1hluL._RC|31AO4LJkV6L.js,21U91qCGMCL.js,01cwnVbAYOL.js,01FGskrzCvL.js,01myPyUh9yL.js,01RrNePoCqL.js_.js#AUIClients/DetailPageMobileWebMetaAsset');
+});
+(window.AmazonUIPageJS ? AmazonUIPageJS : P).when('atf').execute(function() {
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('http://z-ecx.images-amazon.com/images/I/21dWa2a05RL._RC|315S3mVOS8L.js,21LWxcjze6L.js_.js#AUIClients/PersonalizationMobileDetailPageJSMetaAsset');
+});
+(window.AmazonUIPageJS ? AmazonUIPageJS : P).when('ready').execute(function() {
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('http://z-ecx.images-amazon.com/images/G/01/AUIClients/AnywhereSearchSuggestionsJS-0796cea20fb15281354671724adb8c008fbf78f3.min._V1_.js');
+});
+(window.AmazonUIPageJS ? AmazonUIPageJS : P).when('atf').execute(function() {
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('http://z-ecx.images-amazon.com/images/G/01/AUIClients/AmazonUI-25fd282d40a2b957af26569c176ff16eee40a973.device_type-mobile.rendering_engine-not-trident.min._V2_.js');
+});
+</script>
+
+
+
+
+<script type="text/javascript">
+P.when('A', 'a-touch').execute(function(A, aTouch){
+        var $ = A.$;
+
+        A.on('a:popover:beforeSlideOut', function(){
+                $(document).bind('click.a-secondary-view-block', function(e){
+                        e.preventDefault();
+                        e.stopImmediatePropagation();
+
+                        A.delay(function(){
+                                $(document).unbind('click.a-secondary-view-block');
+                        }, 600);
+                });
+
+                A.delay(function(){
+                        $(document).unbind('click.a-secondary-view-block');
+                }, 2000);
+        });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="http://z-ecx.images-amazon.com/images/I/01DV5-zjVfL._RC%7C11bLr-gKTOL.css,01fiOaZnvgL.css,21evmLvoBLL.css,01X8BhwTaiL.css,01kBs8Ea2RL.css,01UibEE8n4L.css,11LAzIH6T3L.css_.css#AUIClients/DetailPageMobileWebMetaAsset">
+<link rel="stylesheet" href="http://z-ecx.images-amazon.com/images/G/01/AUIClients/AmazonUI-cd078a69eaec4787e96e6311ed5750485f0a4a78.device_type-mobile.rendering_engine-not-trident.min._V2_.css">
+<style type="text/css">
+#wow-twister-spinner {
+background: url("http://g-ecx.images-amazon.com/images/G/01/amazonui/loading/loading-4x._V1_.gif") 50% 50% no-repeat;
+}
+#wow-twister-loading-dim {
+background: url("http://g-ecx.images-amazon.com/images/G/01/amazonui/loading/loading-4x._V1_.gif") center center no-repeat;
+}
+</style>
+<title>Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages (Pragmatic Programmers)</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="canonical" href="http://www.amazon.com/Seven-Languages-Weeks-Programming-Programmers/dp/193435659X">
+            <script type="text/javascript">
+(function(d,c){function f(a){b.push(a)}function e(a){if(a){var c=d.head||d.getElementsByTagName("head")[0]||d.documentElement,b=d.createElement("script");b.async="async";b.src=a;c.insertBefore(b,c.firstChild)}}function g(){ue.uels=e;for(var a=0;a<b.length;a++)e(b[a]);ue.deffered=1}var b=[];c.ue&&(ue.uels=f,c.ue.attach&&c.ue.attach("load",g))})(document,window);
+
+
+    if (window.P && P.load && P.load.js && P.when) {
+    P.when('ready').execute(function() {
+        P.load.js("http://z-ecx.images-amazon.com/images/G/01/browser-scripts/csm-base/csm-base-min-3276459884._V1_.js", ["csm_cel"]);
+    });
+}
+ else if (window.ue && window.ue.uels) {
+    ue.uels("http://z-ecx.images-amazon.com/images/G/01/browser-scripts/csm-base/csm-base-min-3276459884._V1_.js");
+}
+ else if (window.amznJQ) {
+    amznJQ.addLogical('csm-base', ["http://z-ecx.images-amazon.com/images/G/01/browser-scripts/csm-base/csm-base-min-3276459884._V1_.js"]);
+    amznJQ.available('csm-base', function() {});
+}
+
+
+var ue_tbno = 0,
+ue_tble = 0,
+ue_sstb = 0,
+ue_ssle = 0,
+ue_tbpv = 0;
+
+(function(d,k){function e(d){var c;c="";var b=a.isBFT?"b":"s",e=""+a.oid,f=""+a.lid,g=e;e!=f&&20==f.length&&(b+="a",g+="-"+f);q&&a.tabid&&(c=a.tabid+"+");c+=b+"-"+g;(l||c!=h)&&100>c.length&&(h=c,document.cookie="csm-hit="+c+("|"+ +new Date)+r+"; path=/");m&&a.log&&a.log(""+(d?d.type:"interaction")+" "+c,"csm")}function n(){h=0;m&&a.log&&a.log("blur","csm")}function p(b){!0===k[a.pageViz.propHid]?n():!1===k[a.pageViz.propHid]&&e({type:"visible"})}var r="; expires="+(new Date(+new Date+6048E5)).toGMTString(),
+h,q=d.ue_sstb,l=d.ue_tbno,m=d.ue_tble,b=d.ue_tbpv,a=d.ue||{},f=b&&a.pageViz&&a.pageViz.event&&a.pageViz.propHid;a.attach&&(a.attach("click",e),a.attach("keyup",e),l||(f&&4!=b&&5!=b||(a.attach("focus",e),a.attach("blur",n)),f&&a.attach(a.pageViz.event,p),!f||3!=b&&5!=b||p({})));a.aftb=1})(ue_csm,document);
+
+ue_csm.ue.stub(ue,"impression");
+
+</script>
+</head>
+            <body id="dp" class="a-fastclick-disable a-aui_49697-c a-aui_51744-c a-aui_attr_validations_1_51371-c a-aui_bolt_46632-c a-aui_bolt_48891-t1 a-aui_ux_47524-c a-aui_ux_49594-c">
+<div style="display:none;visibility:hidden;">
+    <img src="//fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:184-9743298-0728138:1VGN4TEE63ST5RTPH4EJ%24uedata=s:%2Fgp%2Faw%2Fd%2F193435659X%2Fuedata%2Fnvp%2Funsticky%2F184-9743298-0728138%2FDetailAW%2Fntpoffrw%3Fstaticb%26id%3D1VGN4TEE63ST5RTPH4EJ%26pty%3DDetailAW%26spty%3Dglance%26pti%3D1600479561:1000">
+
+
+</div>
+<script type="text/javascript">
+(function(a){var b=a.alert;window.alert=function(){a.ueLogError&&a.ueLogError({message:"[CSM] Alert invocation detected with argument: "+arguments[0],logLevel:"WARN"});Function.prototype.apply.apply(b,[a,arguments||[]])}})(window);
+
+</script>
+<script type="text/javascript">
+(function(d,r,k){function l(a){if(!b)if(b=e[a.type],"undefined"===typeof a.clientX?(f=a.pageX,g=a.pageY):(f=a.clientX,g=a.clientY),2!=b||h&&(h!=f||m!=g)){for(var d in e)e.hasOwnProperty(d)&&c.detach(d,l,k);c.isl&&r.setTimeout(function(){n("at",c.id)},0)}else h=f,m=g,b=0}function s(){var a="";!p&&b&&(p=1,a+="&ui="+b);return a}var c=d.ue,n=d.uex,p=0,b=0,h,m,f,g,e={click:1,mousemove:2,scroll:3,keydown:4};if(c&&n){for(var q in e)e.hasOwnProperty(q)&&c.attach(q,l,k);c._ui=s}})(ue_csm,window,document);
+
+</script>
+<script type="text/javascript">
+(function(m,l){function I(a){if(a)return a.replace(/^\s+|\s+$/g,"")}function x(a,e){if(!a)return{};a.m&&a.m[n]&&(a=a.m);var b=e.m||e[n]||"",b=a.m&&a.m[n]?b+a.m[n]:a.m&&a.m.target&&a.m.target.tagName?b+("Error handler invoked by "+a.m.target.tagName+" tag"):a.m?b+a.m:a[n]?b+a[n]:b+"Unknown error",b={m:b,f:a.f||a.sourceURL||a.fileName||a.filename||a.m&&a.m.target&&a.m.target.src,l:a.l||a.line||a.lineno||a.lineNumber,c:a.c?""+a.c:a.c,s:[],t:m.ue.d(),name:a.name,type:a.type,csm:J+" "+(a.fromOnError?"onerror":
+"ueLogError")},c,d,f=0,g=0,k;d=l.location;c=a.stack||(a.err?a.err.stack:"");b[y]=e[y]||d&&d.href||"missing";b[p]=e[p]||z;(d=e[q])&&(b[q]=""+d);if(c&&c.split)for(b.csm+=" stack",d=c.split("\n");f<d.length&&b.s.length<A;)(c=d[f++])&&b.s.push(I(c));else for(b.csm+=" callee",d=B(a.args||arguments,"callee"),g=f=0;d&&f<A;)k=v,d[s]||(c=d.toString())&&c.substr&&(k=0===g?4*v:k,k=1==g?2*v:k,b.s.push(c.substr(0,k)),g++),d=B(d,"caller"),f++;!b.f&&0<b.s.length&&(f=b,c=(f||{}).s||[],d=c[1]||"",c=(c[0]||"").match(K)||
+d.match(L))&&(f.f=c[1],f.l=c[2]);return b}function B(a,e){try{return a[e]}catch(b){}}function C(a,e){if(a&&!(h.ec>h.mxe)){h.ec++;h.ter.push(a);e=e||{};var b=a[p]||e[p];e[p]=b;e[q]=a[q]||e[q];b&&b!=z||h.ecf++;w(a,e)}}function w(a,e){if(a){var b=x(a,e),c=e.channel||M;if(ue.log.isStub&&l[t]&&l[t][u]){var d={};d[c]=b;try{var f=l[t][u]({rid:ue.rid,sid:m.ue_sid,mid:m.ue_mid,sn:m.ue_sn,reqs:[d]}),g=l[N],k;if(k=!(g[D]&&g[D](E,f)))if(l[F]){var h=new l[F];h.onerror=r;h.ontimeout=r;h.onprogress=r;h.onload=r;
+h.timeout=0;k=h}else if(l[G]){var n=new l[G];k="withCredentials"in n?n:void 0}else k=void 0;if(c=k){c.open("POST",E,!0);if(c[H])c[H]("Content-type","text/plain");c.send(f)}}catch(p){}}else m.ue.log(b,c,{n:1});f=l.console||{};c=f.error||f.log||r;d=l[t];g="Error logged: ";if(d&&d[u])try{g+=d[u](b)}catch(q){g+="no info provided; converting to string failed"}else g+=b.m;c.apply(f,[g,b])}}var G="XMLHttpRequest",F="XDomainRequest",N="navigator",D="sendBeacon",u="stringify",t="JSON",p="logLevel",q="attribution",
+y="pageURL",s="skipTrace",H="setRequestHeader",n="message",r=function(){},E="//"+m.ue_furl+"/1/batch/1/OE/",h=m.ue_err,M=m.ue_err_chan||"jserr",z="FATAL",J="v6",A=20,v=256,L=/\(?([^\s]*):(\d+):\d+\)?/,K=/.*@(.*):(\d*)/;x[s]=1;C[s]=1;w[s]=1;(function(){for(var a,e=0;e<(h.erl||[]).length;e++)a=h.erl[e],w(a.ex,a.info);h.erl=[]})();m.ueLogError=C})(ue_csm,window);
+
+</script>
+<div id="a-page">
+<script type="a-state" data-a-state='{"key":"a-wlab-states"}'>{"AUI_49697":"C","AUI_51744":"C","AUI_ATTR_VALIDATIONS_1_51371":"C","AUI_BOLT_46632":"C","AUI_BOLT_48891":"T1","AUI_UX_47524":"C","AUI_UX_49594":"C"}</script>
+            <script type="text/javascript">if(typeof uet === 'function'){(function(t){var w = window;w.awTags = w.awTags || {};w.awTags[t] = w.awTags[t] || (ue.tag(t) && 1)})('smart-device');uet('bb');};</script>
+
+
+            <script type="text/javascript">if(typeof uet === 'function'){(function(t){var w = window;w.awTags = w.awTags || {};w.awTags[t] = w.awTags[t] || (ue.tag(t) && 1)})('smart-device');uet('ns');};</script>
+        <script type="text/javascript">var DeepLinkingUtils={fallbackTimer: false,heartbeatTimer: false,openWebUrlTimer: false,Metrics:{ABORT : 0,CONTINUE: 1},Method:{IFRAME : 0,INTENTS : 1},Fallback:{NOTHING : 0,APPSTORE: 1,WEBURL : 2},DeepLinkInstance: function(options){var required_options=['action','refTag','failAction','failRefTag','clientToken','campaignId','treatmentId','webUrl','appUrl','appStoreUrl'];for(var i=0;i < required_options.length;i++){if(!options[required_options[i]]){throw'Required option not included for DeepLinkingUtils: `'+ required_options[i] +'`';return;}}var HEARTBEAT_TIME=200,OPENAPP_DEFAULT_TIMEOUT=1000,OPENAPP_TIMEOUT_DELAY=500,AJAX_TIMEOUT=800,valueOrDefault=function(value,defaultValue){return(typeof value=="undefined"?defaultValue : value);};options.method=valueOrDefault(options.method,DeepLinkingUtils.Method.IFRAME);options.metricsFailureMode=valueOrDefault(options.metricsFailureMode,DeepLinkingUtils.Metrics.CONTINUE);options.timeout=valueOrDefault(options.timeout,OPENAPP_DEFAULT_TIMEOUT);options.storePref=valueOrDefault(options.storePref,false);options.recordMetricsUrl=valueOrDefault(options.recordMetricsUrl,'/gp/mobile-marketing/utility/metrics.html');options.updatePreferencesUrl=valueOrDefault(options.updatePreferencesUrl,'/gp/mobile-marketing/utility/update-preference.html');options.openWebUrlOnSuccess=valueOrDefault(options.openWebUrlOnSuccess,false);options.fallbackMethod=valueOrDefault(options.fallbackMethod,DeepLinkingUtils.Fallback.APPSTORE);options.autoRedirect=valueOrDefault(options.autoRedirect,false);var recordMetrics=function(action,refTag,storePref,callback){var pref="storePref="+(storePref?1 : 0)+"&clientToken="+ options.clientToken +"&campaignId="+ options.campaignId +"&action="+ action + options.treatmentId +"&ref_="+ refTag +"&url="+ encodeURIComponent(options.webUrl);ajaxRequest(options.recordMetricsUrl,pref,callback);},ajaxRequest=function(action,params,callback){var r=window.XMLHttpRequest?new XMLHttpRequest():(window.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"): false);callback=(callback||function(succeeded){});if(!r){callback();return}r.open("POST",action);r.setRequestHeader('Content-Type','application/x-www-form-urlencoded');r.timeout=AJAX_TIMEOUT;var callbackCalled=false;r.onreadystatechange=function(){if(r.readyState==4&&!callbackCalled){callbackCalled=true;callback(r.status==200);}};r.ontimeout=function(){if(!callbackCalled){callbackCalled=true;callback(false);}};r.send(params);},preventFallback=function(){clearTimeout(DeepLinkingUtils.fallbackTimer);},clearTimers=function(){preventFallback();stopHeartbeat();},startHeartbeat=function(){DeepLinkingUtils.heartbeatTimer=setInterval(function(){if(document.webkitHidden||document.hidden){preventFallback();}},HEARTBEAT_TIME);},stopHeartbeat=function(){clearInterval(DeepLinkingUtils.heartbeatTimer);},openAppFail=function(){recordMetrics(options.failAction,options.failRefTag,false,function(succeeded){if(succeeded||options.metricsFailureMode==DeepLinkingUtils.Metrics.CONTINUE){if(options.onFail){options.onFail();}if(options.fallbackMethod==DeepLinkingUtils.Fallback.APPSTORE){openAppStore();}else if(options.fallbackMethod==DeepLinkingUtils.Fallback.WEBURL){openWebUrl();}}});},openAppStore=function(){document.location=options.appStoreUrl;},openWebUrl=function(){document.location=options.webUrl;};this.openApp=function(){clearTimers();var f=function(succeeded){if(options.method==DeepLinkingUtils.Method.INTENTS){document.location=options.appUrl;}else{if(succeeded||options.metricsFailureMode==DeepLinkingUtils.Metrics.CONTINUE){var d=Date.now();var iframe=document.getElementById('deeplinkFrame');if(iframe){iframe.parentNode.removeChild(iframe);}document.body.insertAdjacentHTML('beforeend','<iframe style="display:none"height="0"width="0"id="deeplinkFrame"src="'+ options.appUrl +'"></iframe>');startHeartbeat();DeepLinkingUtils.fallbackTimer=setTimeout(function(){clearTimers();if(!document.webkitHidden&&!document.hidden&&Date.now()- d < options.timeout + OPENAPP_TIMEOUT_DELAY){openAppFail();}},options.timeout);}}if(options.openWebUrlOnSuccess){DeepLinkingUtils.openWebUrlTimer=setTimeout(openWebUrl,options.timeout + OPENAPP_TIMEOUT_DELAY + AJAX_TIMEOUT);}};recordMetrics(options.action,options.refTag,options.storePref,f);};this.openAppStore=function(action,refTag){if(action&&refTag){recordMetrics(action,refTag,false,function(succeeded){if(succeeded||options.metricsFailureMode==DeepLinkingUtils.Metrics.CONTINUE){openAppStore();}});}else{openAppStore();}},this.updatePreferences=function(refTag){var url=options.updatePreferencesUrl +'/ref='+ refTag +'?ie=UTF8'+'campaignId='+ options.campaignId +'&clientToken='+ options.clientToken;var params='url='+ encodeURIComponent(options.webUrl)+'&treatmentId='+ options.treatmentId;ajaxRequest(url,params);};if(options.autoRedirect){setTimeout(this.openApp,1);}}};var SmartAppBanner={deepLink: new DeepLinkingUtils.DeepLinkInstance({webUrl:'http://www.amazon.com/gp/aw/d/193435659X',appStoreUrl:'itms-apps://itunes.apple.com/us/app/id297606951?mt=8',appUrl:'com.amazon.mobile.shopping://amazon.com/products/193435659X?dl_sid=184-9743298-0728138',method: DeepLinkingUtils.Method.IFRAME,action:'OpenApp',refTag:'mm_ip_dp_cab_t3_click_webkit',failAction:'OpenAppstore',failRefTag:'mm_ip_dp_cab_t3_appstore_webkit',campaignId:'SmartAppBanner',clientToken:'SmartAppBanner',treatmentId:'_ip_dp_t3',storePref: true}),close: function(e){if(e){e.preventDefault();e.stopPropagation();SmartAppBanner.deepLink.updatePreferences('mm_ip_dp_cab_t3_close');}document.getElementById('smart-app-banner').className='closed';},openApp: function(userClicked){SmartAppBanner.deepLink.openApp();}};</script> <style>.smart-app-banner-close{height:80px;width:40px;float:left;line-height:32px;padding-top:32px;padding-left:12px;}.smart-app-banner-close img{height:20px;width:20px;}#smart-app-banner{height:80px;padding:0px !important;border-bottom:.1rem solid #d4d4d4;background:#333;overflow:hidden;/gp/mobile-marketing/content/css/common/cssTransition.miattributeheighttiming400ms}#smart-app-banner .a-icon-amazon-app{margin-top:0.75em;margin-right:0.4em;border-radius:0.66667em;}html:not([data-aui-build-date]) #smart-app-banner .a-icon-amazon-app{background-image:url('http://g-ecx.images-amazon.com/images/G/01/mobile-marketing/banner/amzn_icon_96x96._V320993881_.png');background-size:contain;background-position:0;width:55px;height:55px;}#smart-app-banner.closed{height:0;}.smart-app-banner-msg{display:inline-block;position:relative;line-height:1.5em;vertical-align:middle;color:#FFF;background-color:#FBA61C;padding:6px 8px;border-radius:3px;margin-left:8px;margin-top:-3px;padding-left:12px;}.smart-app-banner-content{line-height:80px;text-align:center;white-space:nowrap;overflow:hidden;font-size:16px;}.smart-app-banner-close:before{content:'';display:block;width:20px;height:20px;background:url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2220px%22%20height%3D%2220px%22%20viewBox%3D%220%200%2013%2013%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20stroke%3D%22%23FFF%22%3E%3Cline%20x1%3D%223%22%20y1%3D%223%22%20x2%3D%2210%22%20y2%3D%2210%22%2F%3E%3Cline%20x1%3D%2210%22%20y1%3D%223%22%20x2%3D%223%22%20y2%3D%2210%22%2F%3E%3C%2Fsvg%3E');background-size:cover;background-repeat:no-repeat;background-position:center;}</style>
+<div class="smart-app-banner" id="smart-app-banner" onclick="SmartAppBanner.openApp(true);">
+<div class="smart-app-banner-close" id="smart-app-banner-close" onclick="javascript:SmartAppBanner.close(event);return false;"></div>
+<div class="smart-app-banner-content">
+<span class="a-icon a-icon-amazon-app"></span><span class="smart-app-banner-msg">View in the Amazon app</span>
+</div>
+</div>
+<style>
+.nav-a11y-alt {
+text-indent: 500px;
+overflow: hidden;
+white-space: nowrap;
+}
+#nav-backtotop {
+width: 100%;
+display: block;
+-webkit-border-radius: 0;
+border-radius: 0;
+background: #f9f9f9;
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,white),color-stop(100%,#f3f3f3));
+background: -webkit-linear-gradient(top,white,#f3f3f3);
+background: -ms-linear-gradient(to bottom,white,#f3f3f3);
+background: linear-gradient(to bottom,white,#f3f3f3);
+-webkit-box-shadow: 0 .1rem .1rem rgba(0,0,0,0.07),0 -0.1rem 0 white inset;
+box-shadow: 0 .1rem .1rem rgba(0,0,0,0.07),0 -0.1rem 0 white inset;
+display: block;
+text-transform: uppercase;
+color: #000;
+font-size: 11px;
+padding: 0 2.5rem;
+border: 0;
+border-bottom: .1rem solid rgba(0,0,0,0.2);
+font-weight: bold;
+white-space: nowrap;
+height: 4.2rem;
+line-height: 5rem;
+margin: 0;
+position: absolute;
+left: 0;
+right: 0;
+top: -4rem;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+}
+#nav-backtotop #nav-backtotop-arrow {
+position: absolute;
+top: 0.9rem;
+left: 50%;
+margin-left: -0.4rem;
+}
+.nav-float-left {
+float: left;
+}
+</style>
+<nav>
+<div class="a-container a-global-nav-wrapper nav-anywhere-wrapper">
+<div class="a-row">
+<div class="a-span6 nav-float-left">
+<a class="a-link-nav-icon" href="/ref=mw_hm/184-9743298-0728138">
+<i class="nav-a11y-alt a-icon a-logo">Amazon.com</i><i class="a-icon a-domain"></i><i class="a-icon 0 aw-prime"></i>
+</a>
+</div>
+<div class="a-span6 a-text-right a-span-last">
+ 
+<a id="search-icon-link" href="#searchKeyword" class="a-link-nav-icon">
+<i id="navbar-icon-search" class="a-icon a-nav-search a-align-middle nav-a11y-alt">
+Search
+</i>
+</a>
+<a class="a-link-nav-icon" href="/gp/aw/c/ref=mw_crt/184-9743298-0728138">
+<i class="a-icon a-nav-cart a-align-middle" id="navbar-icon-cart">
+<div class="nav-a11y-alt">Cart</div>
+</i>
+</a>
+</div>
+</div>
+</div>
+</nav>
+        <script type="text/javascript">if(typeof uet === 'function'){(function(t){var w = window;w.awTags = w.awTags || {};w.awTags[t] = w.awTags[t] || (ue.tag(t) && 1)})('smart-device');uet('ne');};</script>
+        <div class="a-container">
+                    <script type="text/javascript">
+              P.when('atf').execute(function(){
+                if(typeof uet === 'function'){(function(t){var w = window;w.awTags = w.awTags || {};w.awTags[t] = w.awTags[t] || (ue.tag(t) && 1)})('smart-device');uet('bb', 'udpv3auiwait', {wb: 1});};
+                P.when('A','jQuery','a-carousel-framework','a-popover-base','a-popover-ajax','a-state').execute(function(){
+                    if(typeof uet === 'function'){(function(t){var w = window;w.awTags = w.awTags || {};w.awTags[t] = w.awTags[t] || (ue.tag(t) && 1)})('smart-device');uet('be', 'udpv3auiwait', {wb: 1});};
+                    if(typeof uex === 'function'){(function(t){var w = window;w.awTags = w.awTags || {};w.awTags[t] = w.awTags[t] || (ue.tag(t) && 1)})('smart-device');uex('ld', 'udpv3auiwait', {wb: 1});};
+                    });
+              });
+            if(typeof uet === 'function'){(function(t){var w = window;w.awTags = w.awTags || {};w.awTags[t] = w.awTags[t] || (ue.tag(t) && 1)})('smart-device');uet('bb', 'udpv3atfwait', {wb: 1});};
+            </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">var encodedImgSrc="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wAARCADIAKcDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAMhAAAgIBAwIEBQMEAgMAAAAAAAECEQMSITEEQRMiUWEUMnGBkRVToQUjktFS4UJisf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAaEQEBAAIDAAAAAAAAAAAAAAAAAQIREiEx/9oADAMBAAIRAxEAPwD0wABj/qMLhCfo6PPPX6qGvp5r2s8lGa7YXp1RbVpWc4LYSi5V8vO6OvHFyfl+6DW1ALZQteWNEfCn6fyDaKTfBf0ka6hSlsopsplFx5Nn9OjeuT37CJlemvxYeoWWD7kwacHIzjJ7M6AAAAAAAAAAAAAAAGrVGD9Pf7q/xN4Cy2eMH6e/3V/idXQSXGX+DcCaXnWD9Pl+6vwP0+X7q/BvA0c6wfp7/dX+Jq6bD4GPTdu7ui0F0XK30AAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFc8unKscY3Jq93So7DJcW5x0U6dlWeMJzUcuJyjW0kt1+Cnw8icWnkeGM7Se7quQNqnF1Ulvxuc1wq9Sr6maWLTWXFGTlGV7975DxeHli2paNLTcVe97/kDU5xXMl68nU01adoyY8cY9RD+3LSoNJyV9yzo0445JxcfO2k1W1gTxZXklNONaHXPJPVFOtSv0szY5vHLPJ48juVxSi9yqaySxzvE4y1qTSjfdb3/AKA2ucFzJL7nXKMVbkl9WZVFPL1EvDdSSp6XvsVqWnQpKS/tKLuLdMDbHJGauMkzuuNXqVetmXHpjkxzjc4eHp1JXbsjj1RjBPHJVKW7i3X2A2ao6dVqvWyKywd1JbcsxJuCipRlayN049iUUnKMoylKKk3JRXy37AbXOKSbkqfudTtbGN46cXDxIc03G/4NHT6lhipJJ+iAsAAAAAAABVPNpzRh6pt7O/scj1OOSi03pk6Tp1YyY5y6iGSKjUU1u/UrWDIumxY/LcJJvcC3qMjxY9UV3Sbq6XqRx5k7bywlBK212LMim1F42k090+GijL0zzStqOPyteXe/qBY+qxpb6l347EpZ4QbUrVV29SKxOUHGcIRuNNohLp5SxR1NPJGSl7OtgJvqsS5bW9VT2ZOGWM5OKtSW9NUVZMU5RjphCNSUnT9CcYTXUyyNLS4pc7gReTIuoljbik4aouimGSWTFHIpKOSUtMq42/6L+owvK4OLpxe/0fJFdN/dyu/JNbL0fcCWPNijFRTpU2m+/qzmTqE8U3jdTjFyVrlEfh3LD4cowXlrUuTssU3hlHRjUnFxtAd1wk1qclKMbclwtiWGUNT0qWqSu5LkqhgyY3JQUdMo7pu9/UlhwPHl1RWiNU4qTaf+gNAAAAAAAAAAA5qWrTe7V0cjkhLiSITcFk1O/Lu36EH4Udt7SoC/VH/kvyHOKW8kZlDEkm5txbpbe3+iyOHHKNptrgC5NPh2CMIKCpcEgBB5EiT4Mk3u0Be86XY58REz6qdNEJNPiwNfxER8REw2cuwN/wARH1O+PE88kpVyBu8ZDx4mJTXqSUoutwN0JqStEirBWnYtAAAAAAKpygpPVFPivchrxW/7dtck5ympuoppV2IPM068Lf6Ad8TH8rhsv47FmKSlG4qkVvJK68K/swskoxenE19mBeCjx5Krg1b72XgclwzHOXmNj4MeReYBs/qccU+fycqhvd1YVCcGtluVtb+hbKdPe0QlJy5ARjqdEtDXKIxtO1ZotNcgUOJzT7l0olcotcrYDZ03yFxT0/ylwQAAAAAVy8RSlpV3Vb8EJSzLdx59FwXgClyzqN6Vwci87V0ue6LwAq+QABx8Mw5JrW9zc+GY8kE5MDilH1O3HiyCjHuV53CMKjephV0ttox1r68GfI48PHKLIxyzXuSeeXdbAV6nwmzVgkp4/l3W1+pmcovhUyzp56Zaa2l3A00jlP1Jc+44AvwqkWFeGtOxYEAAAAAAAAAAAAAHJfKzzcmWpPg9KXys8zLG5PvfcDqzLvwUTeuTZ2cGrdWkcVaW7kn6MKJCtnX0Oaknv/KJRyJNNK9+EA006HErjyWZXHxnp4e6ohzKqerigNCmtKdtbbnVNPh370Z3qgo7p6tlRyp4paaab7AenglqTrhFpn6P5DQEAAAAAAFeaUo6NN7vfb2ZDxsiim8d/n0v/oC8FLyzvbH3o7LJKORbPRw9gLQVSlNTdNtJXVEfGnt5Hv8AxyBdL5WeXlg1OXb6HqS3izBkWWU28dUuLfIGTRXmt/dHalWp3FSNE45KivKmycI5GpLbbb/YVhaafN/Y7j8SL1Rg5R44LssseKMNDc2pU2//AIQjmlqTunJ71sBLVWVa1Wyt0R1xlklN8cKuX7lsbnFQlJJzXlVcbkdMNcv/ACyJcVSTCIyUHbep41zXZndUXWnZXtfJbog8MYqLqT3fuZp3Gk+UwPU6dVe92XlHS/J9S8AAAAAAjNyVaUn6kVLJtcF+SwAQUsmneG/1Oa5/t/yWACtSyb3Bfk7qyf8ABP7kwBGV+G75o8jO5xk021Fs9iXys8rqJ7tNWvcCpTyalJb0qVljy6YS81zlvxwyEMGpK5xRb8Dttk3+gGTfUu51c36GrHhnhe8VKT9N7E44czad4p/lMCfT5YrOk0vlpnc+ZYsnlScZ7/U5hxrE0tKk2uebO5OnedPVJxl2bQHFOUYRcreriuImXLsvdNplko5ceN45ra9pLcqpzk093J8gep0bvGmaTP0irGkuEaAAAAAAAAAAAAAADjVpox5Oj1yTb4ZtAGT4Q7Hp5R+WTS9DUAM88Dk006aI5emeSSfsagBkj0soO4y0lnhSfcvAGZ9O2Q+C82pOmbABXihoVFgAAAAAAAAAAAAAABGUdXdr6HPD/wDaX5AAeGvV/kLElxKX5AA7GOl8t/UkAAAAAAAAAAAAH//Z";</script><!-- MarkCF -->
+<script type="text/javascript">
+if(typeof uet === 'function'){uet('be', 'udpv3atfwait', {wb: 1});};
+if(typeof uex === 'function'){uex('ld', 'udpv3atfwait', {wb: 1});};
+</script>
+<div id="ppd" class="a-row">
+<div id="detailILM_feature_div" data-feature-name="detailILM" data-template-name="detailILM" class="a-section a-spacing-none">
+</div>
+<div id="instantOrderUpdate_feature_div" data-feature-name="instantOrderUpdate" data-template-name="instantOrderUpdate" class="a-section a-spacing-none">
+</div>
+<div id="dealOffer_feature_div" data-feature-name="dealOffer" data-template-name="dealOffer" class="a-section a-spacing-none">
+<style>
+.gb_box_info {border-color:#bbd3de;}
+.gb_box_error {border-color:#c40000;}
+.gb_box_warn {border-color:#8b6e00;}
+.gb_box_success {border-color:#89cd89;}
+</style>
+</div>
+<div id="andonCord_feature_div" data-feature-name="andonCord" data-template-name="andonCord" class="a-section a-spacing-none">
+</div>
+<div id="productTitleGroupAnchor"></div>
+<div id="machineTranslation_feature_div" data-feature-name="machineTranslation" data-template-name="machineTranslation" class="a-section a-spacing-mini feature">
+<style type="text/css">
+#machine-translation-widget .a-size-base{
+font-size: 1.4rem!important;
+}
+#machine-translation-widget .mt-link {
+margin-left: 4px;
+margin-right: 3px;
+}
+</style>
+</div>
+<div class="a-row a-spacing-none">
+<div class="a-column a-span12 a-text-ellipsis">
+<div id="brandByline_feature_div">
+</div>
+<div id="byline_feature_div">
+<div id="byline" class="a-row a-spacing-none a-size-base feature a-text-ellipsis">
+<a id="bylineContributor" class="a-size-base a-link-normal" href="/gp/aw/s/?ie=UTF8&amp;k=Bruce+A.+Tate&amp;i=books">Bruce A. Tate</a>
+</div>
+</div>
+</div>
+</div>
+<div id="title_feature_div" class="a-section a-spacing-small">
+<div data-feature-name="title" data-template-name="title" class="a-section a-spacing-small">
+<div class="a-row">
+<div class="a-column a-span12">
+<h1 id="title" class="a-size-medium">Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages (Pragmatic Programmers)
+<span class="a-size-medium a-color-secondary a-text-normal"></span>
+</h1>
+</div>
+</div>
+</div>
+</div>
+<div class="a-row">
+<div id="averageCustomerReviews_feature_div" data-feature-name="averageCustomerReviews" data-template-name="averageCustomerReviews" class="a-column a-span12 a-text-left feature">
+<a id="acrCustomerReviewLink" class="a-link-normal" href="/gp/aw/cr/193435659X/ref=mw_dp_cr">
+<i class="a-icon a-icon-star-medium a-star-medium-4-5"><span class="a-icon-alt">4.4 out of 5 stars</span></i>
+<span class="a-size-base">(47)</span>
+<span id="textReviews" style="position: absolute; left: -10000px; top: auto; width: 2px; height: 1px; overflow: hidden;">Reviews</span>
+</a>
+</div>
+</div>
+<div id="adoptedData_feature_div" data-feature-name="adoptedData" data-template-name="adoptedData" class="a-section a-spacing-none">
+<style>
+#adoptedDataContainer .campusLogo {
+height: 20px;
+width: 20px;
+margin-right: 0.5em;
+}
+#adoptedDataContainer .campusName {
+line-height: 20px;
+}
+#adoptedDataContainer .nonDecorated {
+text-decoration:none;
+color:black;
+}
+#adoptedDataContainer > div {
+padding-left:0.4em !important;
+}
+#adoptedDataContainer .secondaryViewTrigger {
+width:100%;
+padding-right:1em;
+padding-left:3px;
+}
+#adoptedDataContainer .chevron {
+position:absolute;
+right:0.5em;
+top:50%;
+margin-top:-.5em;
+}
+</style>
+</div>
+<div id="imageBlock_feature_div" data-feature-name="imageBlock" data-template-name="imageBlock" class="a-section a-spacing-none">
+<style>
+.sitb-sticker-container {
+text-align: right;
+margin: 0 auto;
+width:154px;
+}
+.sitb-sticker {
+height: 16px;
+margin-bottom: 5px;
+}
+</style>
+<script>
+P.when('A', 'jQuery', 'ready').execute(function(A, jQuery) {
+var sitbData = jQuery('#sitb-data');
+var showSITBSticker = sitbData.data('show-sticker');
+var sitbURL = sitbData.data('url');
+function startCSMMetrics(metricName) {
+P.when('postMetric').execute(function(postMetricClass) {
+postMetricClass.postCountMetric(metricName);
+});
+}
+function openImmersiveView() {
+startCSMMetrics("dpmob_immersiveViewOpened");
+if (jQuery('#image-block-invisible-immersive-view-button').length > 0) {
+//Iphone shows weird behavior when tapping image before everything is ready
+//Starting declarative action inside declarative action may have caused this issue
+//Using setTimeout fixes this issue
+setTimeout(function() {jQuery('#image-block-invisible-immersive-view-button').click();}, 0);
+}
+}
+function openSITB() {
+window.location = sitbURL;
+}
+A.declarative("open-immersive-view", ["click"], openImmersiveView);
+A.declarative("tap-first-image", ["click"], (showSITBSticker && sitbURL) ? openSITB : openImmersiveView);
+if (sitbURL) {
+A.declarative("open-sitb", ["click"], openSITB);
+}
+});
+</script>
+<div class="a-row a-spacing-medium">
+<div class="a-column a-span12 a-text-center">
+<style type="text/css">
+#image-block a:focus {
+outline: 0 none;
+}
+#image-block li.a-carousel-card{
+height:100%;
+width:100%;
+}
+#image-block form.a-carousel-state{
+display:none;
+}
+#image-block div.a-image-wrapper, div.video-table {
+display:table;
+width: 100%;
+height: 100%;
+padding:0 10px;
+-webkit-backface-visibility:hidden;
+}
+#image-block div.image-wrapper, div.video-table-cell {
+display: table-cell;
+vertical-align: middle;
+}
+#image-block div.a-image-wrapper img {
+max-height:200px;
+}
+#loadingImages{
+text-align: center!important;
+display: block;
+line-height: 0.6 !important;
+}
+#image-block-pagination-dots{
+display: none;
+}
+#image-block ol.a-carousel{
+width: 100%;
+}
+.image-size-wrapper #main-image {
+left: 0px;
+}
+#image-block-360 .a-button-focus {
+border-color: #adb1b8 #a2a6ac #8d9096;
+box-shadow: none;
+-webkit-box-shadow: none;
+}
+</style>
+<a class="a-link-normal" href="#">
+<style>
+.image-size-wrapper {
+height:200px;
+line-height:200px;
+}
+.image-size-wrapper img{
+vertical-align:middle;
+}
+</style>
+<div id="image-block" data-a-carousel-options='{"show_partial_next":false,"name":"image-block-carousel","carouselClass":"mobile","minimum_gutter_width":0}' data-a-display-strategy="single" data-a-ajax-strategy="none" data-a-class="mobile" class="a-carousel-container a-carousel-static a-carousel-display-single a-carousel-transition-slide">
+<form class="a-carousel-state" action="#" method="get"><input autocomplete="on" type="hidden" name="firstVisibleItem" class="a-carousel-firstvisibleitem"></form>
+<div class="a-carousel-viewport"><ol class="a-carousel" aria-live="assertive" role="list">
+<li class="a-carousel-card" role="listitem" aria-setsize="2" aria-posinset="1">
+<div class="a-image-wrapper hide-image" data-declarativeactionname="immersive-view" data-imageblockcounter="imageBlockShownC" data-immersiveviewcounter="immersiveViewOpenedC">
+<div class="image-wrapper">
+<span class="a-declarative" data-action="tap-first-image" data-tap-first-image="{}">
+<div class="sitb-sticker-container"></div>
+<div class="image-size-wrapper fp-image-wrapper" id="landing-image-wrapper" data-image-height="184" data-image-width="154" data-max-height="200" data-min-height="0" data-num-of-images="2" data-animate-image="0">
+<img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onload="" class="a-dynamic-image" id="main-image" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51opYcR6kVL._SY400_.jpg":[200,166]}'>
+</div>
+</span>
+</div>
+</div>
+</li>
+<li class="a-carousel-card" role="listitem" aria-setsize="2" aria-posinset="2">
+<div class="a-image-wrapper " data-declarativeactionname="immersive-view" data-imageblockcounter="imageBlockShownC" data-immersiveviewcounter="immersiveViewOpenedC">
+<div class="image-wrapper">
+<span class="a-declarative" data-action="open-immersive-view" data-open-immersive-view="{}">
+<div class="image-size-wrapper fp-image-wrapper" data-image-width="154" data-image-height="189">
+<div alt="" class="a-image-wrapper a-lazy-loaded a-manually-loaded carousel-img-manual-load" data-a-image-source="http://ecx.images-amazon.com/images/I/51doNUaU7zL._SY200_.jpg" data-a-hires="http://ecx.images-amazon.com/images/I/51doNUaU7zL._SY400_.jpg"></div>
+</div>
+</span>
+</div>
+</div>
+</li>
+</ol></div>
+</div>
+<script>
+// low res image is shown on the page by this time.
+if (typeof uet === 'function') {
+uet("tc", "dpmob_imageBlockResponsiveTime0" );
+}
+</script>
+</a>
+</div>
+</div>
+<div id="image-block-pagination" class="a-row">
+<div class="a-column a-span12 a-spacing-small">
+<span id="loadingImages" class="a-size-small a-color-secondary">
+Loading Images...
+</span>
+<div id="image-block-pagination-dots" class="a-pagination a-text-center"><ul class="a-pagination a-dots">
+<li class="a-selected">
+<li>
+</ul></div>
+</div>
+</div>
+<div class="a-popover-preload" id="a-popover-immersive-view">
+<div class="a-row main_carousel">
+<div class="a-column a-span12 a-text-center a-spacing-small">
+<style type="text/css">
+#immersive-main li.a-carousel-card{
+width:100%;
+}
+#immersive-main form.a-carousel-state{
+display:none;
+}
+#immersive-main div.image-wrapper {
+display:table;
+width: 100%;
+height: 100%;
+padding:0 10px;
+-webkit-backface-visibility:hidden;
+}
+#immersive-main div.a-image-wrapper{
+display:table-cell;
+vertical-align:middle;
+}
+#immersive-main ol.a-carousel{
+width: 100%;
+}
+#immersive-mini li.a-carousel-card{
+width : 46px!important;
+border : 2px solid white;
+margin-left:0px !important;
+}
+#immersive-mini li.a-carousel-card.selected{
+border : 2px solid orange;
+}
+#immersive-mini{
+text-align: left !important;
+margin-left:0px!important;
+}
+#immersive-mini form.a-carousel-state{
+display:none;
+}
+#immersive-mini div.image-wrapper {
+display:table;
+width: 100%;
+height: 100%;
+padding: 0px 0px;
+-webkit-backface-visibility:hidden;
+}
+#immersive-mini div.a-image-wrapper{
+width : 46px;
+height: 46px;
+display:table-cell;
+vertical-align:middle;
+}
+#immersive-mini.a-carousel-container,
+#immersive-mini .a-carousel-viewport{
+min-height: 50px;
+}
+#immersive-mini ol.a-carousel{
+width: 100%;
+}
+#zoom-changeover .a-changeover-inner{
+left: 57% !important;
+}
+.mini_carousel{
+height: 46px;
+}
+.a-carousel-display-single .a-carousel-viewport {
+height: 100% !important;
+}
+#immersive-image-back {
+z-index: 1000;
+position: absolute;
+left: 13px;
+margin-top: 13px;
+width: auto;
+border: 1px solid rgba(0,0,0,0.17);
+background: rgba(255,255,255,0.5);
+}
+#immersive-image-back span.a-button-inner{
+background: none;
+}
+#immersive-image-back-text{
+color:rgb(75, 75, 75);
+}
+.immersive-view-gallery .a-secondary-view-inner{
+padding: 0px 2px 0px 2px;
+}
+.main_carousel>.a-spacing-small, .main_carousel>.a-spacing-small{
+margin-bottom : 0px!important;
+}
+</style>
+<span class="a-declarative" data-action="a-popover-close" data-a-popover-close="{}">
+<span id="immersive-image-back" class="a-button"><span class="a-button-inner"><input class="a-button-input" type="submit" aria-labelledby="immersive-image-back-announce"><span id="immersive-image-back-announce" class="a-button-text" aria-hidden="true">
+<span id="immersive-image-back-text" class="a-text-bold">
+Back
+</span>
+</span></span></span>
+</span>
+<div id="immersive-main" data-a-carousel-options='{"show_partial_next":false,"name":"image-block-immersive-main-carousel","carouselClass":"mobile","minimum_gutter_width":0}' data-a-display-strategy="single" data-a-ajax-strategy="none" data-a-class="mobile" class="a-carousel-container a-carousel-static a-carousel-display-single a-carousel-transition-slide">
+<form class="a-carousel-state" action="#" method="get"><input autocomplete="on" type="hidden" name="firstVisibleItem" class="a-carousel-firstvisibleitem"></form>
+<div class="a-carousel-viewport"><ol class="a-carousel" aria-live="assertive" role="list">
+<li class="a-carousel-card" role="listitem" aria-setsize="2" aria-posinset="1">
+<div class="image-wrapper">
+<div data-action="a-immersive-image" class="a-declarative a-immersive-image a-image-wrapper"><div class="a-immersive-image-wrapper">
+<div alt="" class="a-image-wrapper a-lazy-loaded a-manually-loaded immersive-carousel-img-manual-load" data-a-image-source="http://ecx.images-amazon.com/images/I/51opYcR6kVL._SY400_.jpg" data-a-hires="http://ecx.images-amazon.com/images/I/51opYcR6kVL._SL1500_.jpg"></div>
+</div></div>
+</div>
+</li>
+<li class="a-carousel-card" role="listitem" aria-setsize="2" aria-posinset="2">
+<div class="image-wrapper">
+<div data-action="a-immersive-image" class="a-declarative a-immersive-image a-image-wrapper"><div class="a-immersive-image-wrapper">
+<div alt="" class="a-image-wrapper a-lazy-loaded a-manually-loaded immersive-carousel-img-manual-load" data-a-image-source="http://ecx.images-amazon.com/images/I/51doNUaU7zL._SY400_.jpg" data-a-hires="http://ecx.images-amazon.com/images/I/8129aV9t7vL._SL1500_.jpg"></div>
+</div></div>
+</div>
+</li>
+</ol></div>
+</div>
+</div>
+</div>
+<div class="a-row mini_carousel">
+<div class="a-column a-span12 a-text-center a-spacing-small">
+<div id="immersive-mini" data-a-carousel-options='{"show_partial_next":false,"name":"image-block-immersive-mini-carousel","carouselClass":"mobile","minimum_gutter_width":0}' data-a-class="mobile" class="a-carousel-container a-carousel-static a-carousel-display-stretchyGoodness a-carousel-transition-slide a-carousel-static" style="height:46px;">
+<form class="a-carousel-state" action="#" method="get"><input autocomplete="on" type="hidden" name="firstVisibleItem" class="a-carousel-firstvisibleitem"></form>
+<div class="a-carousel-viewport"><ol class="a-carousel" aria-live="assertive" role="list">
+<li class="a-carousel-card" role="listitem" aria-setsize="2" aria-posinset="1">
+<div class="image-wrapper">
+<div class="a-image-wrapper">
+<div alt="" class="a-image-wrapper a-lazy-loaded a-manually-loaded immersive-carousel-img-manual-load" data-a-image-source="http://ecx.images-amazon.com/images/I/51opYcR6kVL._SS63_.jpg" data-a-hires="http://ecx.images-amazon.com/images/I/51opYcR6kVL._SS126_.jpg"></div>
+</div>
+</div>
+</li>
+<li class="a-carousel-card" role="listitem" aria-setsize="2" aria-posinset="2">
+<div class="image-wrapper">
+<div class="a-image-wrapper">
+<div alt="" class="a-image-wrapper a-lazy-loaded a-manually-loaded immersive-carousel-img-manual-load" data-a-image-source="http://ecx.images-amazon.com/images/I/51doNUaU7zL._SS63_.jpg" data-a-hires="http://ecx.images-amazon.com/images/I/51doNUaU7zL._SS126_.jpg"></div>
+</div>
+</div>
+</li>
+</ol></div>
+</div>
+</div>
+</div>
+<div id="zoom-changeover" class="a-changeover"><div class="a-changeover-inner">
+<i class="a-icon a-icon-checkmark-inverse"></i><strong class="a-size-medium">Double-tap to zoom</strong>
+</div></div>
+<script type="text/javascript">
+P.when('A','atf').execute(function(A){
+A.trigger('image-block-immersive-view-refresh');
+});
+</script>
+</div>
+<span class="a-declarative" data-action="a-secondary-view" data-a-secondary-view='{"backButtonText":"Back","name":"immersive-view","scrollable":true,"hideHeader":true}' data-a-immersive-view="true">
+<!-- This div will be replaced on anywhere udp3. If you need to edit this line, please update anywhere accordingly.-->
+<div id="sitb-more-images-button-container"></div>
+<!-- invisible button to be used by javascript -->
+<div style="display:none">
+<span id="image-block-invisible-immersive-view-button" class="a-button"><span class="a-button-inner"><input class="a-button-input" type="submit" aria-labelledby="image-block-invisible-immersive-view-button-announce"><span id="image-block-invisible-immersive-view-button-announce" class="a-button-text" aria-hidden="true"></span></span></span>
+</div>
+</span>
+<!-- This div will be replaced on anywhere udp3. If you need to edit this line, please update anywhere accordingly.-->
+<div id="sitb-look-inside-button-container"></div>
+</div>
+<div id="MediaMatrix_feature_div" data-feature-name="MediaMatrix" data-template-name="MediaMatrix" class="a-section a-spacing-none">
+<!-- MediaMatrix Mobile should be suppressed when mediaMatrixItems collection is empty or has just a single item -->
+<div class="a-row a-spacing-medium">
+<span class="a-declarative" data-action="a-secondary-view" data-a-secondary-view='{"backButtonText":"Back","name":"mediaMatrix_secondary_view_div","alternateBackground":"true"}'>
+<span id="mediaMatrixButton" class="a-button a-button-supplemental a-button-span12 a-button-toggle"><span class="a-button-inner"><i class="a-icon a-icon-supplemental"></i><input class="a-button-input" type="submit" aria-labelledby="mediaMatrixButton-announce"><span id="mediaMatrixButton-announce" class="a-button-text" aria-hidden="true">
+Format
+<strong class="dimension-label a-padding-mini">Paperback</strong>
+</span></span></span>
+<script type="text/javascript">
+P.when('jQuery').execute(function($) {
+$('a.mediaMatrixListItem').click(function() {
+//Update selected state
+$('a.mediaMatrixListItem').removeClass('a-active');
+$(this).addClass('a-active');
+});
+});
+</script>
+</span>
+</div>
+<div class="a-popover-preload" id="a-popover-mediaMatrix_secondary_view_div">
+<h2 class="a-spacing-base">
+Select Format
+</h2>
+<div class="a-box a-vertical"><div class="a-box-inner a-padding-none"><ul class="a-nostyle a-box-list a-last">
+<li class="a-align-center"><span class="a-list-item">
+<!-- Override bucket winner in secondary-view with landingItem if they have same metabinding -->
+<a href="/gp/aw/d/B00AYQNR46/ref=tmm_kin_title_0?ie=UTF8&amp;sr=&amp;qid=" class="a-touch-link a-box a-touch-link-noborder a-touch-select mediaMatrixListItem"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-select"></i>
+<span class="a-text-bold">Kindle</span>
+<span class="a-color-tertiary">–</span>
+<span class="a-color-price">$26.07</span>
+</div></a>
+</span></li>
+<li class="a-align-center"><span class="a-list-item">
+<!-- Override bucket winner in secondary-view with landingItem if they have same metabinding -->
+<a href="/gp/aw/d/193435659X/ref=tmm_pap_title_sr?ie=UTF8&amp;sr=&amp;qid=" class="a-touch-link a-box a-touch-link-noborder a-touch-select a-active mediaMatrixListItem"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-select"></i>
+<span class="a-text-bold">Paperback</span>
+<span class="a-color-tertiary">–</span>
+<span class="a-color-price">$25.34</span>
+</div></a>
+</span></li>
+</ul></div></div>
+</div>
+</div>
+<div id="price_feature_div" data-feature-name="price" data-template-name="price" class="a-section a-spacing-none">
+<style type="text/css">
+table#price .a-nowrap {
+display: table-cell !important;
+}
+</style>
+<!-- for the new CCX DPv2 mobile pages (a.k.a. burj pages) the coupon feature
+is not included in the price block
+-->
+<div class="a-row a-spacing-medium">
+<div class="a-column a-span12">
+<table id="price" class="a-normal a-align-top">
+<tr>
+<td class="a-span1 a-color-secondary a-text-right a-nowrap">List Price:</td>
+<td class="a-color-secondary"><span class="a-text-strike"> $34.95</span></td>
+</tr>
+<tr>
+<td class="a-span1 a-color-secondary a-size-medium a-text-right a-nowrap">
+<span class="a-size-base">Price:</span>
+</td>
+<td>
+<span id="priceblock_ourprice" class="a-size-medium a-color-price">$25.34
+</span>
+<span id="ourPrice_availability">
+</span>
+</td>
+</tr>
+<tr>
+<td class="a-span1 a-text-right a-nowrap"></td>
+<td><span id="ourprice_shippingmessage"><!-- MsgId:cfs_free_shipping_eligible_mobile:mobile -->
+<a href="/gp/aw/help/id=sss/ref=aw_d_sss_books">FREE Shipping</a> on orders over $35.</span></td>
+</tr>
+<tr id="regularprice_savings">
+<td class="a-color-secondary a-text-right a-nowrap">Save:</td>
+<td class="a-color-price">$9.61
+(27%)
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div id="primenote_feature_div" data-feature-name="primenote" data-template-name="primenote" class="a-section a-spacing-none">
+</div>
+<div id="newerVersion_feature_div" data-feature-name="newerVersion" data-template-name="newerVersion" class="a-section a-spacing-none">
+</div>
+<div id="availability_feature_div" data-feature-name="availability" data-template-name="availability" class="a-section a-spacing-none">
+<style type="text/css">
+/* This is done because text-rendering:optimizeLegibility is not supported in android 2.0 */
+#availability .a-color-state{
+text-rendering:auto ! important;
+}
+</style>
+<div class="a-section a-spacing-small">
+<div id="availability" class="a-section a-spacing-none">
+<span class="a-size-medium a-color-success">
+In Stock.
+</span>
+<div class="a-section a-spacing-none">
+</div>
+</div>
+<div id="merchant-info" class="a-section a-spacing-none">
+Ships from and sold by Amazon.com.
+Gift-wrap available.
+</div>
+</div>
+</div>
+<div id="smileEligibility_feature_div" data-feature-name="smileEligibility" data-template-name="smileEligibility" class="a-section a-spacing-none">
+</div>
+<div id="holidayAvailabilityMessage_feature_div" data-feature-name="holidayAvailabilityMessage" data-template-name="holidayAvailabilityMessage" class="a-section a-spacing-none">
+</div>
+<div id="dpFastTrack_feature_div" data-feature-name="dpFastTrack" data-template-name="dpFastTrack" class="a-section a-spacing-none">
+</div>
+<div id="campusInfo_feature_div" data-feature-name="campusInfo" data-template-name="campusInfo" class="a-section a-spacing-none">
+<style>
+#campusInfoContainer .campusLogo {
+height: 20px;
+width: 20px;
+margin-right: 0.5em;
+}
+#campusInfoContainer .campusName {
+line-height: 20px;
+}
+#campusInfoContainer .nonDecorated {
+text-decoration:none;
+color:black;
+}
+#campusInfoContainer > div {
+padding-left:0.4em !important;
+}
+#campusInfoContainer .secondaryViewTrigger {
+width:100%;
+padding-right:1em;
+padding-left:3px;
+}
+#campusInfoContainer .chevron {
+position:absolute;
+right:0.5em;
+top:50%;
+margin-top:-.5em;
+}
+</style>
+</div>
+<div id="buyBoxAccordion_feature_div" data-feature-name="buyBoxAccordion" data-template-name="buyBoxAccordion" class="a-section a-spacing-none">
+<!-- Delete this file when deals integration with accordion/mobile is complete -->
+<!--
+Variable showAccordion is true if at least two buyboxes are to be shown
+When dealOffer is shown, new offer is also shown - so showAccordion is true
+-->
+<div id="buybox" class="a-section a-spacing-small a-spacing-top-medium nocopypaste">
+<div class="a-button-stack">
+<form id="addToCart" method="post" action="/gp/aw/c/ref=mw_dp_buy_crt">
+<input type="hidden" name="a" value="193435659X" id="a">
+<input type="hidden" name="o" value="add" id="o">
+<input type="hidden" name="oid" value="iEUjPzLZKtjTvUJq4xVtxy1jwkWSppt2yVOtgU2nR2PbF8Lio7Z%2FVkm4E0KrTh9n1dOrstah%2BEVDOkNeqvRcIEaUGHIe84ZvvNtIC3OvLeAR%2BfCkeAg9Iw%3D%3D" id="oid">
+<input type="hidden" name="verificationSessionID" value="184-9743298-0728138" id="verificationSessionID">
+<input type="hidden" name="colid" id="colid">
+<input type="hidden" name="coliid" id="coliid">
+<input type="hidden" name="quantity" value="1" id="quantity">
+<div id="buybox.addToCart" class="a-section a-spacing-small">
+<span class="a-button a-button-primary a-button-icon"><span class="a-button-inner"><i class="a-icon a-icon-cart"></i><input id="add-to-cart-button" name="submit.add-to-cart" title="Add to Shopping Cart" class="a-button-input" type="submit"><span class="a-button-text a-text-left" aria-hidden="true">
+Add to Cart
+</span></span></span>
+</div>
+</form>
+<form id="addToWishlist" method="post" action="https://www.amazon.com/ap/signin?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.assoc_handle=usflex&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fd%2F193435659X&amp;">
+<div id="wishlistButtonStack" class="a-button-stack">
+<span class="a-button a-button-supplemental a-spacing-none"><span class="a-button-inner"><i class="a-icon a-icon-supplemental"></i><input id="add-to-wishlist-button-submit" name="submit.add-to-registry.wishlist" title="Add to Wish List" class="a-button-input" type="submit"><span class="a-button-text a-text-left" aria-hidden="true">
+Add to Wish List
+</span></span></span>
+</div>
+</form>
+<div class="a-box a-alert-inline a-alert-inline-error a-hidden a-spacing-top-small"><div class="a-box-inner a-alert-container">
+<i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+<div id="atwl-error-message" class="a-section a-spacing-none">
+We are sorry. Amazon has encountered an error. Please try again.
+</div>
+</div>
+</div></div>
+<script type="text/javascript">
+P.when('A').execute(function (A) {
+var $ = A.$;
+function setAtwlState(options) {
+A.state('atwl', $.extend(A.state('atwl') || {}, options));
+}
+var atwlState = A.state('atwl') || {};
+if(!atwlState || !atwlState.atwlPopoverWired) {
+setAtwlState({ atwlPopoverWired : true, });
+} else {
+return;
+}
+P.when('A', 'a-secondary-view', 'cf').register('atwl', function(A, aSecondaryView) {
+var onMash = false;
+A.on('atwl:mashPresent', function () {
+onMash = true;
+});
+function showSuccess() {
+var atwlState = A.state('atwl') || {};
+if (atwlState && atwlState.isResponseSuccess && atwlState.registryId && atwlState.registryType) {
+$('#atwl-error-message').closest('.a-alert-inline-error').addClass('a-hidden').hide();
+$('#atwl-changeover').show();
+$('#atwl-listtype').val(atwlState.registryType);
+$('#atwl-privacy').css({ 'padding-left': '5px' }).text(atwlState.registryPrivacy);
+var href = $('#wishlistButtonViewStack').attr('href');
+if (href.match(/lid=/) === null && href.match(/ty=/) === null) {
+href = href + '&lid='+atwlState.registryId+'&ty='+atwlState.registryType;
+$('#wishlistButtonViewStack').attr('href', href);
+}
+$('#wishlistButtonStack').addClass('a-hidden');
+$('#wishlistButtonViewStack').removeClass('a-hidden');
+}
+}
+function showError(response) {
+if (response && response.message && response.message.length > 0) {
+$('#atwl-error-message').text(response.message);
+}
+if (!onMash && aSecondaryView && aSecondaryView.get('atwl_secondary_view')) {
+aSecondaryView.get('atwl_secondary_view').hide();
+} else {
+A.trigger('atwl:mash:goback');
+}
+$('#atwl-error-message').closest('.a-alert-inline-error').removeClass('a-hidden').show();
+}
+A.on('a:popover:afterHide:atwl_secondary_view', function(event) {
+showSuccess();
+});
+A.on('a:popover:show:atwl_secondary_view', function(event) {
+var popover = event.popover;
+var $popover = popover.$popover;
+var content = $('#atwl-content');
+var params = serializeAsHash(content ? content.find('#atwl-form') : {});
+var sourceVendorId = params['sourceVendorId'] || 'other';
+var url = '/gp/registry/atwl/popover.html';
+A.ajax(url, {
+method: 'post',
+params: {
+'type': 'wishlist',
+'isMobile': 1,
+'ellipsize': 20,
+'displayHeader': 1,
+'modalView': 0,
+'sourceVendorId' : sourceVendorId
+},
+success: function(response) {
+if (response && response.html) {
+$('#atwl-error-message').closest('.a-alert-inline-error').addClass('a-hidden').hide();
+$popover.find('.a-popover-loading').hide();
+$popover.find('#atwl-css').html(response.css);
+$popover.find('#atwl-html').html(response.html).show();
+} else {
+showError(response);
+}
+},
+error: function(response) {
+showError(response);
+}
+});
+});
+function serializeAsHash(form) {
+var hash = {};
+var inputs = form.find(':input');
+A.each(inputs, function(input) {
+var $input = A.$(input);
+if (input.name) {
+hash[input.name] = $input.val();
+}
+});
+return hash;
+}
+var inFlight = false;
+function setInFlightToTrue() {
+inFlight = true;
+setTimeout(function () {
+inFlight = false;
+}, 10000);
+}
+A.declarative('atwl-option', 'click', function(event){
+var data = event.data;
+var content = event.$declarativeParent.closest('#atwl-content');
+if (data.type === null || data.id === null || inFlight) {
+return;
+}
+$('#atwl-html').hide();
+$('.a-popover-loading').show();
+var params = serializeAsHash(content.find('#atwl-form'));
+params['type'] = data.type;
+params['registryID'] = data.id;
+params['pcomp'] = 0;
+params['action'] = 'add';
+setInFlightToTrue();
+A.ajax("/gp/registry/atwl/add.html", {
+method: "post",
+params: params,
+timeout: 5000,
+success: function(response) {
+inFlight = false;
+if (response && response.isValid) {
+$('#atwl-error-message').closest('.a-alert-inline-error').addClass('a-hidden').hide();
+setAtwlState({
+isResponseSuccess : response.isValid,
+registryId : response.registryID,
+registryType : response.registryType,
+registryPrivacy : response.registryPrivacy,
+});
+if (!onMash) {
+aSecondaryView.get('atwl_secondary_view').hide();
+} else {
+A.trigger('atwl:mash:goback');
+}
+} else {
+showError(response);
+}
+},
+error: function(response) {
+inFlight = false;
+showError(response);
+}
+});
+});
+A.declarative('atwl-add-item', 'click', function(event){
+if (inFlight) {
+return;
+}
+var data = event.data;
+$('#atwl-html').hide();
+$('.a-popover-loading').show();
+var params = serializeAsHash($('#atwl-form'));
+params['pcomp'] = 0;
+params['action'] = 'add';
+params['registryID'] = 'new';
+params['type'] = 'wishlist';
+setInFlightToTrue();
+A.ajax("/gp/registry/atwl/add.html", {
+method: "post",
+params: params,
+timeout: 5000,
+success: function(response) {
+inFlight = false;
+if (response && response.isValid) {
+setAtwlState({
+isResponseSuccess : response.isValid,
+registryId : response.registryID,
+registryType : response.registryType,
+registryPrivacy : response.registryPrivacy,
+});
+showSuccess();
+} else {
+showError(response);
+}
+},
+error: function(response) {
+inFlight = false;
+showError(response);
+}
+});
+});
+});
+P.when('A', 'mash', 'atwl').execute(function (A, mash) {
+A.trigger('atwl:mashPresent');
+A.on('atwl:mash:goback', function () {
+mash.goBack();
+});
+});
+});
+</script>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+if(typeof encodedImgSrc != 'undefined' && encodedImgSrc != "" && document.getElementById("main-image")!=null){document.getElementById("main-image").src=encodedImgSrc;};setCSMReq('af');setCSMReq('af');
+addlongPoleTag('af','awudplphtml');
+</script>
+<script type="text/javascript">
+P.when('jQuery').register('image-block-exp-weblab', function($) {
+return {
+getTreatment : function() {
+return "T1";
+}
+};
+});
+P.when('jQuery').register('airy-image-block', function($) {
+var shouldDetachExitFullScreen = false;
+var currentIndex = 0;
+var newAiryConfig = null;
+var updateStateElement = $('#image-block');
+return {
+updateStateForAction : function($carousel, index, airyConfig) {
+if (!airyConfig) {return;}
+var airyInstance = airyConfig.instance;
+if (airyInstance) {
+airyInstance.pause();
+}
+var $selectedCarouselItem = $carousel
+.find('li.a-carousel-card')
+.eq(index - 1);
+var $playerContainer = $selectedCarouselItem.find('.airy-player-container');
+if (!$playerContainer.length) { return; }
+if (airyInstance) {
+this._attachAndLoadMedia(airyInstance, $playerContainer);
+return;
+}
+P.when('Airy').execute(function() {
+airyInstance = this._embed($playerContainer, airyConfig.contextName);
+airyConfig.embeddedCallback(airyInstance);
+}.bind(this));
+},
+_embed : function($playerContainer, contextName) {
+var $videoMetadata = $('#image-block-video-metadata');
+var foresterParams = $videoMetadata.data('forester-params');
+if (contextName != null) {
+foresterParams.method += '.' + contextName;
+}
+var airyInstance;
+var that = this;
+var playerConfig = {
+foresterMetadataParams : foresterParams,
+mediaSourceInfo : $playerContainer.data('video-url'),
+parentElement : $playerContainer[0],
+bindings : {
+screenchange : function() {
+$slateImage = $('div.airy-player-container .image-size-wrapper, div.airy-player-container #airy-slate-preload');
+$slateImage.css('visibility', 'visible');
+$replayHint = $('div.airy-player-container .airy-replay-hint');
+$replayHint.css('visibility', 'hidden');
+var airyConfig = that.getNewAiryConfig();
+if(airyConfig) {
+airyInstance = airyConfig.instance;
+if(airyInstance && !airyInstance.isFullScreen() && that.shouldDetachOnExitFullScreen()) {
+that.setShouldDetachOnExitFullScreen(false);
+that._detachAiryInstance(airyInstance);
+that.updateStateForAction(that.getUpdateStateElement(), that.getCurrentIndex(), that.getNewAiryConfig());
+}
+}
+},
+play : function() {
+// video metric to be logged here
+// should we log 2 separate metrics here? one to count whether a video has been played or not. Another to count how many times a video has been played?
+var videoPlayedMetric = "dpmob_videoPlayed";
+P.when('postMetric').execute(function(postMetricClass) {
+postMetricClass.postCountMetric(videoPlayedMetric);
+});
+airyInstance.enterFullScreen({isAsync : true});
+}
+},
+installFlashButtonText : "Install Flash Player",
+installFlashPrompt : "Adobe Flash Player is required to watch this video.",
+playbackErrorPrompt : "Sorry, an error has occurred while attempting video playback. Please try again later.",
+videoUnsupportedPrompt : "Sorry, this video is unsupported on this browser.",
+ageGate : {
+deniedPrompt : "We're sorry. You are not old enough to watch this video.",
+monthNames : [
+"January",
+"February",
+"March",
+"April",
+"May",
+"June",
+"July",
+"August",
+"September",
+"October",
+"November",
+"December"
+],
+prompt : "This video is not intended for all audiences. What date were you born?",
+submitText : "Submit",
+regionCode : "na"
+}
+};
+this._addSlateImageToPlayerConfig($playerContainer, playerConfig);
+airyInstance = Airy.embed(playerConfig);
+return airyInstance;
+},
+_attachAndLoadMedia : function(airyInstance, $playerContainer) {
+if (!airyInstance) { return; }
+airyInstance.attach($playerContainer[0]);
+this._loadMedia(airyInstance, $playerContainer);
+},
+_loadMedia : function(airyInstance, $playerContainer) {
+if (!airyInstance) { return; }
+var videoUrl = $playerContainer.data('video-url');
+if (airyInstance.getMediaSourceInfo() === videoUrl) { return; }
+var loadMediaConfig = {
+mediaSourceInfo : videoUrl
+};
+this._addSlateImageToPlayerConfig($playerContainer, loadMediaConfig);
+airyInstance.loadMedia(loadMediaConfig);
+},
+_addSlateImageToPlayerConfig : function($playerContainer, playerConfig) {
+var slateUrl = $playerContainer.data('slate-url');
+var $slateImage = $playerContainer.find('.image-size-wrapper');
+var slateImageValue = $slateImage.find('img').attr('src') === slateUrl ? $slateImage[0] : slateUrl;
+playerConfig.slateImages = {
+preloadSlate : slateImageValue
+};
+},
+_detachAiryInstance : function(airyInstance) {
+if (airyInstance && !airyInstance.isDetached() && !airyInstance.isFullScreen()) {
+airyInstance.detach({isAsync : true});
+}
+},
+setShouldDetachOnExitFullScreen : function(shouldDetach) {
+shouldDetachExitFullScreen = shouldDetach;
+},
+shouldDetachOnExitFullScreen : function() {
+return shouldDetachExitFullScreen;
+},
+_resizeIVCarousel : function() {
+if($('#immersive-main img').length > 0){
+var mainCarouselHeight = getMainCarouselHeight();
+$('#immersive-main').css('height',mainCarouselHeight+'px');
+$('#immersive-main ol').css('height',mainCarouselHeight+'px');
+$('#immersive-main div.a-carousel-viewport').each(function(){
+$(this).css('height',mainCarouselHeight+'px');
+});
+$('#immersive-main li.a-carousel-card').each(function(){
+$(this).css('height',mainCarouselHeight+'px');
+});
+$('#immersive-main img').each(function(){
+$(this).css('max-height',mainCarouselHeight+'px');
+});
+$('#immersive-main .slate-image-table img').each(function() {
+$(this).css('max-height',(mainCarouselHeight - 65) + 'px');
+});
+}
+},
+getCurrentIndex : function() {
+return currentIndex;
+},
+setCurrentIndex : function(index) {
+currentIndex = index;
+},
+getNewAiryConfig : function() {
+return newAiryConfig;
+},
+setNewAiryConfig : function(airyConfig) {
+newAiryConfig = airyConfig
+},
+getUpdateStateElement : function() {
+return updateStateElement;
+},
+setUpdateStateElement : function(element) {
+updateStateElement = element;
+}
+};
+var imageBlock = $(".a-image-wrapper");
+var imageBlockCounter = imageBlock.attr("data-imageBlockCounter");
+var immersiveViewCounter = imageBlock.attr("data-immersiveViewCounter");
+var declarativeActionName = imageBlock.attr("data-declarativeActionName");
+function logForesterCounter(counter) {
+ue.count(counter, 1);
+}
+logForesterCounter(imageBlockCounter);
+function logImmersiveViewClickPerPage() {
+logForesterCounter(immersiveViewCounter);
+}
+function logAllImmersiveViewClick() {
+logForesterCounter(immersiveViewCounter + "All");
+}
+var popoverShowEvent = "a:popover:afterShow:" + declarativeActionName;
+var popoverHideEvent = "a:popover:hide:" + declarativeActionName;
+A.on(popoverShowEvent, logImmersiveViewClickPerPage);
+A.on(popoverShowEvent, logAllImmersiveViewClick);
+A.on(popoverHideEvent, function(){
+A.off(popoverShowEvent, logImmersiveViewClickPerPage);
+});
+});
+</script>
+</div>
+<!-- MarkAF -->
+
+<div id="WrapperDivToHideBTF" style="display:none;">
+    <div id="dp-lazy-fast-track_feature_div" data-feature-name="dpFastTrack" data-template-name="dpFastTrack" class="a-section a-spacing-none">
+<div id="lazy-fast-track" style="display: none">
+<div id="fast-track" class="a-section a-spacing-small a-spacing-top-small">
+<span class="a-text-bold">
+Want it tomorrow, June 16?
+</span>
+Order within <b><span id="ftCountdown" class="a-color-success a-color-available ftCountdownClass"></span></b> and choose <b>One-Day Shipping</b> at checkout.
+<script type="text/javascript">
+FT_showAndInCountdown = false;
+FT_HourString = "hr";
+FT_HoursString = "hrs";
+FT_MinuteString = "min";
+FT_MinutesString = "mins";
+FT_AndString = "and";
+function getElementsByClassNameCustom(className) {
+var selectedElements = [];
+if (document.getElementsByClassName) {
+selectedElements = document.getElementsByClassName(className);
+} else if (document.querySelectorAll) {
+selectedElements = document.querySelectorAll("." + className);
+}
+return selectedElements;
+}
+var FT_CurrentDisplayMin;
+var clientServerTimeDrift;
+var firstTimeUpdate = true;
+var countdownElements = getElementsByClassNameCustom("ftCountdownClass");
+if (countdownElements.length < 1) {
+countdownElements.push(document.getElementById("ftCountdown"));
+}
+function getTimeRemainingString( hours, minutes )
+{
+var hourString = ( hours == 1 ? FT_HourString : FT_HoursString );
+var minuteString = ( minutes == 1 ? FT_MinuteString : FT_MinutesString );
+if (hours == 0) {
+return minutes + " " + minuteString;
+}
+if (minutes == 0) {
+return hours + " " + hourString;
+}
+if (FT_showAndInCountdown) {
+return hours + " " + hourString + " " + FT_AndString + " " + minutes + " " + minuteString;
+} else {
+return hours + " " + hourString + " " + minutes + " " + minuteString;
+}
+}
+function FT_displayCountdown(forceUpdate)
+{
+var FT_remainSeconds = FT_givenSeconds - FT_actualSeconds;
+if (FT_remainSeconds < 1 && document.getElementById("fast-track")) {
+document.getElementById("fast-track").style.display = "none";
+}
+var FT_secondsPerDay = 24 * 60 * 60;
+var FT_daysLong = FT_remainSeconds / FT_secondsPerDay;
+var FT_days = Math.floor(FT_daysLong);
+var FT_hoursLong = (FT_daysLong - FT_days) * 24;
+var FT_hours = Math.floor(FT_hoursLong);
+var FT_minsLong = (FT_hoursLong - FT_hours) * 60;
+var FT_mins = Math.floor(FT_minsLong);
+var FT_secsLong = (FT_minsLong - FT_mins) * 60;
+var FT_secs = Math.floor(FT_secsLong);
+if (FT_days > 0) {
+FT_hours = (FT_days * 24) + FT_hours;
+}
+setTimeout(FT_getTime, 1000);
+var ftCountdown = getTimeRemainingString( FT_hours, FT_mins );
+if (countdownElements.length) {
+if (FT_CurrentDisplayMin != FT_mins || forceUpdate || firstTimeUpdate) {
+var i = 0, countdownElement;
+while (countdownElement = countdownElements[i++]) {
+countdownElement.innerHTML = ftCountdown;
+}
+FT_CurrentDisplayMin = FT_mins;
+firstTimeUpdate = false;
+}
+}
+}
+function FT_getCountdown(secondsLeft)
+{
+var FT_currentTime = new Date();
+var FT_currentHours = FT_currentTime.getHours();
+var FT_currentMins = FT_currentTime.getMinutes();
+var FT_currentSecs = FT_currentTime.getSeconds();
+FT_givenSeconds = FT_currentHours * 3600 + FT_currentMins * 60 + FT_currentSecs;
+FT_givenSeconds += secondsLeft;
+FT_getTime();
+}
+function FT_getTime()
+{
+var FT_newCurrentTime = new Date();
+var FT_actualHours = FT_newCurrentTime.getHours();
+var FT_actualMins = FT_newCurrentTime.getMinutes();
+var FT_actualSecs = FT_newCurrentTime.getSeconds();
+FT_actualSeconds = FT_actualHours * 3600 + FT_actualMins * 60 + FT_actualSecs;
+FT_displayCountdown();
+}
+</script>
+<script type="text/javascript">
+FT_getCountdown(22280);
+</script>
+</div>
+</div>
+<script type="text/javascript">
+P.when('jQuery', 'atf').execute(function($){
+$('#dpFastTrack_feature_div').html($('#lazy-fast-track').html());
+$('#lazy-fast-track').remove();
+});
+</script>
+</div>
+<div id="lazy-holidayAvailabilityMessage_feature_div" data-feature-name="holidayAvailabilityMessage" data-template-name="holidayAvailabilityMessage" class="a-section a-spacing-none">
+<div id="lazy-holidayAvailabilityMessage" style="display: none">
+</div>
+<script type="text/javascript">
+P.when('jQuery', 'atf').execute(function($){
+$('#holidayAvailabilityMessage_feature_div').html($('#lazy-holidayAvailabilityMessage').html());
+$('#lazy-holidayAvailabilityMessage').remove();
+});
+</script>
+</div>
+<div style="display:flex">
+<div class="twister-spinner-preload" style="width:0px; height:0px"></div>
+</div>
+<style type="text/css">
+.twister-spinner-preload-app {
+background: url("https://images-na.ssl-images-amazon.com/images/G/01/amazonui/loading/loading-4x._V1_.gif");
+}
+.twister-spinner-preload {
+background: url("http://g-ecx.images-amazon.com/images/G/01/amazonui/loading/loading-4x._V1_.gif");
+}
+</style>
+<div id="tradeInButton_feature_div" data-feature-name="tradeInButton" data-template-name="tradeInButton" class="a-section a-spacing-none">
+<div id="tradeInButton" class="a-row a-spacing-large">
+<a href="https://www.amazon.com/gp/aw/tradein/add-to-cart.html/ref=tradein_btn_dpx_mobile_1?ie=UTF8&amp;asin=193435659X" class="a-touch-link a-box"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<b>Trade In</b> for <span class="a-color-price">$5.53</span>
+</div></a>
+</div>
+</div>
+<div id="olp_feature_div" data-feature-name="olp" data-template-name="olp" class="a-section a-spacing-none">
+<style type="text/css">
+#olp a {
+color: #111;
+}
+</style>
+<div id="olp" class="a-row a-spacing-large">
+<a href="/gp/aw/ol/193435659X/ref=mw_dp_olp?ie=UTF8&amp;condition=all" class="a-touch-link a-box"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<span class="a-text-bold">New &amp; used <span class="a-color-secondry a-size-normal a-text-normal">(83)</span></span> from <span class="a-color-price">$13.95</span>
+</div></a>
+</div>
+</div>
+<div id="tellAFriendBox_feature_div" data-feature-name="tellAFriendBox" data-template-name="tellAFriendBox" class="a-section a-spacing-none">
+<div class="a-row">
+<div class="a-box a-spacing-none" style="height:52px;"><div class="a-box-inner a-padding-none">
+<div id="email" class="a-column a-span2 a-text-center a-spacing-large swf-share-box">
+<a id="tell-a-friend" href="/gp/aw/social/swf/193435659X/o=WriteEmail/ref=cm_sw_em_ov_awdo_ubVFvb1G4E6S5?ie=UTF8&amp;asin=193435659X&amp;isOneClick=1&amp;placementID=awdo_ubVFvb1G4E6S5" target="_self" class="a-touch-link a-box swf-sn-icon-link"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<img alt="Email" src="http://g-ecx.images-amazon.com/images/G/01/social/universal-share/mobile/btn_icon_email_sm._CB380803665_.png">
+</div></a>
+</div>
+<div id="facebook" class="a-column a-span2 a-text-center a-spacing-large swf-share-box">
+<a id="tell-a-friend" href="/gp/redirect.html/ref=cm_sw_cl_fa_awdo_ubVFvb1G4E6S5?_encoding=UTF8&amp;location=http%3A%2F%2Fwww.facebook.com%2Fshare.php%3Fu%3Dhttp%253A%252F%252Fwww.amazon.com%252Fdp%252F193435659X%252Fref%253Dcm_sw_r_fa_awdo_ubVFvb1G4E6S5&amp;token=6BD0FB927CC51E76FF446584B1040F70EA7E88E1" target="_blank" class="a-touch-link a-box swf-sn-icon-link"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<img alt="Facebook" src="http://g-ecx.images-amazon.com/images/G/01/social/universal-share/mobile/btn_icon_fb_sm._CB380803664_.png" height="25px" width="25px">
+</div></a>
+</div>
+<div id="twitter" class="a-column a-span2 a-text-center a-spacing-large swf-share-box">
+<a id="tell-a-friend" href="/gp/redirect.html/ref=cm_sw_cl_tw_awdo_ubVFvb1G4E6S5?_encoding=UTF8&amp;location=http%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Foriginal_referer%3Dhttp%25253A%25252F%25252Fwww.amazon.com%25252Fgp%25252Faw%25252Fd%25252F193435659X%25252Fref%25253Dcm_sw_r_tw_awdo_ubVFvb1G4E6S5%26text%3DSeven%2520Languages%2520in%2520Seven%2520Weeks%253A%2520A%2520Pragmatic%2520Guide%2520to%2520Learning%2520Programming%2520Lan...%26related%3Damazondeals%252Camazonmp3%26url%3Dhttp%253A%252F%252Fwww.amazon.com%252Fdp%252F193435659X%252Fref%253Dcm_sw_r_tw_awdo_ubVFvb1G4E6S5%26via%3Damazon&amp;token=7A1A4AE8F6CE0BD277D8295E58702D283F329C0F" target="_blank" class="a-touch-link a-box swf-sn-icon-link"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<img alt="Twitter" src="http://g-ecx.images-amazon.com/images/G/01/social/universal-share/mobile/btn_icon_tw_sm._CB380803667_.png" height="25px" width="25px">
+</div></a>
+</div>
+<div class="a-column a-span6 a-text-left swf-wide">
+<a href="/gp/aw/social/swf/193435659X/o=ShareProduct/ref=tsm_1_aw_swf_d_sp?vs=1" class="a-touch-link a-box swf-sn-share-link"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<span>
+Share
+</span>
+</div></a>
+</div>
+</div></div>
+</div>
+<style type="text/css">
+a#tell-a-friend {
+color: #111;
+}
+.swf-sn-icon-link {
+border-bottom-right-radius: 0px;
+border-top-right-radius: 0px;
+border-top-style: none;
+border-left-style: none;
+border-bottom-style: none;
+border-right: 1px solid #DDDDDD !important;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+margin-right: 0px !important;
+height: 50px !important;
+}
+.swf-sn-icon-last {
+border-right-style: none !important;
+border-bottom-right-radius:0.4em;
+}
+.swf-sn-icon-link .a-icon-touch-link {
+background: none;
+display:none;
+}
+.swf-sn-icon-link .a-box-inner {
+height: 100%;
+padding: 13px 11px 12px !important;
+text-align: center;
+}
+.swf-sn-share-link {
+border: none !important;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+height: 100% !important;
+font-size: 16px;
+overflow: hidden;
+}
+.swf-share-box {
+margin-right: 0px !important;
+width: 17% !important;
+}
+.swf-share-box img{
+vertical-align: middle;
+}
+.swf-wide {
+margin-right: 0px !important;
+width: 49% !important;
+}
+.swf-wide-4icon {
+margin-right: 0px !important;
+width: 32% !important;
+}
+.swf-sn-icon-link > .a-box-inner{
+padding: 1.3rem 1.8rem 1.2rem 1.7rem;
+}
+.swf-share-to-win-heading {
+border-bottom-style: none;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+.swf-share-to-win-heading-box {
+border-bottom-style: none;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+.swf-share-to-win-content-box {
+border-top-style: none;
+padding-top:0px;
+}
+.swf-share-to-win-icons-box {
+border-top-right-radius: 0px;
+border-top-left-radius: 0px;
+}
+.swf-share-to-win-title {
+color:#e47911;
+}
+.swf-share-to-win-terms {
+color:#333333;
+}
+.swf-share-to-win-require-login {
+padding-top:5px;
+}
+.swf-share-to-win-box {
+margin-right: 0px !important;
+width: 25% !important;
+}
+.swf-share-to-win-box img{
+vertical-align: middle;
+}
+</style>
+<script>
+/*global amazon : false */
+P.when('A','ready').execute(function(A){
+var $ = A.$;
+function collectMetrics(result, id, placementId) {
+A.ajax('/gp/aw/social/swf/metrics.html/ref=cm_sw_cl_sms_' + placementId, {
+method: 'post',
+params: {
+id: id,
+result: result
+}
+});
+}
+$('#sms').click( function(){
+collectMetrics('success', 'SMSClick' , 'awdo');
+});
+});
+</script>
+</div>
+<div id="promotions_feature_div" data-feature-name="promotions" data-template-name="promotions" class="a-section a-spacing-none">
+</div>
+<div id="recommendations_feature_div" data-feature-name="recommendations" data-template-name="recommendations" class="a-section a-spacing-none">
+</div>
+<div id="sellYoursHere_feature_div" data-feature-name="sellYoursHere" data-template-name="sellYoursHere" class="a-section a-spacing-none">
+<div class="a-row">
+<div class="a-column a-span12 a-spacing-large">
+<a id="sellYoursHere" href="/gp/aw/sellOnAmazonDispatcher.html/ref=udp_sdp_dispatcher?ie=UTF8&amp;ASIN=193435659X" class="a-touch-link a-box a-text-bold"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>Sell on Amazon</div></a>
+</div>
+</div>
+</div>
+<div class="aw-campaigns"></div>
+<div class="aw-campaigns"></div>
+<div class="aw-campaigns"></div>
+<div class="aw-campaigns"></div>
+<div class="aw-campaigns"></div>
+<div id="addOnItem_feature_div" data-feature-name="addOnItem" data-template-name="addOnItem" class="a-section a-spacing-none">
+</div>
+<div id="udpv3-fbt-primary">
+<div class="a-section a-spacing-large sims-fbt-container">
+<h2 class="a-spacing-mini">
+Frequently bought together
+</h2>
+<ul class="a-nostyle a-vertical sims-fbt">
+<li class="sims-fbt-images-row"><span class="a-list-item"><ul class="sims-fbt-images-list">
+<li class="sims-fbt-image sims-fbt-image-1"><img alt="Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages (Pragmatic Programmers)" src="http://ecx.images-amazon.com/images/I/51opYcR6kVL._AC_UL70_SR70,70_.jpg" class="a-dynamic-image a-dynamic-image-container" height="70" width="70" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51opYcR6kVL._AC_UL140_SR140,140_.jpg":[140,140],"http://ecx.images-amazon.com/images/I/51opYcR6kVL._AC_UL210_SR210,210_.jpg":[210,210],"http://ecx.images-amazon.com/images/I/51opYcR6kVL._AC_UL70_SR70,70_.jpg":[70,70]}'></li>
+<li class="sims-fbt-image sims-fbt-image-2"><a href="/gp/aw/d/1934356921/ref=pd_aw_fbt_14img_2/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ" class="sims-fbt-image-link"><img alt="Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement" src="http://ecx.images-amazon.com/images/I/41rYtcbzOUL._AC_UL70_SR70,70_.jpg" class="a-dynamic-image a-dynamic-image-container" height="70" width="70" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/41rYtcbzOUL._AC_UL140_SR140,140_.jpg":[140,140],"http://ecx.images-amazon.com/images/I/41rYtcbzOUL._AC_UL210_SR210,210_.jpg":[210,210],"http://ecx.images-amazon.com/images/I/41rYtcbzOUL._AC_UL70_SR70,70_.jpg":[70,70]}'></a></li>
+<li class="sims-fbt-image sims-fbt-image-3"><a href="/gp/aw/d/1937785653/ref=pd_aw_fbt_14img_3/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ" class="sims-fbt-image-link"><img alt="Seven Concurrency Models in Seven Weeks: When Threads Unravel (The Pragmatic Programmers)" src="http://ecx.images-amazon.com/images/I/41U8py1NCcL._AC_UL70_SR70,70_.jpg" class="a-dynamic-image a-dynamic-image-container" height="70" width="70" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/41U8py1NCcL._AC_UL210_SR210,210_.jpg":[210,210],"http://ecx.images-amazon.com/images/I/41U8py1NCcL._AC_UL70_SR70,70_.jpg":[70,70],"http://ecx.images-amazon.com/images/I/41U8py1NCcL._AC_UL140_SR140,140_.jpg":[140,140]}'></a></li>
+</ul> <span class="a-color-secondary sims-fbt-choose-items-to-buy a-hidden">Choose items to buy together.</span> </span></li>
+<div id="fbt-expander-content" class="a-hidden">
+<form class="sims-fbt-row-form" autocomplete="off"> <li><span class="a-list-item">
+<div class="sims-fbt-row sims-fbt-row-border">
+<div class="sims-fbt-checkbox-div"><span class="a-declarative" data-action="fbt-checkbox-click" data-fbt-checkbox-click='{"itemNum":"1","offerListingID":"Bt%2B4SH%2Fdq5LCV3jmgE%2Fk22brD6Y%2Fo0%2FuP%2ByCoUPY%2BZIRlNUY8%2FSoRk3h2esomO0tQsgcD6AuZGgLn9GIaHNEfjy5xVVXkibKajvUKwXMwqulBvIw3uKNsg%3D%3D","asin":"193435659X"}'><div data-a-input-name="checkboxID.1" class="a-checkbox a-checkbox-new a-checkbox-fancy a-control-row a-touch-checkbox sims-fbt-checkbox a-spacing-micro"><label><input type="checkbox" name="checkboxID.1" value="Bt%2B4SH%2Fdq5LCV3jmgE%2Fk22brD6Y%2Fo0%2FuP%2ByCoUPY%2BZIRlNUY8%2FSoRk3h2esomO0tQsgcD6AuZGgLn9GIaHNEfjy5xVVXkibKajvUKwXMwqulBvIw3uKNsg%3D%3D" checked><i class="a-icon a-icon-checkbox"></i><span class="a-label a-checkbox-label"></span></label></div></span></div>
+<div class="sims-fbt-textbox-div sims-fbt-row-outer">
+<div class="sims-fbt-item-details">
+<div class="a-row sims-fbt-title">
+<div class="p13n-sc-truncate p13n-sc-line-clamp-2" data-rows="2">
+<span class="sims-fbt-this-item a-text-bold">This item:</span>Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages (Pragmatic Programmers)
+</div>
+</div> <span class="a-color-price">$25.34</span> <i class="a-icon a-icon-prime sims-fbt-prime-badge" role="img" aria-label="Prime"></i>
+</div>
+</div>
+</div>
+</span></li>
+<li><span class="a-list-item">
+<div class="sims-fbt-row sims-fbt-row-border">
+<div class="sims-fbt-checkbox-div"><span class="a-declarative" data-action="fbt-checkbox-click" data-fbt-checkbox-click='{"itemNum":"2","offerListingID":"HuySP8K%2F8kfigOEJJdOLkx4sROuSPablqYbB3WLqbukT220ntLuB8XAN%2BF7df6AYHQzvwyHuGdk1qBBs%2FgnEwAiY%2BNt66mptRuqYySc3mhs1CB5vj33xBg%3D%3D","asin":"1934356921"}'><div data-a-input-name="checkboxID.2" class="a-checkbox a-checkbox-new a-checkbox-fancy a-control-row a-touch-checkbox sims-fbt-checkbox a-spacing-micro"><label><input type="checkbox" name="checkboxID.2" value="HuySP8K%2F8kfigOEJJdOLkx4sROuSPablqYbB3WLqbukT220ntLuB8XAN%2BF7df6AYHQzvwyHuGdk1qBBs%2FgnEwAiY%2BNt66mptRuqYySc3mhs1CB5vj33xBg%3D%3D" checked><i class="a-icon a-icon-checkbox"></i><span class="a-label a-checkbox-label"></span></label></div></span></div>
+<div class="sims-fbt-row-outer">
+<a href="/gp/aw/d/1934356921/ref=pd_aw_fbt_14_2/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ" class="sims-fbt-item-details sims-fbt-link-box a-touch-link">
+<i class="a-icon a-icon-touch-link"></i>
+<div class="a-row sims-fbt-title">
+<div class="p13n-sc-truncate p13n-sc-line-clamp-2" data-rows="2">
+Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement
+</div>
+</div> <span class="a-color-price">$32.27</span> <i class="a-icon a-icon-prime sims-fbt-prime-badge" role="img" aria-label="Prime"></i>
+</a>
+</div>
+</div>
+</span></li>
+<li><span class="a-list-item">
+<div class="sims-fbt-row sims-fbt-row-border">
+<div class="sims-fbt-checkbox-div"><span class="a-declarative" data-action="fbt-checkbox-click" data-fbt-checkbox-click='{"itemNum":"3","offerListingID":"y8VWMkmKMfI1ibmeDb012a3FiyUwWyBYz%2Fj8fwpNbj7m7YJj5wvspkFpfjbWxCYAF%2BFZ5HPmKwKAKci1Nstd32K6ATgtFfLBZ%2Bl1CdnT9aYienpcIsm30g%3D%3D","asin":"1937785653"}'><div data-a-input-name="checkboxID.3" class="a-checkbox a-checkbox-new a-checkbox-fancy a-control-row a-touch-checkbox sims-fbt-checkbox a-spacing-micro"><label><input type="checkbox" name="checkboxID.3" value="y8VWMkmKMfI1ibmeDb012a3FiyUwWyBYz%2Fj8fwpNbj7m7YJj5wvspkFpfjbWxCYAF%2BFZ5HPmKwKAKci1Nstd32K6ATgtFfLBZ%2Bl1CdnT9aYienpcIsm30g%3D%3D" checked><i class="a-icon a-icon-checkbox"></i><span class="a-label a-checkbox-label"></span></label></div></span></div>
+<div class="sims-fbt-row-outer">
+<a href="/gp/aw/d/1937785653/ref=pd_aw_fbt_14_3/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ" class="sims-fbt-item-details sims-fbt-link-box a-touch-link">
+<i class="a-icon a-icon-touch-link"></i>
+<div class="a-row sims-fbt-title">
+<div class="p13n-sc-truncate p13n-sc-line-clamp-2" data-rows="2">
+Seven Concurrency Models in Seven Weeks: When Threads Unravel (The Pragmatic Programmers)
+</div>
+</div> <span class="a-color-price">$36.10</span> <i class="a-icon a-icon-prime sims-fbt-prime-badge" role="img" aria-label="Prime"></i>
+</a>
+</div>
+</div>
+</span></li> </form>
+<li class="sims-fbt-row-border"><span class="a-list-item">
+<div class="sims-fbt-price-addToCart">
+<span class="sims-fbt-data" data-fbt="{&quot;addToCartText&quot;:{&quot;1&quot;:&quot;Add to Cart&quot;,&quot;3&quot;:&quot;Add all three to Cart&quot;,&quot;2&quot;:&quot;Add both to Cart&quot;},&quot;allOfferListingIDs&quot;:[&quot;Bt%2B4SH%2Fdq5LCV3jmgE%2Fk22brD6Y%2Fo0%2FuP%2ByCoUPY%2BZIRlNUY8%2FSoRk3h2esomO0tQsgcD6AuZGgLn9GIaHNEfjy5xVVXkibKajvUKwXMwqulBvIw3uKNsg%3D%3D&quot;,&quot;HuySP8K%2F8kfigOEJJdOLkx4sROuSPablqYbB3WLqbukT220ntLuB8XAN%2BF7df6AYHQzvwyHuGdk1qBBs%2FgnEwAiY%2BNt66mptRuqYySc3mhs1CB5vj33xBg%3D%3D&quot;,&quot;y8VWMkmKMfI1ibmeDb012a3FiyUwWyBYz%2Fj8fwpNbj7m7YJj5wvspkFpfjbWxCYAF%2BFZ5HPmKwKAKci1Nstd32K6ATgtFfLBZ%2Bl1CdnT9aYienpcIsm30g%3D%3D&quot;],&quot;currencySymbol&quot;:&quot;$&quot;,&quot;currencyCode&quot;:&quot;USD&quot;,&quot;shippingDetails&quot;:{&quot;123&quot;:&quot;same&quot;,&quot;23&quot;:&quot;same&quot;,&quot;13&quot;:&quot;same&quot;,&quot;12&quot;:&quot;same&quot;},&quot;MAPText&quot;:&quot;To see our price, add these items to your cart. &lt;a href='/gp/aw/help/ref=pd_aw_fbt_14_map/184-9743298-0728138?id=map&amp;refRID=1VGN4TEE63ST5RTPH4EJ' class='sims-fbt-map-details-link'&gt;Details&lt;/a&gt;&quot;,&quot;isAmazonApp&quot;:0,&quot;itemDetails&quot;:{&quot;HuySP8K%2F8kfigOEJJdOLkx4sROuSPablqYbB3WLqbukT220ntLuB8XAN%2BF7df6AYHQzvwyHuGdk1qBBs%2FgnEwAiY%2BNt66mptRuqYySc3mhs1CB5vj33xBg%3D%3D&quot;:{&quot;asin&quot;:&quot;1934356921&quot;,&quot;isPreorder&quot;:0,&quot;price&quot;:32.27,&quot;doesMAPPolicyApply&quot;:0},&quot;y8VWMkmKMfI1ibmeDb012a3FiyUwWyBYz%2Fj8fwpNbj7m7YJj5wvspkFpfjbWxCYAF%2BFZ5HPmKwKAKci1Nstd32K6ATgtFfLBZ%2Bl1CdnT9aYienpcIsm30g%3D%3D&quot;:{&quot;asin&quot;:&quot;1937785653&quot;,&quot;isPreorder&quot;:0,&quot;price&quot;:36.1,&quot;doesMAPPolicyApply&quot;:0},&quot;Bt%2B4SH%2Fdq5LCV3jmgE%2Fk22brD6Y%2Fo0%2FuP%2ByCoUPY%2BZIRlNUY8%2FSoRk3h2esomO0tQsgcD6AuZGgLn9GIaHNEfjy5xVVXkibKajvUKwXMwqulBvIw3uKNsg%3D%3D&quot;:{&quot;asin&quot;:&quot;193435659X&quot;,&quot;isPreorder&quot;:0,&quot;price&quot;:25.34,&quot;doesMAPPolicyApply&quot;:0}},&quot;preOrderText&quot;:null}"></span>
+<div class="sims-fbt-total-price">
+<span class="fbt-total-price-text a-color-secondary">Total price:</span><span class="a-color-price fbt-total-price-value fbt-total-price-value-currency">$93.71</span>
+</div>
+<div class="sims-fbt-add-to-cart">
+<form name="frequentlyBoughtTogetherAddToCart" method="post" action="/gp/aw/c/ref=pd_aw_fbt_14_crt" class="sims-fbt-cart">
+<div class="sims-fbt-form-input-elements">
+<input type="hidden" name="o" value="add"><input type="hidden" name="verificationSessionID" value="184-9743298-0728138"><input type="hidden" name="asin.1" value="193435659X"><input type="hidden" name="offeringID.1" value="Bt%2B4SH%2Fdq5LCV3jmgE%2Fk22brD6Y%2Fo0%2FuP%2ByCoUPY%2BZIRlNUY8%2FSoRk3h2esomO0tQsgcD6AuZGgLn9GIaHNEfjy5xVVXkibKajvUKwXMwqulBvIw3uKNsg%3D%3D"><input type="hidden" name="asin.2" value="1934356921"><input type="hidden" name="offeringID.2" value="HuySP8K%2F8kfigOEJJdOLkx4sROuSPablqYbB3WLqbukT220ntLuB8XAN%2BF7df6AYHQzvwyHuGdk1qBBs%2FgnEwAiY%2BNt66mptRuqYySc3mhs1CB5vj33xBg%3D%3D"><input type="hidden" name="discoveredAsins.1" value="1934356921"><input type="hidden" name="asin.3" value="1937785653"><input type="hidden" name="offeringID.3" value="y8VWMkmKMfI1ibmeDb012a3FiyUwWyBYz%2Fj8fwpNbj7m7YJj5wvspkFpfjbWxCYAF%2BFZ5HPmKwKAKci1Nstd32K6ATgtFfLBZ%2Bl1CdnT9aYienpcIsm30g%3D%3D"><input type="hidden" name="discoveredAsins.2" value="1937785653">
+</div>
+<div class="a-row a-spacing-none">
+<span class="a-button a-button-primary a-button-small sims-fbt-add-to-cart"><span class="a-button-inner"><input class="a-button-input" type="submit"><span class="a-button-text a-text-center" aria-hidden="true">Add all three to Cart</span></span></span>
+</div>
+</form>
+</div>
+</div>
+</span></li>
+</div>
+<span class="a-declarative" data-action="fbt-expander-action" data-fbt-expander-action='{"expanderID":"fbt-expander"}'><a id="fbt-expander-heading" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-section-header a-color-base-background a-link-section-expander a-size-medium" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&lt;span class='fbt-expander-heading-text'&gt; Buy all three: &lt;span class=&quot;a-color-price fbt-total-price-value-currency&quot;&gt;$93.71&lt;/span&gt;&lt;/span&gt;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-section-expand"></i><span class="a-expander-prompt"><span class="fbt-expander-heading-text"> Buy all three: <span class="a-color-price fbt-total-price-value-currency">$93.71</span></span></span></a></span>
+</ul>
+</div>
+</div>
+<div id="aboutThisItem_feature_div" data-feature-name="aboutThisItem" data-template-name="aboutThisItem" class="a-section a-spacing-none">
+<div class="a-row a-spacing-large">
+<div class="a-column a-span12">
+<h2 class="a-box-title">About this item</h2>
+<div id="aboutThisItem_boxGroup" class="a-box-group">
+<div class="a-box feature a-hidden"><div class="a-box-inner"><div id="legalWarnings_feature_div" data-feature-name="legalWarnings" data-template-name="legalWarnings" class="a-section a-spacing-none"></div></div></div>
+<div class="a-box feature a-hidden"><div class="a-box-inner"><div id="ageWarning_feature_div" data-feature-name="ageWarning" data-template-name="ageWarning" class="a-section a-spacing-none"></div></div></div>
+<div class="a-box feature a-hidden"><div class="a-box-inner"><div id="productAlert_feature_div" data-feature-name="productAlert" data-template-name="productAlert" class="a-section a-spacing-none"></div></div></div>
+<div class="a-box feature a-hidden"><div class="a-box-inner"><div id="esrbRating_feature_div" data-feature-name="esrbRating" data-template-name="esrbRating" class="a-section a-spacing-none"></div></div></div>
+<div class="a-box feature a-hidden"><div class="a-box-inner"><div id="toySafety_feature_div" data-feature-name="toySafety" data-template-name="toySafety" class="a-section a-spacing-none"></div></div></div>
+<div class="a-box feature"><div class="a-box-inner"><div id="productDescription_feature_div" data-feature-name="productDescription" data-template-name="productDescription" class="a-section a-spacing-none"><div class="a-section">
+<span class="a-declarative" data-action="a-secondary-view" data-a-secondary-view='{"backButtonText":"Back","name":"productDescription_secondary_view_pageState","data":{"useStateData":true,"secViewId":"productDescription_secondary_view_pageState"}}'>
+<a href="#" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<h3>
+Description
+</h3>
+<div id="productDescription" class="a-section a-spacing-small">
+<p>
+"I have been programming for 25 years in a variety of hardware and software languages. After reading Seven Languages in Seven Weeks, I am starting to understand how to evaluate languages for their obj ...
+</p>
+</div>
+</div></a>
+</span>
+<script type="text/javascript">
+P.when('jQuery','A', 'a-popover-base', 'a-popover-ajax').execute(function($, A, popovers, popoverAjax) {
+A.on("a:popover:beforeShow:productDescription_secondary_view_pageState", function(data){
+P.now('dpmob-sec-view-instrumentation').execute(function(secViewInstrumentation){
+if(typeof secViewInstrumentation !== "undefined") {
+// Record the click time before showing the secondary view.
+secViewInstrumentation.recordClickTime('productDescription');
+}
+});
+var popover = data.popover;
+var metaDataMap=popover.data;
+var useStateData = metaDataMap['useStateData'];
+var secViewId = metaDataMap['secViewId'];
+var secViewData;
+if(useStateData){
+var secViewDataMap = A.state(secViewId);
+secViewData = secViewDataMap["data"];
+}else {
+secViewData = $("#"+secViewId).html();
+}
+popover.update(secViewData);
+});
+A.on("a:popover:afterShow:productDescription_secondary_view_pageState", function(data){
+var featureName = 'productDescription';
+P.now('dpmob-sec-view-instrumentation').execute(function(secViewInstrumentation){
+if(typeof secViewInstrumentation !== "undefined") {
+// Record the end time once the secondary view is shown.
+secViewInstrumentation.recordEndTime(featureName);
+// Post the recorded metrics
+secViewInstrumentation.postMetrics(featureName);
+}
+});
+});
+});
+</script>
+<script type="a-state" data-a-state='{"key":"productDescription_secondary_view_pageState"}'>{"data":"<style>\n#productDescription_fullView ul{\n color:inherit;\n}\n<\/style>\n\n<h1>\n About this item\n<\/h1>\n<div id=\"productDescription_fullView\">\n \n <h3>Review<\/h3>\n <div class=\"a-section a-spacing-large\">\n <p>\n <div>\n <div>\n <p> <i>&quot;I have been programming for 25 years in a variety of hardware and software languages. After reading Seven Languages in Seven Weeks, I am starting to understand how to evaluate languages for their objective strengths and weaknesses. More importantly, I feel as if I could pick one of them to actually get some work done.&quot;<\/i><\/p>\n <\/div>\u2014Chris Kappler, Senior scientist Raytheon, BBN Technologies\n <br />\n <br />\n <div>\n <p> <i>&quot;I spent most of my time as a computer sciences student saying I didn\u2019t want to be a software developer and then became one anyway. Seven Languages in Seven Weeks expanded my way of thinking about problems and reminded me what I love about programming.&quot;<\/i><\/p>\n <\/div>\u2014Travis Kaspar, Software engineer, Northrop Grumman\n <br />\n <br />\n <div>\n <p> <i>&quot;Do you want seven kick starts into learning your \u201clanguage of the year\u201d? Do you want your thinking challenged about programming in general? Look no further than this book. I personally was taken back in time to my undergraduate computer science days, coasting through my programming languages survey course. The difference is that Bruce won\u2019t let you coast through this course! This isn\u2019t a leisurely read\u2014you\u2019ll have to work this book. I believe you\u2019ll find it both mindblowing and intensely practical at the same time.&quot;<\/i><\/p>\n <\/div>\u2014Matt Stine Group leader, Research Application Development, St. Jude Children's Research Hospital\n <\/div>\n<\/p>\n <\/div>\n \n <h3>Product Description<\/h3>\n <div class=\"a-section a-spacing-large\">\n <p>\n <p>You should learn a programming language every year, as recommended by <i>The Pragmatic Programmer<\/i>. But if one per year is good, how about <i>Seven Languages in Seven Weeks<\/i>? In this book you'll get a hands-on tour of Clojure, Haskell, Io, Prolog, Scala, Erlang, and Ruby. Whether or not your favorite language is on that list, you'll broaden your perspective of programming by examining these languages side-by-side. You'll learn something new from each, and best of all, you'll learn how to learn a language quickly.<br /><br />Ruby, Io, Prolog, Scala, Erlang, Clojure, Haskell. With <i>Seven Languages in Seven Weeks,<\/i> by Bruce A. Tate, you'll go beyond the syntax-and beyond the 20-minute tutorial you'll find someplace online. This book has an audacious goal: to present a meaningful exploration of seven languages within a single book. Rather than serve as a complete reference or installation guide, <i>Seven Languages<\/i> hits what's essential and unique about each language. Moreover, this approach will help teach you how to grok new languages.<br /><br />For each language, you'll solve a nontrivial problem, using techniques that show off the language's most important features. As the book proceeds, you'll discover the strengths and weaknesses of the languages, while dissecting the process of learning languages quickly--for example, finding the typing and programming models, decision structures, and how you interact with them.<br /><br />Among this group of seven, you'll explore the most critical programming models of our time. Learn the dynamic typing that makes Ruby, Python, and Perl so flexible and compelling. Understand the underlying prototype system that's at the heart of JavaScript. See how pattern matching in Prolog shaped the development of Scala and Erlang. Discover how pure functional programming in Haskell is different from the Lisp family of languages, including Clojure.<br /><br />Explore the concurrency techniques that are quickly becoming the backbone of a new generation of Internet applications. Find out how to use Erlang's let-it-crash philosophy for building fault-tolerant systems. Understand the actor model that drives concurrency design in Io and Scala. Learn how Clojure uses versioning to solve some of the most difficult concurrency problems.<br /><br />It's all here, all in one place. Use the concepts from one language to find creative solutions in another-or discover a language that may become one of your favorites.<\/p>\n<\/p>\n <\/div>\n \n <h3>About the Author<\/h3>\n <div class=\"a-section a-spacing-large\">\n <p>\n <div>\n <p>Bruce Tate runs RapidRed, an Austin, TX-based practice that consults on lightweight development in Ruby. Previously he worked at IBM in roles ranging from a database systems programmer to Java consultant. He left IBM to work for several startups in roles ranging from Client Solutions Director to CTO. He speaks internationally and is the author of more than ten books, including From Java to Ruby, Deploying Rails Applications, the best-selling Bitter series, Beyond Java, and the Jolt-winning Better, Faster, Lighter Java.<\/p>\n <\/div>\n<\/p>\n <\/div>\n \n \n \n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n \n <style type=\"text/css\">.aplus-v2.mobile .aplus-module-wrapper {\n display: block;\n}\n\n.aplus-v2 img {\n vertical-align: top;\n max-width: 100%;\n}\n\n.aplus-v2.mobile img.apm-middle-image {\n vertical-align: middle;\n}\n\n.aplus-v2.mobile .apm-iconheader {\n display: inline;\n}\n\n.aplus-v2 .apm-tablemodule {\n text-align: left;\n}\n\n.aplus-v2 table.apm-tablemodule-table th {\n padding-bottom: 8px;\n text-align: center;\n}\n\n.aplus-v2 .apm-tablemodule-image {\n background-color: #FFFFFF;\n padding: 0 !important;\n text-align: center;\n overflow: hidden;\n vertical-align: bottom;\n}\n\n.aplus-v2 table.apm-tablemodule-table th {\n padding-bottom: 8px;\n text-align: center;\n}\n\n.aplus-v2 th.apm-tablemodule-keyhead {\n border-top: 1px solid #dddddd;\n padding: 8px 14px 6px !important;\n background-color: #f7f7f7;\n font-weight: normal;\n color: #626262;\n float: none !important;\n margin-right: 0;\n text-align: center;\n min-width: 106px;\n}\n\n.aplus-v2 .apm-tablemodule-keyhead {\n border-right: 1px solid #dddddd;\n}\n\n.aplus-v2 tr.apm-tablemodule-keyvalue td {\n padding-top: 8px !important;\n padding-left: 14px;\n padding-bottom: 8px;\n border-top: 1px solid #dddddd;\n border-bottom: 1px solid #dddddd;\n min-width: 150px;\n}\n\n.aplus-v2 .apm-tablemodule-image {\n background-color: #FFFFFF;\n padding: 0 !important;\n text-align: center;\n overflow: hidden;\n vertical-align: bottom;\n}\n\n.aplus-v2 .apm-tablemodule-imagerows > td > img {\n max-width: none !important;\n}\n\n.aplus-v2 table.apm-tablemodule-table th {\n padding-bottom: 8px;\n text-align: center;\n}\n\n.aplus-v2 .apm-checked {\n text-align: center;\n}\n\n.aplus-v2 .apm-tablemodule-valuecell.selected {\n background-color: #fff5ec;\n}<\/style>\n\n <div class=\"aplus-v2 mobile\">\n <h3>From the manufacturer<\/h3>\n \n \n \n \n\n\n\n \n \n \n\n \n \n \n\n \n \n \n\n\n<div class=\"a-section module-2 aplus-module\">\n <div class=\"a-section aplus-module-wrapper apm-spacing apm-floatnone\">\n <div class=\"a-section apm-sidemodule\">\n <div class=\"a-section a-text-center\">\n \n\n\n\n \n <a class=\"a-link-normal\" target=\"_blank\" href=\"http://g-ecx.images-amazon.com/images/G/01/aplusautomation/vendorimages/44fe4f55-852b-4e6f-a250-5baf2447e7ab.png._CB325508435_.png\">\n <img alt=\"\" src=\"http://g-ecx.images-amazon.com/images/G/01/aplusautomation/vendorimages/44fe4f55-852b-4e6f-a250-5baf2447e7ab.png._CB325508435__SL300__.png\" class=\"a-spacing-mini\">\n <\/a>\n \n \n\n\n <\/div>\n\n <div class=\"a-section\">\n <h3 class=\"a-spacing-mini\">Look for more books in the series<\/h3>\n \n <p>\n Learn Seven Things in Seven Weeks.\n <\/p>\n \n <p>\n Just as each new spoken language can make you smarter and increase your options, each programming language increases your mental tool kit, adding new abstractions you can throw at each new problem. Knowledge is power. The Seven in Seven series builds on that power across many different dimensions. Each chapter in each book walks you through some nontrivial problem with each language, or database, or web server. These books take commitment to read, but their impact can be profound.\n <\/p>\n \n <\/div>\n <\/div>\n <\/div>\n<\/div>\n\n\n\n \n \n \n \n \n \n\n\n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n\n\n<div class=\"a-section module-6 aplus-module last\">\n <div class=\"a-section aplus-module-wrapper\">\n <div class=\"a-section\">\n \n <div class=\"a-section a-text-center\">\n \n\n\n\n \n \n <img alt=\"Seven More Languages in Seven Weeks\" src=\"http://g-ecx.images-amazon.com/images/G/01/aplusautomation/vendorimages/25e4cc92-896d-412a-9abf-cc0b0be722d7.jpeg._CB325505989__SL300__.jpg\" class=\"a-spacing-mini\">\n \n\n\n <\/div>\n\n <h3 class=\"a-spacing-mini\">Seven More Languages in Seven Weeks<\/h3>\n \n <p class=\"a-spacing-base\">\n Great programmers aren&#039;t born--they&#039;re made. The industry is moving from object-oriented languages to functional languages, and you need to commit to radical improvement. New programming languages arm you with the tools and idioms you need to refine your craft. While other language primers take you through basic installation and &#034;Hello, World,&#034; we aim higher. Each language in Seven More Languages in Seven Weeks will take you on a step-by-step journey through the most important paradigms of our time. You&#039;ll learn seven exciting languages: Lua, Factor, Elixir, Elm, Julia, MiniKanren, and Idris\n <\/p>\n \n \n\n \n <div class=\"a-section a-text-center\">\n \n\n\n\n \n \n <img alt=\"Seven Web Frameworks in Seven Weeks\" src=\"http://g-ecx.images-amazon.com/images/G/01/aplusautomation/vendorimages/a591a47f-f9ff-4ef7-8ed8-abe5dc7e7afd.jpeg._CB325506015__SL300__.jpg\" class=\"a-spacing-mini\">\n \n\n\n <\/div>\n\n <h3 class=\"a-spacing-mini\">Seven Databases in Seven Weeks<\/h3>\n \n <p class=\"a-spacing-base\">\n Data is getting bigger and more complex by the day, and so are the choices in handling that data. As a modern application developer you need to understand the emerging field of data management, both RDBMS and NoSQL. Seven Databases in Seven Weeks takes you on a tour of some of the hottest open source databases today. In the tradition of Bruce A. Tate&#039;s Seven Languages in Seven Weeks, this book goes beyond your basic tutorial to explore the essential concepts at the core each technology.\n <\/p>\n \n \n\n \n <div class=\"a-section a-text-center\">\n \n\n\n\n \n \n <img alt=\"\" src=\"http://g-ecx.images-amazon.com/images/G/01/aplusautomation/vendorimages/94adc725-72e9-4f98-947c-2e34d85a23f7.jpeg._CB325506005__SL300__.jpg\" class=\"a-spacing-mini\">\n \n\n\n <\/div>\n\n <h3 class=\"a-spacing-mini\">Seven Web Frameworks in Seven Weeks<\/h3>\n \n <p class=\"a-spacing-base\">\n Whether you need a new tool or just inspiration, Seven Web Frameworks in Seven Weeks explores modern options, giving you a taste of each with ideas that will help you create better apps. You&#039;ll see frameworks that leverage modern programming languages, employ unique architectures, live client-side instead of server-side, or embrace type systems. You&#039;ll see everything from familiar Ruby and JavaScript to the more exotic Erlang, Haskell, and Clojure.\n <\/p>\n \n \n\n \n <div class=\"a-section a-text-center\">\n \n\n\n\n \n \n <img alt=\"Seven Concurrency Models in Seven Weeks\" src=\"http://g-ecx.images-amazon.com/images/G/01/aplusautomation/vendorimages/1cb65528-a4e3-44b7-a760-ab77f797ddd4.jpeg._CB325506000__SL300__.jpg\" class=\"a-spacing-mini\">\n \n\n\n <\/div>\n\n <h3 class=\"a-spacing-mini\">Seven Concurrency Models in Seven Weeks<\/h3>\n \n <p class=\"a-spacing-base\">\n Your software needs to leverage multiple cores, handle thousands of users and terabytes of data, and continue working in the face of both hardware and software failure. Concurrency and parallelism are the keys, and Seven Concurrency Models in Seven Weeks equips you for this new world. See how emerging technologies such as actors and functional programming address issues with traditional threads and locks development. Learn how to exploit the parallelism in your computer&#039;s GPU and leverage clusters of machines with MapReduce and Stream Processing. And do it all with the confidence that comes from using tools that help you write crystal clear, high-quality code.\n <\/p>\n \n \n <\/div>\n <\/div>\n<\/div>\n \n \n \n <\/div>\n\n \n\n \n\n\n\n\n \n<\/div>"}</script>
+</div></div></div></div>
+<div class="a-box feature"><div class="a-box-inner"><div id="featureBulletsAndDetailBullets_feature_div" data-feature-name="featureBulletsAndDetailBullets" data-template-name="featureBulletsAndDetailBullets" class="a-section a-spacing-none"><div class="a-section">
+<span class="a-declarative" data-action="a-secondary-view" data-a-secondary-view='{"backButtonText":"Back","name":"featureBulletsAndDetailBullets_secondary_view_div","data":{"secViewId":"featureBulletsAndDetailBullets_secondary_view_div"}}'>
+<a href="#" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<h3>
+Features &amp; details
+</h3>
+<div id="detailBullets_feature_div">
+<style type="text/css">
+#detailBullets_feature_div a {
+color:#333;
+display:inline;
+}
+#featureBulletsAndDetailBullets_feature_div .a-box-inner {
+padding-left:0px;
+}
+#featureBulletsAndDetailBullets_feature_div .a-icon {
+right:0;
+}
+#detailBullets_feature_div {
+padding:0 2.5em 0 0;
+}
+</style>
+<!-- Show sales rank only in secondary view as long as its a mini app call-->
+<!-- Show customer reviews only in secondary -->
+<div class="a-section">
+<ul class="a-nostyle a-vertical a-spacing-none">
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Publisher:
+</span>
+<span>Pragmatic Bookshelf</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Publication date:
+</span>
+<span>November 20, 2010</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Language:
+</span>
+<span>English</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Product Dimensions:
+</span>
+<span>7.5 x 1.2 x 9.2 inches</span>
+</span></li>
+</ul>
+</div>
+</div>
+</div></a>
+</span>
+<script type="text/javascript">
+P.when('jQuery','A', 'a-popover-base', 'a-popover-ajax').execute(function($, A, popovers, popoverAjax) {
+A.on("a:popover:beforeShow:featureBulletsAndDetailBullets_secondary_view_div", function(data){
+P.now('dpmob-sec-view-instrumentation').execute(function(secViewInstrumentation){
+if(typeof secViewInstrumentation !== "undefined") {
+// Record the click time before showing the secondary view.
+secViewInstrumentation.recordClickTime('featureBulletsAndDetailBullets');
+}
+});
+var popover = data.popover;
+var metaDataMap=popover.data;
+var useStateData = metaDataMap['useStateData'];
+var secViewId = metaDataMap['secViewId'];
+var secViewData;
+if(useStateData){
+var secViewDataMap = A.state(secViewId);
+secViewData = secViewDataMap["data"];
+}else {
+secViewData = $("#"+secViewId).html();
+}
+popover.update(secViewData);
+});
+A.on("a:popover:afterShow:featureBulletsAndDetailBullets_secondary_view_div", function(data){
+var featureName = 'featureBulletsAndDetailBullets';
+P.now('dpmob-sec-view-instrumentation').execute(function(secViewInstrumentation){
+if(typeof secViewInstrumentation !== "undefined") {
+// Record the end time once the secondary view is shown.
+secViewInstrumentation.recordEndTime(featureName);
+// Post the recorded metrics
+secViewInstrumentation.postMetrics(featureName);
+}
+});
+});
+});
+</script>
+<div id="featureBulletsAndDetailBullets_secondary_view_div" class="a-section a-hidden">
+<h1>
+About this item
+</h1>
+<div id="detailBullets_secondary_view_div" class="a-section">
+<h3>
+Product Details
+</h3>
+<style type="text/css">
+#detailBullets_feature_div a {
+color:#333;
+display:inline;
+}
+#featureBulletsAndDetailBullets_feature_div .a-box-inner {
+padding-left:0px;
+}
+#featureBulletsAndDetailBullets_feature_div .a-icon {
+right:0;
+}
+#detailBullets_feature_div {
+padding:0 2.5em 0 0;
+}
+</style>
+<!-- Show sales rank only in secondary view as long as its a mini app call-->
+<!-- Show customer reviews only in secondary -->
+<div class="a-section">
+<ul class="a-nostyle a-vertical a-spacing-none">
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Publisher:
+</span>
+<span>Pragmatic Bookshelf</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Publication date:
+</span>
+<span>November 20, 2010</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Language:
+</span>
+<span>English</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Product Dimensions:
+</span>
+<span>7.5 x 1.2 x 9.2 inches</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Shipping Weight:
+</span>
+<span>1.5 pounds</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Book length:
+</span>
+<span>328</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+ISBN-10:
+</span>
+<span>193435659X</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+ISBN-13:
+</span>
+<span>978-1934356593</span>
+</span></li>
+<li><span class="a-list-item">
+<span class="a-text-bold">
+Amazon.com Sales Rank:
+</span>
+68383
+</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div></div></div></div>
+<div class="a-box feature a-hidden"><div class="a-box-inner"><div id="shippingNotification_feature_div" data-feature-name="shippingNotification" data-template-name="shippingNotification" class="a-section a-spacing-none"></div></div></div>
+<div class="a-box feature a-hidden"><div class="a-box-inner"><div id="awardImages_feature_div" data-feature-name="awardImages" data-template-name="awardImages" class="a-section a-spacing-none"></div></div></div>
+<div class="a-box feature a-hidden"><div class="a-box-inner"><div id="importantInformation_feature_div" data-feature-name="importantInformation" data-template-name="importantInformation" class="a-section a-spacing-none"></div></div></div>
+<div class="a-box feature a-hidden"><div class="a-box-inner"><div id="watchWarranty_feature_div" data-feature-name="watchWarranty" data-template-name="watchWarranty" class="a-section a-spacing-none"></div></div></div>
+</div>
+</div>
+</div>
+<style>
+#aboutThisItem_boxGroup > .a-first.a-last {
+border-radius: 4px 4px 4px 4px;
+}
+</style>
+<script>
+P.when('aboutThisItemDecorator').execute(function(decorator){decorator.decorate();});
+P.when('jQuery','A').execute(function($, A) {
+P.register("dpmob-sec-view-instrumentation", function() {
+// This maintains the mapping between the feature and the number of times the user has clicked on it.
+var featureClickCountHash = {};
+var SEC_VIEW_PREFIX = "dpmob-sec-";
+// ScopeName should be of the form - dpmob-sec-<featureName><clickCount>.
+// ClickCount is added as a suffix counter to differentiate between different clicks from the same landed page.
+var updateAndGetScopeName = function(featureName) {
+var clickCount = 1;
+if(featureName in featureClickCountHash) {
+clickCount = featureClickCountHash[featureName] + 1;
+}
+featureClickCountHash[featureName] = clickCount;
+var scopeName = SEC_VIEW_PREFIX + featureName + clickCount;
+return scopeName;
+}
+var getScopeName = function(featureName) {
+var scopeName;
+if(featureName in featureClickCountHash) {
+var clickCount = featureClickCountHash[featureName];
+scopeName = 'dpmob-sec-' + featureName + clickCount;
+}
+return scopeName;
+}
+var secViewInstrumentation = {
+// Records the click time (should be called just after the click on the sec view).
+recordClickTime : function(featureName) {
+if(typeof featureName !== "undefined") {
+var scopeName = updateAndGetScopeName(featureName);
+if (typeof uet == 'function') {
+uet( "tc", scopeName );
+}
+}
+},
+// Records the end time (should be called, once the secondary view is dispalyed).
+recordEndTime : function(featureName) {
+if(typeof featureName !== "undefined") {
+var scopeName = getScopeName(featureName);
+if (typeof scopeName !== "undefined" && typeof ues == 'function') {
+ues("t0", scopeName, new Date());
+ues("ctb", scopeName, "1");
+}
+}
+},
+postMetrics : function(featureName) {
+if(typeof featureName !== "undefined") {
+var scopeName = getScopeName(featureName);
+if(typeof scopeName !== "undefined") {
+// Create a dummy ajax request to generate requestId
+// and record pageType and subPageType in server side query logs.
+var url = "/gp/product/mobile/secondary-view/ajax-measurement.html?featureName="+featureName;
+$.ajax({url:url ,
+dataType:'text',
+timeout: 40000,
+error: function() {
+},
+success: function(data, status, xhr) {
+// post the metrics
+ues( "id", scopeName, data );
+uet( "be", scopeName );
+uex( "ld", scopeName );
+}
+});
+// Post count metrics.
+// This records overall click count on the feature
+this.addCount(SEC_VIEW_PREFIX + featureName, 1);
+// This records how much times a feature was clicked once or twice etc.
+this.addCount(scopeName, 1);
+}
+}
+},
+// Making it available publicly, so that it can be used independent of above func
+addCount : function(counterKey, value) {
+// See http://w?ClientSideMetrics/UserDocs/Instrumentation/ClientSideCounters for more details
+var ue = window.ue;
+var existingValue = ue.count(counterKey) || 0;
+ue.count(counterKey, existingValue + value);
+}
+}
+return secViewInstrumentation;
+});
+});
+</script>
+</div>
+<script type="text/javascript">
+setCSMReq('cf');
+setCSMReq('cf');
+</script><div id="sims-purchase" class="a-section a-spacing-large">
+<h2 class="a-spacing-micro">Customers who bought this also bought</h2>
+<span class="aok-offscreen">This shopping feature will continue to load items. In order to navigate out of this carousel please use your heading shortcut key to navigate to the next or previous heading.</span>
+<div class="p13n-sc-carousel" data-ajax-params='{"auiDeviceType":"mobile","featureId":"SimilaritiesMobileCarousel","reftagPrefix":"pd_aw_sim_14","productDetailsTemplateClass":"PI::P13N::ViewTemplates::ProductDetails::Phone::Base","widgetTemplateClass":"PI::P13N::ViewTemplates::Carousel::Phone","faceoutTemplateClass":"PI::P13N::ViewTemplates::Product::Phone::CarouselFaceout"}' data-ajax-url="/gp/p13n-shared/faceout-partial/184-9743298-0728138" data-asin-index="9" data-asins="1941222153,1934356921,1937785653,020161622X,1937785637,1937785580,0136073476,1937785335,0123745144,0486478831,1934356050,0131395319,193435645X,1934356344,1449394701,0201657880,0735611319,0262560992,1617291412,1593272839,0137081073,0262510871,1617290653,098478280X,0735619670,1937785491,0321826620,1617292397,1934356867,1680500414,0596007124,1937785475,0201835959,0978739213,0130092290,1941222226,1617290572,1680500384,1449360726,1941222374,1449329276,1593274351,193778553X,1593272812,0132350882,0201485672,1491904194,0471137723,193398838X,0073523356,1449316387,1934356727,1449365515,0981531644,0486678709,026256100X,1593275676,0321905636,1617290750,1933988177,0321942043,0321774094,0521663504,0321146530,1491950358,1435712757,1491903996,0321721330,1491912766,0321842685,0131177052,0262562146,0596514980,0321774639,1449302440,0134190440,1449358454,0133769402,1118063333,0201633612,0130465534,1935182706,0133708756,0324782012,1449369995,1466560010,0134034287,0321125215,149190142X,0321127420,0132856204,1484200772,0596517742,193398869X,1617291994,1449364829,1937785734,1491905018,0996128107,0805071660">
+<div class="p13n-sc-carousel-content">
+<div class="p13n-sc-carousel-item" style="left: 0px;">
+<a class="a-link-normal" href="/gp/aw/d/1941222153/ref=pd_aw_sim_14_1/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Seven More Languages in Seven Weeks: Languages That Are Shaping the Future" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="96" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51t-byUGJeL._AC_UL345_SR288,345_.jpg":[345,288],"http://ecx.images-amazon.com/images/I/51t-byUGJeL._AC_UL230_SR192,230_.jpg":[230,192],"http://ecx.images-amazon.com/images/I/51t-byUGJeL._AC_UL115_SR96,115_.jpg":[115,96]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Seven More Languages in Seven Weeks: Languages That Are Shaping the Future">Seven More Languages in…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4"><span class="a-icon-alt">4.0 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">4 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$27.26</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 140px;">
+<a class="a-link-normal" href="/gp/aw/d/1934356921/ref=pd_aw_sim_14_2/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="93" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/41rYtcbzOUL._AC_UL230_SR186,230_.jpg":[230,186],"http://ecx.images-amazon.com/images/I/41rYtcbzOUL._AC_UL115_SR93,115_.jpg":[115,93],"http://ecx.images-amazon.com/images/I/41rYtcbzOUL._AC_UL345_SR279,345_.jpg":[345,279]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement">Seven Databases in Seven…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.5 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">37 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$32.27</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 280px;">
+<a class="a-link-normal" href="/gp/aw/d/1937785653/ref=pd_aw_sim_14_3/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Seven Concurrency Models in Seven Weeks: When Threads Unravel (The Pragmatic Programmers)" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="93" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/41U8py1NCcL._AC_UL230_SR186,230_.jpg":[230,186],"http://ecx.images-amazon.com/images/I/41U8py1NCcL._AC_UL345_SR279,345_.jpg":[345,279],"http://ecx.images-amazon.com/images/I/41U8py1NCcL._AC_UL115_SR93,115_.jpg":[115,93]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Seven Concurrency Models in Seven Weeks: When Threads Unravel (The Pragmatic Programmers)">Seven Concurrency Models…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.6 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">20 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$36.10</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 420px;">
+<a class="a-link-normal" href="/gp/aw/d/020161622X/ref=pd_aw_sim_14_4/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="The Pragmatic Programmer: From Journeyman to Master" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="92" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/41BKx1AxQWL._AC_UL345_SR276,345_.jpg":[345,276],"http://ecx.images-amazon.com/images/I/41BKx1AxQWL._AC_UL230_SR184,230_.jpg":[230,184],"http://ecx.images-amazon.com/images/I/41BKx1AxQWL._AC_UL115_SR92,115_.jpg":[115,92]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="The Pragmatic Programmer: From Journeyman to Master">The Pragmatic Programmer…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.5 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">281 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$32.95</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 560px;">
+<a class="a-link-normal" href="/gp/aw/d/1937785637/ref=pd_aw_sim_14_5/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Seven Web Frameworks in Seven Weeks: Adventures in Better Web Apps (Pragmatic Programmers)" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="96" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51qlO9JuczL._AC_UL345_SR288,345_.jpg":[345,288],"http://ecx.images-amazon.com/images/I/51qlO9JuczL._AC_UL115_SR96,115_.jpg":[115,96],"http://ecx.images-amazon.com/images/I/51qlO9JuczL._AC_UL230_SR192,230_.jpg":[230,192]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Seven Web Frameworks in Seven Weeks: Adventures in Better Web Apps (Pragmatic Programmers)">Seven Web Frameworks in…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4"><span class="a-icon-alt">4.0 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">4 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$27.26</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 700px;">
+<a class="a-link-normal" href="/gp/aw/d/1937785580/ref=pd_aw_sim_14_6/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Programming Elixir: Functional |&gt; Concurrent |&gt; Pragmatic |&gt; Fun" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="93" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51WfjWglDsL._AC_UL345_SR279,345_.jpg":[345,279],"http://ecx.images-amazon.com/images/I/51WfjWglDsL._AC_UL115_SR93,115_.jpg":[115,93],"http://ecx.images-amazon.com/images/I/51WfjWglDsL._AC_UL230_SR186,230_.jpg":[230,186]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Programming Elixir: Functional |&gt; Concurrent |&gt; Pragmatic |&gt; Fun">Programming Elixir…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-5"><span class="a-icon-alt">4.8 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">15 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$34.20</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 840px;">
+<a class="a-link-normal" href="/gp/aw/d/0136073476/ref=pd_aw_sim_14_7/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Concepts of Programming Languages (9th Edition)" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="98" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/514SaJB2WhL._AC_UL230_SR196,230_.jpg":[230,196],"http://ecx.images-amazon.com/images/I/514SaJB2WhL._AC_UL115_SR98,115_.jpg":[115,98],"http://ecx.images-amazon.com/images/I/514SaJB2WhL._AC_UL345_SR294,345_.jpg":[345,294]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Concepts of Programming Languages (9th Edition)">Concepts of Programming…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-3-5"><span class="a-icon-alt">3.3 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">37 reviews</span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 980px;">
+<a class="a-link-normal" href="/gp/aw/d/1937785335/ref=pd_aw_sim_14_8/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Good Math: A Geek's Guide to the Beauty of Numbers, Logic, and Computation (Pragmatic Programmers)" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="77" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/41f3XfYE31L._AC_UL345_SR231,345_.jpg":[345,231],"http://ecx.images-amazon.com/images/I/41f3XfYE31L._AC_UL115_SR77,115_.jpg":[115,77],"http://ecx.images-amazon.com/images/I/41f3XfYE31L._AC_UL230_SR154,230_.jpg":[230,154]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Good Math: A Geek's Guide to the Beauty of Numbers, Logic, and Computation (Pragmatic Programmers)">Good Math: A Geek's Guide…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4"><span class="a-icon-alt">4.2 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">13 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$24.74</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 1120px;">
+<a class="a-link-normal" href="/gp/aw/d/0123745144/ref=pd_aw_sim_14_9/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Programming Language Pragmatics, Third Edition" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="93" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51TvuWQBKnL._AC_UL115_SR93,115_.jpg":[115,93],"http://ecx.images-amazon.com/images/I/51TvuWQBKnL._AC_UL345_SR279,345_.jpg":[345,279],"http://ecx.images-amazon.com/images/I/51TvuWQBKnL._AC_UL230_SR186,230_.jpg":[230,186]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Programming Language Pragmatics, Third Edition">Programming Language…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.3 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">23 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$49.91</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 1260px;">
+<a class="a-link-normal" href="/gp/aw/d/0486478831/ref=pd_aw_sim_14_10/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="An Introduction to Functional Programming Through Lambda Calculus (Dover Books on Mathematics)" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="81" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51UQ3e1idJL._AC_UL115_SR81,115_.jpg":[115,81],"http://ecx.images-amazon.com/images/I/51UQ3e1idJL._AC_UL345_SR243,345_.jpg":[345,243],"http://ecx.images-amazon.com/images/I/51UQ3e1idJL._AC_UL230_SR162,230_.jpg":[230,162]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="An Introduction to Functional Programming Through Lambda Calculus (Dover Books on Mathematics)">An Introduction to…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.5 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">19 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$19.43</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="sponsoredProducts_feature_div" data-feature-name="sponsoredProducts" data-template-name="sponsoredProducts" class="a-section a-spacing-none">
+</div>
+<div class="aw-campaigns">
+<style>@media screen and (max-width:240px){ div[id$=mobile-ads-unit-wrapper]{ width:auto !important;margin-left:auto !important;left:auto !important} div[id$=mobile-ads-adv-text-wrapper]{ width:auto !important;margin-left:auto !important;left:auto !important}}@media screen and (orientation:landscape){ [id$=mobile-ads-unit-wrapper]{ max-width:414px !important;margin:auto !important} [id$=mobile-ads-adv-text-wrapper]{ max-width:414px !important;margin:auto !important}}</style> <div id="ns_1VGN4TEE63ST5RTPH4EJ_14544_mobile-ads-unit-wrapper" style="position:relative; text-align:center; margin-left: -14px; margin-right: -14px; height: auto;"> <div id="ns_1VGN4TEE63ST5RTPH4EJ_14544_mobile-ads-unit-placement"> <script id="ns_1VGN4TEE63ST5RTPH4EJ_14544_mobile-ads-unit-temp-holder" type="text/html">
+&lt;a href=&#39;http://aax-us-east.amazon-adsystem.com/x/c/QcgmUbKxMyNlEz4BtAGZHioAAAFN99rKNgEAAAGQReGNuw/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAMAAAAA2TZhzPSGDr.tDd2HH-vyKHofvQiJ-ebOWjRje.uvDXXngRQBs7ESeR2rEuNuIcqVCw11lYeUNF8-e8AFhMzeShmFhKv4sdvmAgBni0348i2y1eeLO0IrdqBBieUwbQYGspRtOc.8RbglP34TShpEPZHOWSEOz-ANH9Y3e8FkytppfJwpJAaWL-PdXqqj9Ohv-eMv-1nuZPbZr-FfZtmWEd5jH4VyOkG-raxqk7kUgf8u5uwHQTOTgABmmTSZarqqCbxepOXilecEn3jf2fHJVeTA1gQvJoVnMCYBpNZ.tJtBJnrNAc81N00ooECzLjHhf7iDe4Aa8kmMn7nyGe0qf6WxGr-ANRotS5dUh01wHnHA85zTION9Zud.ORcTyWSFvz31WZI-EvOv6pkn8S2dUBh7JYIlFb0qzZ-trpmZfVdg5KVmanTP5x75ikwR1b15IVqbozCnEVng8TCXw4wWVhgWGVr4XEa1by3ZOJP3dR236S0E80GShlyUekD7AvxFgyCA6CqWrVPY8Qt.2pdG0Kfyy1KIcS.IW8lIZhW7ORJY0ezb8zOtwcDSG19zikI1BcV8HIOu-lQUyMyLB5uD6OsNNFkhmmIqRu4OdezcAVidX0mA6Ar6DkhQnWxQrcDu1.0yxp2BKw5n5ORJYhfGD3fkA2C-HL4k7e8iNVanKW-seMI4tBpRxCgJ06dntypzhYmwuV-ZEraQh7.NxQFnaZucpcienqb80ulNTpJmbh-E1Mkvovruepy9x.MWoN2IFsLNYiaiXKO4qddUcbCve3utHVyT0vgIa-X-eGpUW-o8aWZk0q6coFScgkVkp2Vlxi161OMzvLPJg7yzXRVUaR4Eky0RdBMK3m5faqu4z.gwzRSIGpqduPJoW97ANVYo1JZsRLZ47H698Zvt4Zlu0mao1KjOoMhKvAcKwfd6vWY1LtvixsI23BaW77Apq-LLyqcs8BopYrF5KnfSbw4.G6EmWubxRBNZ5qnDJy7a4KMj9xP1dZSu5t9z.jF0lk1CaJRHfaWIKLgVvQutQQQfo2M65YZlyDozv4lNF.KSmYeNu-QerAeeSOq5kZrwaBT97EbfbiMPa7uT-foeR2CT5qUDaAopZFXsLAXbqV4CKcWAeBEWHxgSkvkGYAerOeZjvXujs3UX2q7soHngCeKuM5GE4UamN67IUmPTinWG-eEELrt15S6iJ3CydrW63f3dM6CaIx7SfduVWBO6vWlx9Cv6HhzZoX29VoudOq6SpT6yCC0ML5NoLKV0jkJGBgkhJEtYvldDIUymKAnvR6rAeTq74b8z-vIFJcTCHT5xRJlLR3Iet1MrS24v3Vh1LUGpXJh1t6Ik9TKTE2XNxKW6.d6v5xhaZUHZp6H7UiOs1RvR0JqH32se2uBREOHgkmm2jFE-Ig__&#39; target=&quot;_top&quot;&gt;&lt;img src=&quot;http://d2o307dm5mqftz.cloudfront.net/1506277001/1425550710291/AMAN_320x50_ACC_V340905430.jpg&quot; style=&quot;width:100%; height:auto;&quot;/&gt;&lt;/a&gt;
+&lt;script id=&quot;iframe_script&quot; type=&quot;html/text&quot;&gt;
+// &lt;!-- Ad Id: 6240433369110 --&gt;
+// &lt;!-- Creative Id: 7087302769370 --&gt;
+document.mobileAds = document.mobileAds || {};
+document.mobileAds[&#39;creativeId&#39;] = &quot;7087302769370&quot;;
+document.mobileAds[&#39;adId&#39;] = &quot;6240433369110&quot;;
+&lt;/script&gt;
+&lt;img src=&quot;//:0&quot; style=&quot;display:none;&quot; onerror=&quot;
+setTimeout(function(){
+eval(document.getElementById(&#39;iframe_script&#39;).innerHTML);
+}, 0);
+&quot;/&gt;
+&lt;!-- creativeModDate = 1425557345000 --&gt;&lt;img src=&quot;http://aax-us-east.amazon-adsystem.com/e/loi/imp?b=IESM6SbvAk6cl9Zv86mYcuUAAAFN99rKVgEAAAGQEWxGQw&quot; style=&quot;position:absolute; width:1px; height:1px;&quot; onload=&quot;try { window.uex = window.uex || parent.uex } catch (e) {} if (typeof uex == &#39;function&#39;) {uex(&#39;ld&#39;, &#39;mobileadsssimpressions_ma_detail_ma_detail-mWeb_ma_btf&#39;, {wb: 1});}&quot; /&gt; </script> <iframe id="ma_detail_ma_detail-mWeb_ma_btf_frame" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" sandbox="allow-scripts allow-same-origin allow-top-navigation" style="position:relative; width:100%; max-height:65px;"></iframe> </div>
+</div> <script>(function() { var hasAdView = false; var hasGroupMAdView = false; var hasIABAdView = false; measureAdViewability(); if (hasAdView && hasGroupMAdView && hasIABAdView) {return; } var viewabilityTracker = debounce(measureAdViewability, 20); window.addEventListener("scroll", viewabilityTracker); function measureAdViewability() {var placementDiv = document.getElementById('ns_1VGN4TEE63ST5RTPH4EJ_14544_mobile-ads-unit-placement');if (placementDiv == null || placementDiv.offsetHeight == 0) { return;}function getDistanceToTop(element) { var offset = element.offsetTop; if (element.offsetParent != null) {offset += getDistanceToTop(element.offsetParent); } return offset;}var offsetTop = getDistanceToTop(placementDiv);var offsetHeight = placementDiv.offsetHeight;if (!hasAdView && (window.scrollY + window.innerHeight > offsetTop) && (window.scrollY < offsetTop + offsetHeight)) { if (typeof uex == 'function') {uex('ld', 'mobileadsssviewability_ma_detail_ma_detail-mWeb_ma_btf', {wb: 1}); } hasAdView = true;}if (!hasGroupMAdView && (window.scrollY + window.innerHeight >= offsetTop + offsetHeight) && (window.scrollY <= offsetTop)) { if (typeof uex == 'function') {uex('ld', 'mobileadsssfullviewability_ma_detail_ma_detail-mWeb_ma_btf', {wb: 1}); } hasGroupMAdView = true;}function halfViewCheck() { return !hasIABAdView && (window.scrollY + window.innerHeight > offsetTop + offsetHeight / 2) && (window.scrollY < offsetTop + offsetHeight / 2);}if (halfViewCheck()) { setTimeout(function(){if (halfViewCheck()) { if (typeof uex == 'function') {uex('ld', 'mobileadssshalfviewability_ma_detail_ma_detail-mWeb_ma_btf', {wb: 1}); } hasIABAdView = true;} }, 1000);} } function debounce(func, wait, immediate) {var timeout;return function() { var context = this, args = arguments; var later = function() {timeout = null;if (!immediate) { func.apply(context, args);} }; var callNow = immediate && !timeout; clearTimeout(timeout); timeout = setTimeout(later, wait); if (callNow) {func.apply(context, args); }}; }})(); </script><script id="renderAdUnit_script" type="text/html"> function ns_1VGN4TEE63ST5RTPH4EJ_14544_injectAdInIFrame($$) {var iframe = document.getElementById('ma_detail_ma_detail-mWeb_ma_btf_frame');var tempHolder = document.getElementById('ns_1VGN4TEE63ST5RTPH4EJ_14544_mobile-ads-unit-temp-holder');if(iframe == null || tempHolder == null) { return;}var iframeDocument = iframe.contentDocument;iframeDocument.open('text/html', 'replace');var content = document.createElement('textarea'); content.innerHTML = tempHolder.text;iframeDocument.write(content.value);iframeDocument.close(); } function ns_1VGN4TEE63ST5RTPH4EJ_14544_executeWhenVisible(handler) { if (!document.hidden) {handler(); } else { function ns_1VGN4TEE63ST5RTPH4EJ_14544_uexld(prefix) {if (typeof uex == 'function') { uex('ld', prefix + ':' + 'ma_detail_ma_detail-mWeb_ma_btf', {wb: 1});} }ns_1VGN4TEE63ST5RTPH4EJ_14544_uexld('mobileadsssprerender');document.addEventListener('visibilitychange', function visibilityHandler() { handler(); document.removeEventListener('visibilitychange', visibilityHandler);}, false); } } var ns_1VGN4TEE63ST5RTPH4EJ_14544_pageLoaded = false; var ns_1VGN4TEE63ST5RTPH4EJ_14544_adLoaded = false; var ns_1VGN4TEE63ST5RTPH4EJ_14544_renderAd = function($$) {var tempHolder = document.getElementById("ns_1VGN4TEE63ST5RTPH4EJ_14544_mobile-ads-unit-temp-holder");if (tempHolder == null) { return; }tempHolder = tempHolder.text.replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&'); ns_1VGN4TEE63ST5RTPH4EJ_14544_injectAdInIFrame(); function resizeIframeAd() { var adHeight, adWidth; if (window.innerHeight < window.innerWidth) {adHeight = '414' * '50' / '320' + 'px';adWidth = '414' + 'px'; } else {adHeight = window.innerWidth * '50' / '320' + 'px';adWidth = window.innerWidth + 'px'; } document.getElementById('ns_1VGN4TEE63ST5RTPH4EJ_14544_mobile-ads-unit-placement').style.height = adHeight; document.getElementById('ma_detail_ma_detail-mWeb_ma_btf_frame').style.height = adHeight; document.getElementById('ma_detail_ma_detail-mWeb_ma_btf_frame').style.width = adWidth;}resizeIframeAd();window.addEventListener('resize', resizeIframeAd); var adUnitWrapper = document.getElementById("ns_1VGN4TEE63ST5RTPH4EJ_14544_mobile-ads-unit-wrapper"); adUnitWrapper.insertAdjacentHTML('afterend', '<div id="ns_1VGN4TEE63ST5RTPH4EJ_14544_mobile-ads-adv-text-wrapper" style="position:relative; text-align:center; margin-left: -14px; margin-right: -14px; height: auto;" > <div id="ns_1VGN4TEE63ST5RTPH4EJ_14544_mobile-ads-adv-text" style="font-size: 10px; color: #555; text-align: right; margin: 0px 3px 6px 0;" >Advertisement</div></div> ');uex('ld', 'mobileadsssrenderad_ma_detail_ma_detail-mWeb_ma_btf', {wb: 1});ns_1VGN4TEE63ST5RTPH4EJ_14544_adLoaded = true; }; var ns_1VGN4TEE63ST5RTPH4EJ_14544_prevOnLoad = window.onload;var ns_1VGN4TEE63ST5RTPH4EJ_14544_onLoadHandler = function() { ns_1VGN4TEE63ST5RTPH4EJ_14544_pageLoaded = true; ns_1VGN4TEE63ST5RTPH4EJ_14544_executeWhenVisible(ns_1VGN4TEE63ST5RTPH4EJ_14544_renderAd); };var ns_1VGN4TEE63ST5RTPH4EJ_14544_lazyLoadTimeoutHandler = function() { ns_1VGN4TEE63ST5RTPH4EJ_14544_onLoadHandler(); };var ns_1VGN4TEE63ST5RTPH4EJ_14544_lazyLoadWithoutAui = function() { if (document.readyState === 'complete') {ns_1VGN4TEE63ST5RTPH4EJ_14544_lazyLoadTimeoutHandler(); } else {window.onload = function() { if (typeof(ns_1VGN4TEE63ST5RTPH4EJ_14544_prevOnLoad) == 'function') {ns_1VGN4TEE63ST5RTPH4EJ_14544_prevOnLoad(); } ns_1VGN4TEE63ST5RTPH4EJ_14544_lazyLoadTimeoutHandler();}; }}; ns_1VGN4TEE63ST5RTPH4EJ_14544_lazyLoadWithoutAui(); </script><img src="//:0" style="display:none;" onerror=" setTimeout(function(){var renderAdUnitScript = document.getElementById('renderAdUnit_script');if (renderAdUnitScript !== null) { eval(renderAdUnitScript.innerHTML);} else if (typeof uex == 'function') { uex('ld', 'mobileadsrenderadunitscriptnull_ma_detail_ma_detail-mWeb_ma_btf', {wb: 1});} }, 0); "> <img src="//:0" style="display:none;" onerror="setTimeout(function() { if (!(window.P &amp;&amp; typeof window.P === 'object' &amp;&amp; typeof window.P.when === 'function') &amp;&amp;!(window.JavaScript &amp;&amp; typeof window.JavaScript === 'object' &amp;&amp; typeof window.JavaScript.onready === 'function')) {if(window.ue &amp;&amp; ue.tag) { ue.tag('mobileadsnojquery');}if (typeof uex == 'function') { uex('ld', 'mobileadsnojquery:ma_detail_ma_detail-mWeb_ma_btf', {wb: 1});} }}, 0); ">
+</div>
+<a></a><div id="aw-udpv3-customer-reviews_feature_div">
+<div class="a-section a-spacing-large">
+<div class="a-row a-spacing-small">
+<div class="a-row">
+<h2 class="a-spacing-micro">
+Customer reviews
+</h2>
+<div class="a-box-group">
+<a href="/gp/aw/reviews/193435659X/ref=mw_dp_cr/184-9743298-0728138" class="a-touch-link a-box a-first"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<span class="a-size-medium a-text-bold">
+47 reviews
+</span>
+<div class="a-icon-row a-spacing-micro">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.4 out of 5 stars</span></i>
+<span class="a-size-base">
+4.4 out of 5
+</span>
+</div>
+</div></a>
+<div class="a-box"><div class="a-box-inner">
+<h3>
+Most helpful reviews
+</h3>
+<a href="/gp/aw/review/193435659X/R37FZCXUB9PG0Q/ref=mw_dp_cr/184-9743298-0728138?cursor=1&amp;sort=rd" class="a-touch-link a-box a-touch-link-noborder a-spacing-top-none"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<p class="a-spacing-micro">
+<i class="a-icon a-icon-star-small a-star-small-4"><span class="a-icon-alt">4.0 out of 5 stars</span></i>
+Background: I stumbled across the author's blog post announcing his intention to write the book while looking for materials comparing language paradigms instead of particular ...
+</p>
+</div></a>
+<span class="a-color-secondary">
+- MedIT
+</span>
+<a href="/gp/aw/review/193435659X/RRL01ERPOR9YT/ref=mw_dp_cr/184-9743298-0728138?cursor=2&amp;sort=rd" class="a-touch-link a-box a-touch-link-noborder a-spacing-top-small"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<p class="a-spacing-micro">
+<i class="a-icon a-icon-star-small a-star-small-2"><span class="a-icon-alt">2.0 out of 5 stars</span></i>
+I was very disappointed in this book. I could have attain a similar level of depth with fewer unnecessary film-based analogies by reading each langauges' wikipedia page. The ...
+</p>
+</div></a>
+<span class="a-color-secondary">
+- Brian L.
+</span>
+<a href="/gp/aw/review/193435659X/R26H85EFEA3U0Q/ref=mw_dp_cr/184-9743298-0728138?cursor=3&amp;sort=rd" class="a-touch-link a-box a-touch-link-noborder a-spacing-top-small"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<p class="a-spacing-micro">
+<i class="a-icon a-icon-star-small a-star-small-3"><span class="a-icon-alt">3.0 out of 5 stars</span></i>
+The idea is good - have a brief overview of several programming languages that gather most curiosity in the community. The languages that made it to the book were chosen by ...
+</p>
+</div></a>
+<span class="a-color-secondary">
+- Dmitry Dvoinikov
+</span>
+</div></div>
+<a href="/gp/aw/cr/193435659X/s=sd/ref=mw_dp_cr/184-9743298-0728138" class="a-touch-link a-box a-last"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+<strong>See most recent reviews</strong>
+</div></a>
+</div>
+</div>
+</div>
+<span class="a-button a-button-supplemental"><span class="a-button-inner"><i class="a-icon a-icon-supplemental"></i><a href="/review/review-your-purchases/ref=aw_cr_write_cr/184-9743298-0728138?asins=193435659X&amp;channel=awUDPv3" class="a-button-text" role="button">
+Write a Review
+</a></span></span>
+</div>
+</div>
+<div class="aw-campaigns"></div>
+<div class="aw-campaigns"></div>
+<div id="sims-session" class="a-section a-spacing-large">
+<h2 class="a-spacing-micro">Customers who viewed this also viewed</h2>
+<span class="aok-offscreen">This shopping feature will continue to load items. In order to navigate out of this carousel please use your heading shortcut key to navigate to the next or previous heading.</span>
+<div class="p13n-sc-carousel" data-ajax-params='{"auiDeviceType":"mobile","featureId":"SimilaritiesMobileCarousel","reftagPrefix":"pd_aw_sbs_14","productDetailsTemplateClass":"PI::P13N::ViewTemplates::ProductDetails::Phone::Base","widgetTemplateClass":"PI::P13N::ViewTemplates::Carousel::Phone","faceoutTemplateClass":"PI::P13N::ViewTemplates::Product::Phone::CarouselFaceout"}' data-ajax-url="/gp/p13n-shared/faceout-partial/184-9743298-0728138" data-asin-index="9" data-asins="1934356921,020161622X,1941222153,1937785580,1937785653,1937785637,0123745144,1934356344,1934356050,0486478831,0131395319,1937785319,1937785335,0262510871,1593272839,0735619670,0137081073,0735611319,1449394701,0201657880,178328479X,0201835959,0974514047,1617292397,0201485672,161729134X,0596007124,1617291412,0981531644,0132350882,1937785491,0262033844,097451408X,1491909048,0131872486,0136073476,1617290653,0201633612,1680500414,1449367933,0262162091,0321213351,0957671105,193778553X,193435645X,0321356683,1449365515,1593274351,1491905530,0321200683,098478280X,0135974445,1449368174,0262560992,0131479415,1107029570,0131177052,0262193388,0321721330,1593274246">
+<div class="p13n-sc-carousel-content">
+<div class="p13n-sc-carousel-item" style="left: 0px;">
+<a class="a-link-normal" href="/gp/aw/d/1934356921/ref=pd_aw_sbs_14_1/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="93" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/41rYtcbzOUL._AC_UL230_SR186,230_.jpg":[230,186],"http://ecx.images-amazon.com/images/I/41rYtcbzOUL._AC_UL115_SR93,115_.jpg":[115,93],"http://ecx.images-amazon.com/images/I/41rYtcbzOUL._AC_UL345_SR279,345_.jpg":[345,279]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement">Seven Databases in Seven…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.5 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">37 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$32.27</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 140px;">
+<a class="a-link-normal" href="/gp/aw/d/020161622X/ref=pd_aw_sbs_14_2/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="The Pragmatic Programmer: From Journeyman to Master" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="92" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/41BKx1AxQWL._AC_UL345_SR276,345_.jpg":[345,276],"http://ecx.images-amazon.com/images/I/41BKx1AxQWL._AC_UL230_SR184,230_.jpg":[230,184],"http://ecx.images-amazon.com/images/I/41BKx1AxQWL._AC_UL115_SR92,115_.jpg":[115,92]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="The Pragmatic Programmer: From Journeyman to Master">The Pragmatic Programmer…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.5 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">281 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$32.95</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 280px;">
+<a class="a-link-normal" href="/gp/aw/d/1941222153/ref=pd_aw_sbs_14_3/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Seven More Languages in Seven Weeks: Languages That Are Shaping the Future" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="96" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51t-byUGJeL._AC_UL345_SR288,345_.jpg":[345,288],"http://ecx.images-amazon.com/images/I/51t-byUGJeL._AC_UL230_SR192,230_.jpg":[230,192],"http://ecx.images-amazon.com/images/I/51t-byUGJeL._AC_UL115_SR96,115_.jpg":[115,96]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Seven More Languages in Seven Weeks: Languages That Are Shaping the Future">Seven More Languages in…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4"><span class="a-icon-alt">4.0 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">4 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$27.26</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 420px;">
+<a class="a-link-normal" href="/gp/aw/d/1937785580/ref=pd_aw_sbs_14_4/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Programming Elixir: Functional |&gt; Concurrent |&gt; Pragmatic |&gt; Fun" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="93" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51WfjWglDsL._AC_UL345_SR279,345_.jpg":[345,279],"http://ecx.images-amazon.com/images/I/51WfjWglDsL._AC_UL115_SR93,115_.jpg":[115,93],"http://ecx.images-amazon.com/images/I/51WfjWglDsL._AC_UL230_SR186,230_.jpg":[230,186]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Programming Elixir: Functional |&gt; Concurrent |&gt; Pragmatic |&gt; Fun">Programming Elixir…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-5"><span class="a-icon-alt">4.8 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">15 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$34.20</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 560px;">
+<a class="a-link-normal" href="/gp/aw/d/1937785653/ref=pd_aw_sbs_14_5/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Seven Concurrency Models in Seven Weeks: When Threads Unravel (The Pragmatic Programmers)" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="93" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/41U8py1NCcL._AC_UL230_SR186,230_.jpg":[230,186],"http://ecx.images-amazon.com/images/I/41U8py1NCcL._AC_UL345_SR279,345_.jpg":[345,279],"http://ecx.images-amazon.com/images/I/41U8py1NCcL._AC_UL115_SR93,115_.jpg":[115,93]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Seven Concurrency Models in Seven Weeks: When Threads Unravel (The Pragmatic Programmers)">Seven Concurrency Models…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.6 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">20 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$36.10</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 700px;">
+<a class="a-link-normal" href="/gp/aw/d/1937785637/ref=pd_aw_sbs_14_6/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Seven Web Frameworks in Seven Weeks: Adventures in Better Web Apps (Pragmatic Programmers)" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="96" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51qlO9JuczL._AC_UL345_SR288,345_.jpg":[345,288],"http://ecx.images-amazon.com/images/I/51qlO9JuczL._AC_UL115_SR96,115_.jpg":[115,96],"http://ecx.images-amazon.com/images/I/51qlO9JuczL._AC_UL230_SR192,230_.jpg":[230,192]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Seven Web Frameworks in Seven Weeks: Adventures in Better Web Apps (Pragmatic Programmers)">Seven Web Frameworks in…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4"><span class="a-icon-alt">4.0 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">4 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$27.26</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 840px;">
+<a class="a-link-normal" href="/gp/aw/d/0123745144/ref=pd_aw_sbs_14_7/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Programming Language Pragmatics, Third Edition" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="93" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51TvuWQBKnL._AC_UL115_SR93,115_.jpg":[115,93],"http://ecx.images-amazon.com/images/I/51TvuWQBKnL._AC_UL345_SR279,345_.jpg":[345,279],"http://ecx.images-amazon.com/images/I/51TvuWQBKnL._AC_UL230_SR186,230_.jpg":[230,186]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Programming Language Pragmatics, Third Edition">Programming Language…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.3 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">23 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$49.91</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 980px;">
+<a class="a-link-normal" href="/gp/aw/d/1934356344/ref=pd_aw_sbs_14_8/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="The Passionate Programmer: Creating a Remarkable Career in Software Development (Pragmatic Life)" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="77" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51jq6HvAQXL._AC_UL230_SR154,230_.jpg":[230,154],"http://ecx.images-amazon.com/images/I/51jq6HvAQXL._AC_UL115_SR77,115_.jpg":[115,77],"http://ecx.images-amazon.com/images/I/51jq6HvAQXL._AC_UL345_SR231,345_.jpg":[345,231]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="The Passionate Programmer: Creating a Remarkable Career in Software Development (Pragmatic Life)">The Passionate Programmer…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.4 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">104 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$15.73</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 1120px;">
+<a class="a-link-normal" href="/gp/aw/d/1934356050/ref=pd_aw_sbs_14_9/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="Pragmatic Thinking and Learning: Refactor Your Wetware (Pragmatic Programmers)" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="96" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51cGj4FRZ5L._AC_UL230_SR192,230_.jpg":[230,192],"http://ecx.images-amazon.com/images/I/51cGj4FRZ5L._AC_UL345_SR288,345_.jpg":[345,288],"http://ecx.images-amazon.com/images/I/51cGj4FRZ5L._AC_UL115_SR96,115_.jpg":[115,96]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="Pragmatic Thinking and Learning: Refactor Your Wetware (Pragmatic Programmers)">Pragmatic Thinking and…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.5 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">80 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$23.45</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+<div class="p13n-sc-carousel-item" style="left: 1260px;">
+<a class="a-link-normal" href="/gp/aw/d/0486478831/ref=pd_aw_sbs_14_10/184-9743298-0728138?refRID=1VGN4TEE63ST5RTPH4EJ">
+<div class="a-row a-spacing-micro">
+<div class="p13n-sc-lazy-loaded-img">
+<img alt="An Introduction to Functional Programming Through Lambda Calculus (Dover Books on Mathematics)" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif" class="a-dynamic-image" height="115" width="81" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51UQ3e1idJL._AC_UL115_SR81,115_.jpg":[115,81],"http://ecx.images-amazon.com/images/I/51UQ3e1idJL._AC_UL345_SR243,345_.jpg":[345,243],"http://ecx.images-amazon.com/images/I/51UQ3e1idJL._AC_UL230_SR162,230_.jpg":[230,162]}' data-a-manual-replacement="1">
+</div>
+</div>
+<div class="a-row"><div aria-hidden="true"><span title="An Introduction to Functional Programming Through Lambda Calculus (Dover Books on Mathematics)">An Introduction to…</span></div></div>
+<div class="a-icon-row a-spacing-none">
+<i class="a-icon a-icon-star a-star-4-5"><span class="a-icon-alt">4.5 out of 5 stars</span></i>
+</div>
+<div class="a-row"><span class="a-color-secondary">19 reviews</span></div>
+<div class="a-row"><span class="a-color-secondary"><span class="a-size-base a-color-price">$19.43</span> <span style="position: relative; top: 2px;"><i class="a-icon a-icon-prime a-icon-small" role="img" aria-label="Prime"></i></span></span></div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="aw-campaigns"></div>
+</div>
+
+</div>
+
+<div id="WrapperDivToHideFooter" style="display:none;">
+    <script type="text/javascript">
+'use strict';
+(function () {
+function install() {
+var searchIconLink = document.getElementById('search-icon-link');
+if (searchIconLink) {
+searchIconLink.onclick = function(e) {
+var refStartPos = this.href.lastIndexOf('#');
+if (refStartPos > 0 && refStartPos < this.href.length - 1) {
+var searchBox = document.getElementById(this.href.substring(refStartPos + 1));
+if (searchBox) {
+searchBox.focus();
+e.preventDefault();
+}
+}
+};
+}
+}
+if (document.readyState === "complete") { install(); }
+else { window.addEventListener('load', install); }
+}());
+</script><div class="a-container a-footer">
+<div id="search-ac-init-data" data-aliases="aps,amazon-custom-products,amazonfresh,stripbooks,popular,apparel,electronics,sporting,sports-and-fitness,outdoor-recreation,fan-shop,garden,videogames,toys-and-games,jewelry,digital-text,digital-music,prime-digital-music,watches,grocery,hpc,instant-video,handmade,handmade-jewelry,handmade-home-and-kitchen,prime-instant-video,shop-instant-video,baby-products,office-products,software,magazines,tools,automotive,misc,industrial,mi,pet-supplies,digital-music-track,digital-music-album,mobile,mobile-apps,movies-tv,music-artist,music-album,music-song,stripbooks-spanish,electronics-accessories,pantry,photo,audio-video,computers,furniture,kitchen,audible,audiobooks,beauty,shoes,arts-crafts,appliances,gift-cards,pets,outdoor,lawngarden,collectibles,replacement-parts,financial,wine,fine-art,fashion,fashion-womens,fashion-womens-clothing,fashion-womens-jewelry,fashion-womens-shoes,fashion-womens-watches,fashion-womens-handbags,fashion-mens,fashion-mens-clothing,fashion-mens-jewelry,fashion-mens-shoes,fashion-mens-watches,fashion-girls,fashion-girls-clothing,fashion-girls-jewelry,fashion-girls-shoes,fashion-girls-watches,fashion-boys,fashion-boys-clothing,fashion-boys-jewelry,fashion-boys-shoes,fashion-boys-watches,fashion-baby,fashion-baby-boys,fashion-baby-girls,fashion-luggage,3d-printing,tradein-aps,local-services,vehicles,video-shorts,warehouse-deals,luxury-beauty,banjo-apps" data-ime="" data-mkt="1" data-src="completion.amazon.com/search/complete"></div>
+<div id="searchKeyword-data" data-form="searchForm"></div>
+<style>
+.psearch {overflow-x: inherit !important;}
+.navfix-fl {float: left;}
+.navfix-fill {width: 100%;}
+</style>
+<div class="a-section a-spacing-medium">
+<div id="searchKeywordRow" class="a-row">
+<form id="searchForm" method="get" action="/gp/aw/s/ref=is_box_books/184-9743298-0728138" class="">
+<div class="a-span8 navfix-fl">
+<div class="a-input-text-wrapper psearch"><input type="text" id="searchKeyword" autocomplete="off" placeholder="Search" name="k"></div>
+</div>
+<div class="a-span4 a-span-last">
+<button type="submit" class="a-button a-button-dark navfix-fill"><span class="a-button-inner"><span class="a-button-text">Go</span></span></button>
+</div>
+</form>
+</div>
+</div>
+<a id="nav-backtotop" href="#top">
+<i id="nav-backtotop-arrow" class="a-icon a-icon-arrow-up"></i>
+Top of page
+</a>
+<div class="a-section a-spacing-large">
+<div class="a-box"><div class="a-box-inner a-padding-none"><ul class="a-nostyle a-box-list">
+<li class="a-list-item">
+<a href="/184-9743298-0728138" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Home
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="/gp/aw/c/184-9743298-0728138?ref_=aw_bottom_links_cart" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Cart (<span class="a-color-state" id="bottom-nav-cart-count">0</span>)
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="https://www.amazon.com/ap/signin/184-9743298-0728138?_encoding=UTF8&amp;openid.assoc_handle=anywhere_v2_us&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Frecs%2Fys%2F184-9743298-0728138&amp;pageId=anywhere_us" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Your Amazon.com
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="https://www.amazon.com/ap/signin/184-9743298-0728138?_encoding=UTF8&amp;openid.assoc_handle=anywhere_v2_us&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fls%2F184-9743298-0728138&amp;pageId=anywhere_us" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Wish List &amp; Registry
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="https://www.amazon.com/ap/signin/184-9743298-0728138?_encoding=UTF8&amp;openid.assoc_handle=anywhere_v2_us&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fls%2Fs%2F184-9743298-0728138&amp;pageId=anywhere_us" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Find a Wish List or Registry
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="https://www.amazon.com/ap/signin/184-9743298-0728138?_encoding=UTF8&amp;openid.assoc_handle=anywhere_v2_us&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fya%2F184-9743298-0728138&amp;pageId=anywhere_us" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Your Account
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="https://www.amazon.com/gp/aw/ybh/184-9743298-0728138?ref_=aw_bottom_links_ybh" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Your Recently Viewed Items
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="https://www.amazon.com/ap/signin/184-9743298-0728138?_encoding=UTF8&amp;openid.assoc_handle=anywhere_v2_us&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fsubscribe-and-save%2Fmanage%2F184-9743298-0728138&amp;pageId=anywhere_us" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Your Subscribe &amp; Save Items
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="https://www.amazon.com/ap/signin/184-9743298-0728138?_encoding=UTF8&amp;openid.assoc_handle=anywhere_v2_us&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fvsd.html%2F184-9743298-0728138&amp;pageId=anywhere_us" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+1-Click Settings
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="/gp/aw/contact-us/184-9743298-0728138?ref_=aw_bottom_links_cu" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Customer Service
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="/gp/help/customer/display.html/184-9743298-0728138?ref_=aw_bottom_links_help" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Help
+</div></a>
+</li>
+<li class="a-list-item">
+<a href="/gp/anywhere/site-view.html/184-9743298-0728138?at=&amp;force-full-site=1&amp;lc=plm&amp;opt=desktop&amp;ref_=aw_bottom_links&amp;url=%2Fgp%2Fproduct%2F193435659X" class="a-touch-link a-box a-touch-link-noborder"><div class="a-box-inner">
+<i class="a-icon a-icon-touch-link"></i>
+Amazon.com Full Site
+</div></a>
+</li>
+</ul></div></div>
+</div>
+<div id="footer" class="a-section">
+<div class="a-section a-text-center">
+<div id="who-are-you" class="a-section a-spacing-large">
+<span>
+Already a customer?<span class="a-letter-space"></span><a href="https://www.amazon.com/ap/signin/184-9743298-0728138?_encoding=UTF8&amp;openid.assoc_handle=anywhere_v2_us&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fd%2F193435659X%2F184-9743298-0728138&amp;pageId=anywhere_us">Sign In</a>
+</span>
+</div>
+<div id="nav-footer-links" class="a-section a-spacing-medium">
+<span class=" a-size-mini">
+<a href="/gp/aw/help/id=cou/184-9743298-0728138?storeName=">Conditions of Use</a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span><a href="/gp/aw/help/id=468496/184-9743298-0728138?storeName=">Privacy Notice</a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span><a href="/gp/aw/help/184-9743298-0728138?id=201308670">Interest-Based Ads</a>
+</span>
+</div>
+<div class="a-section">
+<span class=" a-color-tertiary a-size-mini">
+© 1996-2015, Amazon.com, Inc. or its affiliates
+</span>
+</div>
+</div>
+</div>
+<div id="sis_pixel_r2" aria-hidden="true" style="height:1px;"></div>
+<script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=01011ac62e3b1b4703aef561a4760485e6121142801fceee140bdd2cd999d4da97d4&old_oo=0&cb=1434382420668" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script>
+<script type="text/javascript">
+if (window.sx === undefined) {
+window.sx = {};
+}
+window.sx.searchsuggest = {};
+</script>
+</div>
+<script>
+(window.AmazonUIPageJS ? AmazonUIPageJS : P).when('atf').execute(function() {
+(window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('http://z-ecx.images-amazon.com/images/I/01v6fg5fgUL.js#AUIClients/SoftlinesCommonMetaAsset');
+});
+</script>
+
+</div>
+
+<script type="text/javascript"> P.when('atf').execute(function() { document.getElementById('WrapperDivToHideBTF').style.display = 'block'; document.getElementById('WrapperDivToHideFooter').style.display = 'block';}) </script>
+</div>
+<script type="text/javascript">
+
+    window.ue_csm.cel_widgets = [
+         {  id: "imageBlock_feature_div"  } , {  id: "twister_feature_div"  } , {  id: "buybox_feature_div"  } , {  id: "dpx-anywhere-tell-a-friend_feature_div"  } , {  id: "dpx-anywhere-promotions_feature_div"  } , {  id: "dpx-anywhere-recommendations_feature_div"  } , {  id: "sims-purchase"  } , {  id: "dpx-anywhere-sponsored-products_feature_div"  } , {  id: "dpx-anywhere-ask_feature_div"  } , {  id: "aw-udpv3-customer-reviews_feature_div"  } , {  id: "sims-session"  } , {  c: "nav-mobile"  , id_gen: function(){ return 'nav-mobile'; }  } , {  c: "celwidget"  } , {  id: "fallbacksessionShvl"  } , {  id: "rhf"  }
+    ];
+
+
+
+</script>
+
+<div id="be" style="display:none;visibility:hidden;">
+<form name="ue_backdetect"><input name="ue_back" value="1" type="hidden"></form>
+<script type="text/javascript">
+(function(a){var b=document.ue_backdetect;b&&b.ue_back&&a.ue&&(a.ue.bfini=b.ue_back.value);a.uet&&a.uet("be");a.onLdEnd&&(window.addEventListener?window.addEventListener("load",a.onLdEnd,!1):window.attachEvent&&window.attachEvent("onload",a.onLdEnd));a.ueh&&a.ueh(0,window,"load",a.onLd,1);a.ue&&a.ue.tag&&(a.ue_furl&&a.ue_furl.split?(b=a.ue_furl.split("."))&&b[0]&&a.ue.tag(b[0]):a.ue.tag("nofls"))})(ue_csm);
+
+
+var ue_pty='DetailAW', ue_spty='glance', ue_pti='193435659X';
+
+</script>
+
+<a href="/gp/aw/d/193435659X/uedata/nvp/unsticky/184-9743298-0728138/DetailAW/ntpoffrw?tepes=1&amp;id=1VGN4TEE63ST5RTPH4EJ">v</a>
+<noscript>
+     <img src="/gp/aw/d/193435659X/uedata/nvp/unsticky/184-9743298-0728138/DetailAW/ntpoffrw?noscript&amp;id=1VGN4TEE63ST5RTPH4EJ&amp;pty=DetailAW&amp;spty=glance&amp;pti=193435659X">
+     <img src="//fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:184-9743298-0728138:1VGN4TEE63ST5RTPH4EJ%24uedata=s:%2Fgp%2Faw%2Fd%2F193435659X%2Fuedata%2Fnvp%2Funsticky%2F184-9743298-0728138%2FDetailAW%2Fntpoffrw%3Fnoscript%26id%3D1VGN4TEE63ST5RTPH4EJ%26pty%3DDetailAW%26spty%3Dglance%26pti%3D193435659X:2000">
+
+</noscript>
+</div>
+<script type="text/javascript">
+(function(b,c){var a=c.images;a&&a.length&&b.ue.count("totalImages",a.length)})(ue_csm,document);
+
+</script>
+<script type="text/javascript">
+(function(c,d){var b=c.ue,a=d.navigator;b&&b.tag&&a&&(a=a.connection||a.mozConnection||a.webkitConnection)&&a.type&&b.tag("netInfo:"+a.type)})(ue_csm,window);
+
+</script>
+<script type="text/javascript">
+(function(c,d){function l(a,b){for(var c=[],d=0;d<a.length;d++){var e=a[d],f=b.encode(e);if(e[h]){var g=b.metaSep,e=e[h],l=b.metaPairSep,k=[],m=void 0;for(m in e)e.hasOwnProperty(m)&&k.push(m+"="+e[m]);e=k.join(l);f+=g+e}c.push(f)}return c.join(b.resourceSep)}function r(a){var b=a[h]=a[h]||{};b[s]||(b[s]=c.ue_mid);b[t]||(b[t]=c.ue_sid);b[f]||(b[f]=c.ue_id);a="//"+c.ue_furl+"/1/"+a[u]+"/1/OP/"+a[v]+"/"+a[w]+"/"+l([a],x);if(k)try{k.call(d[n],a)}catch(g){c.ue.sbf=1,(new Image).src=a}else(new Image).src=
+a}function p(){g&&g.isStub&&g.replay(function(a,b,c){a=a[0];b=a[h]=a[h]||{};b[f]=b[f]||c;r(a)});c.ue.impression=r;g=null}if(!(1<c.ueinit)){var h="metadata",w="impressionType",u="foresterChannel",v="programGroup",s="marketplaceId",t="session",f="requestId",n="navigator",y=c.ue_bli,k=d[n]&&d[n].sendBeacon,q=function(a,b,c,d){return{encode:d,resourceSep:a,metaSep:b,metaPairSep:c}},x=q("","?","&",function(a){return l(a.impressionData,z)}),z=q("/",":",",",function(a){return a.featureName+":"+l(a.resources,
+A)}),A=q(",","@","|",function(a){return a.id}),g=c.ue.impression;y&&ue.impression({programGroup:"csm",impressionType:"action",impressionData:[{featureName:"csm-features",resources:[{id:"impression-tracking"}]}],metadata:{csm:1},foresterChannel:"action-impressions"});k?p():(ue.attach("load",p),ue.attach("beforeunload",p));d.P&&d.P.register&&d.P.register("impression-client",function(){})}})(ue_csm,window);
+
+</script>
+</body>
+</html><html>
+<script type="text/javascript">
+if(typeof performance!= "undefined" && typeof performance.getEntries !=
+        "undefined"){
+
+    for(i = 0 ; i < performance.getEntries().length ; i++){
+
+        var name = performance.getEntries()[i].name ;
+        var res = name.match(/\/AmazonUI-\d.*.css/g);
+
+        if(res){
+            var duration = performance.getEntries()[i].duration ;
+            if(duration < 50){ csmTag = "subFiftyMsAuiFetch";}
+            else if(duration < 500){ csmTag = "subFiveHunderedMsAuiFetch";}
+            else if(duration < 1000){ csmTag = "subOneSecAuiFetch";}
+            else if(duration < 2000){ csmTag = "subTwoSecAuiFetch";}
+            else { csmTag = "subMoreThanTwoSecAuiFetch";}
+
+            if(window.ue && ue.tag) { ue.tag(csmTag);}
+            break;
+        }
+    }
+}
+</script>
+<!-- whfh-0y9HXeMHiRCK1PZS1F2eSOlIKW9WiGYTQxFcGl5732IfrqAbxxR2m1Y6RwEi0df/ rid-1VGN4TEE63ST5RTPH4EJ -->
+
+</html>

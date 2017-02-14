@@ -1,0 +1,15 @@
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/fast_xor-1.1.3/ext/xor
+/home/irem/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20170213-14874-1clqabs.rb extconf.rb 
+creating Makefile
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/fast_xor-1.1.3/ext/xor
+make "DESTDIR=" clean
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/fast_xor-1.1.3/ext/xor
+make "DESTDIR="
+compiling xor.c
+linking shared-object xor.so
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/fast_xor-1.1.3/ext/xor
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 xor.so ./.gem.20170213-14874-vdflcn

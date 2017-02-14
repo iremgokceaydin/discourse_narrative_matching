@@ -1,0 +1,75 @@
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/oj-2.17.5/ext/oj
+/home/irem/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20170213-20032-12n8h0d.rb extconf.rb 
+>>>>> Creating Makefile for ruby version 2.4.0 on x86_64-linux <<<<<
+creating Makefile
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/oj-2.17.5/ext/oj
+make "DESTDIR=" clean
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/oj-2.17.5/ext/oj
+make "DESTDIR="
+compiling cache8.c
+compiling circarray.c
+compiling compat.c
+compiling dump.c
+dump.c: In function ‘dump_struct_obj’:
+dump.c:1940:2: warning: ‘rb_struct_ptr’ is deprecated (declared at /home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:889) [-Wdeprecated-declarations]
+  for (i = (int)RSTRUCT_LEN(obj), vp = RSTRUCT_CONST_PTR(obj); 0 < i; i--, vp++) {
+  ^
+dump.c: At top level:
+cc1: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+compiling err.c
+err.c: In function ‘oj_err_raise’:
+err.c:46:1: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+ oj_err_raise(Err e) {
+ ^
+err.c: In function ‘_oj_raise_error’:
+err.c:67:1: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+ _oj_raise_error(const char *msg, const char *json, const char *current, const char* file, int line) {
+ ^
+err.c: At top level:
+cc1: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+compiling fast.c
+compiling hash.c
+compiling hash_test.c
+compiling object.c
+object.c: In function ‘hat_value’:
+object.c:419:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             if (len - 1 > RSTRUCT_LEN(parent->val)) {
+                         ^
+object.c:422:17: warning: ‘rb_struct_ptr’ is deprecated (declared at /home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:889) [-Wdeprecated-declarations]
+                 MEMCPY(RSTRUCT_PTR(parent->val), RARRAY_PTR(value) + 1, VALUE, len - 1);
+                 ^
+object.c:422:17: warning: passing argument 1 of ‘memcpy’ discards ‘const’ qualifier from pointer target type [enabled by default]
+In file included from /usr/include/features.h:374:0,
+                 from /usr/include/stdio.h:27,
+                 from object.c:31:
+/usr/include/x86_64-linux-gnu/bits/string3.h:48:1: note: expected ‘void * __restrict__’ but argument is of type ‘const VALUE *’
+ __NTH (memcpy (void *__restrict __dest, const void *__restrict __src,
+ ^
+object.c: At top level:
+cc1: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+compiling odd.c
+compiling oj.c
+compiling parse.c
+compiling reader.c
+compiling resolve.c
+compiling saj.c
+compiling scp.c
+compiling sparse.c
+compiling strict.c
+compiling val_stack.c
+linking shared-object oj/oj.so
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.4.0/gems/oj-2.17.5/ext/oj
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 oj.so ./.gem.20170213-20032-f8l1cp/oj

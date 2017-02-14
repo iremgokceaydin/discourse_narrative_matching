@@ -1,0 +1,497 @@
+have_func: checking for rb_obj_gc_flags() in ruby/ruby.h... -------------------- yes
+
+"gcc -o conftest -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC conftest.c  -L. -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -lruby  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc -o conftest -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC conftest.c  -L. -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -lruby  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:15:57: error: ‘rb_obj_gc_flags’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_obj_gc_flags; return !p; }
+                                                         ^
+conftest.c:15:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby/ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     printf("%p", &t);
+11:   }
+12: 
+13:   return 0;
+14: }
+15: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_obj_gc_flags; return !p; }
+/* end */
+
+"gcc -o conftest -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC conftest.c  -L. -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -lruby  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby/ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     printf("%p", &t);
+11:   }
+12: 
+13:   return 0;
+14: }
+15: extern void rb_obj_gc_flags();
+16: int t(void) { rb_obj_gc_flags(); return 0; }
+/* end */
+
+--------------------
+
+"gcc -o conftest -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC conftest.c  -L. -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -lruby  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3:       #include "ruby/ruby.h"
+4:       void rb_objspace_each_objects_without_setup(int (*callback)(void *, void *, size_t, void *), void *data);
+5:       int main(int argc, char *argv[]){
+6:         rb_objspace_each_objects_without_setup(0, 0);
+7:         return 0;
+8:       }
+/* end */
+
+have_header: checking for sys/time.h... -------------------- yes
+
+"gcc -E -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <sys/time.h>
+/* end */
+
+--------------------
+
+have_header: checking for sys/resource.h... -------------------- yes
+
+"gcc -E -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <sys/resource.h>
+/* end */
+
+--------------------
+
+have_func: checking for getrusage()... -------------------- yes
+
+"gcc -o conftest -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC conftest.c  -L. -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -lruby  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13:57: error: ‘getrusage’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))getrusage; return !p; }
+                                                         ^
+conftest.c:13:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))getrusage; return !p; }
+/* end */
+
+"gcc -o conftest -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC conftest.c  -L. -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -lruby  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: extern void getrusage();
+14: int t(void) { getrusage(); return 0; }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_maxrss in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_maxrss - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_ixrss in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_ixrss - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_idrss in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_idrss - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_isrss in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_isrss - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_minflt in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_minflt - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_majflt in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_majflt - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_nswap in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_nswap - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_inblock in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_inblock - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_oublock in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_oublock - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_msgsnd in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_msgsnd - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_msgrcv in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_msgrcv - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_nsignals in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_nsignals - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_nvcsw in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_nvcsw - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct rusage.ru_nivcsw in sys/time.h,sys/resource.h... -------------------- yes
+
+"gcc -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <sys/time.h>
+ 4: #include <sys/resource.h>
+ 5: 
+ 6: /*top*/
+ 7: int s = (char *)&((struct rusage*)0)->ru_nivcsw - (char *)0;
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   return 0;
+11: }
+/* end */
+
+--------------------
+
+have_header: checking for time.h... -------------------- yes
+
+"gcc -E -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <time.h>
+/* end */
+
+--------------------
+
+have_func: checking for clock_gettime()... -------------------- yes
+
+"gcc -o conftest -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC conftest.c  -L. -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -lruby  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
+conftest.c: In function ‘t’:
+conftest.c:13:57: error: ‘clock_gettime’ undeclared (first use in this function)
+ int t(void) { void ((*volatile p)()); p = (void ((*)()))clock_gettime; return !p; }
+                                                         ^
+conftest.c:13:57: note: each undeclared identifier is reported only once for each function it appears in
+conftest.c: At top level:
+cc1: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))clock_gettime; return !p; }
+/* end */
+
+"gcc -o conftest -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/backward -I/home/irem/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format  -fPIC conftest.c  -L. -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/home/irem/.rvm/rubies/ruby-2.4.0/lib -L/home/irem/.rvm/rubies/ruby-2.4.0/lib -lruby  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: extern void clock_gettime();
+14: int t(void) { clock_gettime(); return 0; }
+/* end */
+
+--------------------
+

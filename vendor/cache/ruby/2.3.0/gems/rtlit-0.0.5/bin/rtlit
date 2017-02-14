@@ -1,0 +1,41 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/../lib'
+require 'rtlit'
+require 'optparse'
+
+module RTLit
+
+  module CLI
+
+    class << self #nodoc
+
+      # Convert file or files in directory to RTL
+      # Accepts source and destination paths and an optional file extension string
+      # to filter source directory by
+      def to_rtl
+
+        args = {}
+        OptionParser.new do |opts|
+          opts.banner = "Usage: rtlit [options]"
+
+          opts.on("-x EXTENSION", "--ext EXTENSION", "Parse only files matching extension") do |ext|
+            args[:ext] = ext
+          end
+
+        end.parse!
+
+        args[:src] = ARGV[0]
+        args[:dest] = ARGV[1]
+
+        RTLit::Util.process_file_or_directory(args[:src], args[:dest], args[:ext])
+
+      end
+
+    end
+
+  end
+
+end
+
+RTLit::CLI.to_rtl

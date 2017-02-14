@@ -1,0 +1,36 @@
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/gc_tracer-1.5.1/ext/gc_tracer
+/home/irem/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20170213-14874-ou1iqa.rb extconf.rb 
+checking for rb_obj_gc_flags() in ruby/ruby.h... yes
+checking for sys/time.h... yes
+checking for sys/resource.h... yes
+checking for getrusage()... yes
+checking for struct rusage.ru_maxrss in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_ixrss in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_idrss in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_isrss in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_minflt in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_majflt in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_nswap in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_inblock in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_oublock in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_msgsnd in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_msgrcv in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_nsignals in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_nvcsw in sys/time.h,sys/resource.h... yes
+checking for struct rusage.ru_nivcsw in sys/time.h,sys/resource.h... yes
+checking for time.h... yes
+checking for clock_gettime()... yes
+creating Makefile
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/gc_tracer-1.5.1/ext/gc_tracer
+make "DESTDIR=" clean
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/gc_tracer-1.5.1/ext/gc_tracer
+make "DESTDIR="
+compiling gc_logging.c
+compiling gc_tracer.c
+linking shared-object gc_tracer/gc_tracer.so
+
+current directory: /home/irem/RubymineProjects/discourse/vendor/cache/ruby/2.3.0/gems/gc_tracer-1.5.1/ext/gc_tracer
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 gc_tracer.so ./.gem.20170213-14874-jcld5h/gc_tracer
