@@ -6,7 +6,7 @@ development:
   pool: 5
   timeout: 5000
   username: irem
-  password: 'password'
+  password: password
   host_names:
     ### Don't include the port number here. Change the "port" site setting instead, at /admin/site_settings.
     ### If you change this setting you will need to
@@ -24,7 +24,7 @@ test:
   min_messages: warning
   pool: 5
   username: irem
-  password: 'password'
+  password: password
   timeout: 5000
   host_names:
     - test.localhost
@@ -37,7 +37,7 @@ profile:
   min_messages: warning
   pool: 5
   username: irem
-  password: 'password'
+  password: password
   timeout: 5000
   host_names:
     - "localhost"

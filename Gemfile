@@ -141,7 +141,7 @@ group :test, :development do
   gem 'byebug', require: ENV['RM_INFO'].nil?
 end
 
-group :development do
+group :development, :production do
   gem 'bullet', require: !!ENV['BULLET']
   gem 'better_errors'
   gem 'binding_of_caller'
