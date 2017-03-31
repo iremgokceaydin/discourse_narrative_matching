@@ -7,6 +7,7 @@ require_dependency 'text_cleaner'
 require_dependency 'archetype'
 require_dependency 'html_prettify'
 require_dependency 'discourse_tagging'
+require_dependency 'lib/search'
 
 class Topic < ActiveRecord::Base
   include ActionView::Helpers::SanitizeHelper
@@ -434,6 +435,7 @@ class Topic < ActiveRecord::Base
   MAX_SIMILAR_BODY_LENGTH = 200
   # Search for similar topics
   def self.similar_to(title, raw, user=nil)
+    print title
     return [] unless title.present?
     return [] unless raw.present?
 

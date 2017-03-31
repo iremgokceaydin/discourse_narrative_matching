@@ -5,6 +5,7 @@ class SiteSetting < ActiveRecord::Base
   extend SiteSettingExtension
 
   validates_presence_of :name
+  validates_presence_of :name
   validates_presence_of :data_type
 
   after_save do |site_setting|

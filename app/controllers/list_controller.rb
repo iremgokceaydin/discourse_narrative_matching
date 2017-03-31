@@ -23,6 +23,7 @@ class ListController < ApplicationController
     :category_feed,
   ].flatten
 
+
   before_filter :ensure_logged_in, except: [
     :topics_by,
     # anonymous filters
@@ -48,6 +49,7 @@ class ListController < ApplicationController
     TopTopic.periods.map { |p| :"category_none_top_#{p}" },
     TopTopic.periods.map { |p| :"parent_category_category_top_#{p}" },
   ].flatten
+
 
   # Create our filters
   Discourse.filters.each do |filter|
@@ -168,6 +170,11 @@ class ListController < ApplicationController
 
     render 'list', formats: [:rss]
   end
+
+  # def recommended(options=nil)
+  #   options ||= {}
+  #   send("recommended_feed")
+  # end
 
   def top(options=nil)
     options ||= {}

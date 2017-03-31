@@ -227,6 +227,7 @@ en:
   read_full_topic: "Read full topic"
   private_message_abbrev: "Msg"
   rss_description:
+    recommended: "Recommended topics"
     latest: "Latest topics"
     hot: "Hot topics"
     top: "Top topics"
@@ -2645,7 +2646,8 @@ en:
   login_required:
     welcome_message: |
       #[Welcome to %{title}](#welcome)
-      An account is required. Please create an account or log in to continue.
+      Please login if you already have an account or create an new one if you don't before your journey begins!
+#      An account is required. Please create an account or log in to continue.
 
   terms_of_service:
     title: "Terms of Service"
