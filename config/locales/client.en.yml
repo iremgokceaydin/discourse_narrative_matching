@@ -254,8 +254,8 @@ en:
       contact_info: "In the event of a critical issue or urgent matter affecting this site, please contact us at %{contact_info}."
 
     library:
-        simple_title: "Library"
-        title: "Library %{title}"
+        simple_title: "Welcome to Library!"
+        title: "Library of %{title}"
         stats: "Library Statistics"
         our_books: "Our Books"
         our_articles: "Our Articles"
@@ -266,7 +266,11 @@ en:
         read_count: "Read"
         like_count: "Like"
         active_reader_count: "Active Readers"
-
+        contact: "Contact Us"
+        contact_info: "In the event of a critical issue or urgent matter affecting this site, please contact us at %{contact_info}."
+        general: "General"
+        books: "Books"
+        articles: "Articles"
 
     bookmarked:
       title: "Bookmark"

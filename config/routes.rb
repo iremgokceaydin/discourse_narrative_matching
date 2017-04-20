@@ -37,6 +37,9 @@ Discourse::Application.routes.draw do
     end
   end
 
+  resources :library
+  #get "library" => "library#index"
+
   get "finish-installation" => "finish_installation#index"
   get "finish-installation/register" => "finish_installation#register"
   post "finish-installation/register" => "finish_installation#register"
@@ -520,7 +523,6 @@ Discourse::Application.routes.draw do
   get "category/*path" => "categories#redirect"
 
   #get "recommended" => "list#recommended"
-  get "library" => "library"
   get "top" => "list#top"
   get "search/query" => "search#query"
   get "search" => "search#show"
