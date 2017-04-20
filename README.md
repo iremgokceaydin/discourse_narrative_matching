@@ -1,3 +1,12 @@
+## Setting Up the Environment
+The necessary tools
+
+- RubyMine
+- RVM: ruby-2.3.3
+- Rails 4.2.7.1
+- Set the database
+
+
 <a href="http://www.discourse.org/">![Logo](images/discourse.png)</a>
 
 Discourse is the 100% open source discussion platform built for the next decade of the Internet. It works as:
