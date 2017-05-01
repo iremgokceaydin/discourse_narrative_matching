@@ -610,6 +610,7 @@ const Composer = RestModel.extend({
   createPost(opts) {
     const post = this.get('post'),
           topic = this.get('topic'),
+          //topic.set('story', true),
           user = this.user,
           postStream = this.get('topic.postStream');
 

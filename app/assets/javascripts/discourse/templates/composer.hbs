@@ -72,11 +72,16 @@
 
                   {{#if model.showCategoryChooser}}
                     <div class="category-input">
-                      {{category-chooser valueAttribute="id" value=model.categoryId scopedCategoryId=scopedCategoryId tabindex="3"}}
-                      {{popup-input-tip validation=categoryValidation}}
+                        {{category-chooser valueAttribute="id" value=model.categoryId scopedCategoryId=scopedCategoryId tabindex="3"}}
+                        {{popup-input-tip validation=categoryValidation}}
                     </div>
                     {{#if model.archetype.hasOptions}}
-                      <button class='btn' {{action "showOptions"}}>{{i18n 'topic.options'}}</button>
+                        {{#if model.creatingStory}}
+                            <button class='btn' {{action "showOptions"}}>{{i18n 'topic.options'}}</button>
+                        {{/if}}
+                        {{#if model.creatingTopic}}
+                            <button class='btn' {{action "showOptions"}}>{{i18n 'topic.options'}}</button>
+                        {{/if}}
                     {{/if}}
                   {{/if}}
                 </div>
