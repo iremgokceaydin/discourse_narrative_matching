@@ -67,7 +67,11 @@ class StaticController < ApplicationController
   # a post of a login form so that it offers to remember your password.
   def enter
 
-    destination = path ('/users/' + params[:username] + '/summary')
+    if current_user.topic_count == 0
+      destination = path ('/users/' + params[:username] + '/story')
+    else
+      destination = '/'
+    end
     params.delete(:username)
     params.delete(:password)
 

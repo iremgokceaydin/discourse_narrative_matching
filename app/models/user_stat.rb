@@ -77,6 +77,22 @@ class UserStat < ActiveRecord::Base
     cache_last_seen(Time.now.to_f)
   end
 
+  def has_story
+    story_count =
+      Topic
+        .where(['id in (
+              SELECT topic_id FROM topics t
+              WHERE t.story = ? AND
+                t.user_id = ?
+              )', true, self.user_id])
+        .count
+    if (story_count)
+      self.has_story = true
+    else
+      self.has_story = false
+    end
+  end
+
   protected
 
   def trigger_badges

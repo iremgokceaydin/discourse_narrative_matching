@@ -19,22 +19,6 @@ export default Ember.Controller.extend({
   @computed("model.badges.length")
   moreBadges(badgesLength) { return badgesLength >= MAX_BADGES; },
 
-    init: function() {
-      if(this.get("currentUser.topic_count") == 0) { //new-user
-          this._super();
-          Ember.run.schedule("afterRender", this, function () {
-              this.send("createTopic");
-          });
-          //alert("gokce");
-      }
-    },
-
-    actions: {
-        createTopic() {
-            //alert("irem");
-            this.container.lookup('controller:composer').open({action: Composer.CREATE_TOPIC, draftKey: Composer.CREATE_TOPIC});
-        },
-    }
 });
 
 

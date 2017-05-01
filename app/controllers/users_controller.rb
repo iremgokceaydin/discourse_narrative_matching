@@ -200,6 +200,19 @@ class UsersController < ApplicationController
     render_json_dump(serializer)
   end
 
+  def story
+    user = fetch_user_from_params
+    story = user.story
+    if(story.nil?)
+      story_topic = Topic.new(story, guardian)
+      serializer = TopicSerializer.new(story_topic, scope: guardian)
+      render_json_dump(serializer)
+    else
+      render json: {
+      }
+    end
+  end
+
   def invited
     inviter = fetch_user_from_params
     offset = params[:offset].to_i || 0

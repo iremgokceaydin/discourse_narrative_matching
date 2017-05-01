@@ -14,6 +14,7 @@ const CLOSED = 'closed',
 
       // The actions the composer can take
       CREATE_TOPIC = 'createTopic',
+      CREATE_STORY = 'createStory',
       PRIVATE_MESSAGE = 'privateMessage',
       REPLY = 'reply',
       EDIT = 'edit',
@@ -73,6 +74,7 @@ const Composer = RestModel.extend({
   },
 
   creatingTopic: Em.computed.equal('action', CREATE_TOPIC),
+  creatingStory: Em.computed.equal('action', CREATE_STORY),
   creatingPrivateMessage: Em.computed.equal('action', PRIVATE_MESSAGE),
   notCreatingPrivateMessage: Em.computed.not('creatingPrivateMessage'),
 
@@ -136,7 +138,7 @@ const Composer = RestModel.extend({
   }, 100, {leading: false, trailing: true}),
 
   editingFirstPost: Em.computed.and('editingPost', 'post.firstPost'),
-  canEditTitle: Em.computed.or('creatingTopic', 'creatingPrivateMessage', 'editingFirstPost'),
+  canEditTitle: Em.computed.or('creatingTopic', 'creatingStory','creatingPrivateMessage', 'editingFirstPost'),
   canCategorize: Em.computed.and('canEditTitle', 'notCreatingPrivateMessage'),
 
   @computed('canEditTitle', 'creatingPrivateMessage', 'categoryId')
@@ -190,6 +192,7 @@ const Composer = RestModel.extend({
     switch (this.get('action')) {
       case PRIVATE_MESSAGE: return I18n.t('topic.private_message');
       case CREATE_TOPIC: return I18n.t('topic.create_long');
+      case CREATE_STORY: return I18n.t('topic.create_long_story');
       case REPLY:
       case EDIT:
         if (postDescription) return postDescription;
@@ -236,6 +239,7 @@ const Composer = RestModel.extend({
       case EDIT: return '<i class="fa fa-pencil"></i>';
       case REPLY: return '<i class="fa fa-reply"></i>';
       case CREATE_TOPIC: return '<i class="fa fa-plus"></i>';
+      case CREATE_STORY: return '<i class="fa fa-plus"></i>';
       case PRIVATE_MESSAGE: return '<i class="fa fa-envelope"></i>';
     }
   }.property('action'),
@@ -246,6 +250,7 @@ const Composer = RestModel.extend({
       case EDIT: return I18n.t('composer.save_edit');
       case REPLY: return I18n.t('composer.reply');
       case CREATE_TOPIC: return I18n.t('composer.create_topic');
+      case CREATE_STORY: return I18n.t('composer.create_story');
       case PRIVATE_MESSAGE: return I18n.t('composer.create_pm');
     }
   }.property('action'),
@@ -471,6 +476,10 @@ const Composer = RestModel.extend({
       if (categories.length === 1) {
         this.set('categoryId', categories[0].get('id'));
       }
+    }
+    else if (!this.get('categoryId') && this.get('creatingStory')) {
+      const categories = Discourse.Category.list();
+      this.set('categoryId', categories.findBy('name', 'Story').get('id'));
     }
 
     if (opts.postId) {
@@ -810,6 +819,7 @@ Composer.reopenClass({
 
   // The actions the composer can take
   CREATE_TOPIC,
+  CREATE_STORY,
   PRIVATE_MESSAGE,
   REPLY,
   EDIT,

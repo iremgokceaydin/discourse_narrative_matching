@@ -3,6 +3,7 @@ class Admin::SiteTextsController < Admin::AdminController
   def self.preferred_keys
     ['system_messages.usage_tips.text_body_template',
      'education.new-topic',
+     'education.new-story',
      'education.new-reply',
      'login_required.welcome_message']
   end

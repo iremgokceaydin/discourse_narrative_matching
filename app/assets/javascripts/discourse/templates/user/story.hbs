@@ -1,0 +1,11 @@
+{{#d-section pageClass="user-activity" class="user-navigation" scrollTop="false"}}
+  {{#mobile-nav class='activity-nav' desktopClass='action-list activity-list nav-stacked' currentPath=currentPath}}
+    {{d-button class="btn-primary new-private-message" action="createStory" icon="envelope" label="user.story.edit"}}
+  {{/mobile-nav}}
+
+{{/d-section}}
+
+<section class='user-right'>
+    Here comes the story..
+  {{outlet}}
+</section>

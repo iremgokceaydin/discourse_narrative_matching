@@ -575,6 +575,9 @@ en:
       trust_level: "Trust Level"
       notifications: "Notifications"
       statistics: "Stats"
+      story:
+        title: "My Story"
+        edit: "Edit My Story"
       desktop_notifications:
         label: "Desktop Notifications"
         not_supported: "Notifications are not supported on this browser. Sorry."
@@ -1145,6 +1148,7 @@ en:
       reply: "Reply"
       cancel: "Cancel"
       create_topic: "Create Topic"
+      create_story: "Create Story"
       create_pm: "Message"
       title: "Or press Ctrl+Enter"
 
@@ -1419,6 +1423,7 @@ en:
         other: "{{count}} posts in topic"
       create: 'New Topic'
       create_long: 'Create a new Topic'
+      create_long_story: 'Create a new Story'
       private_message: 'Start a message'
       archive_message:
         help: 'Move message to your archive'

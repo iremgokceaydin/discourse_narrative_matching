@@ -906,6 +906,11 @@ class User < ActiveRecord::Base
     DiscourseEvent.trigger(:user_logged_out, self)
   end
 
+  def story
+    topic = Topic.where(user_id: self.id, story: true)
+    topic
+  end
+
   protected
 
   def badge_grant

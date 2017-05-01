@@ -25,6 +25,8 @@ class ComposerMessagesFinder
     if creating_topic?
       count = @user.created_topic_count
       education_key = 'education.new-topic'
+    elsif creating_story?
+      education_key = 'education.new-story'
     else
       count = @user.post_count
       education_key = 'education.new-reply'
@@ -205,6 +207,10 @@ class ComposerMessagesFinder
 
     def replying?
       @details[:composer_action] == "reply"
+    end
+
+    def creating_story?
+      @details[:composer_action] == "createStory"
     end
 
 end

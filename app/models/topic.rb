@@ -304,6 +304,11 @@ class Topic < ActiveRecord::Base
     HtmlPrettify.render(escaped)
   end
 
+  def self.user_story (user)
+    result = Topic.where(user_id: user, story: true)
+    return result
+  end
+
   def fancy_title
     return ERB::Util.html_escape(title) unless SiteSetting.title_fancy_entities?
 
@@ -1265,6 +1270,7 @@ end
 #  pinned_until                  :datetime
 #  fancy_title                   :string(400)
 #  highest_staff_post_number     :integer          default(0), not null
+#  story                         :boolean          default(FALSE)
 #
 # Indexes
 #

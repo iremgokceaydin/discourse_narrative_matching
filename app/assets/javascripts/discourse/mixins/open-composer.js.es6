@@ -4,6 +4,7 @@ import Composer from 'discourse/models/composer';
 export default Ember.Mixin.create({
 
   openComposer(controller) {
+      alert("irem");
     this.controllerFor('composer').open({
       categoryId: controller.get('category.id'),
       action: Composer.CREATE_TOPIC,

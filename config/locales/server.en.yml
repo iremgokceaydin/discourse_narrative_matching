@@ -281,6 +281,17 @@ en:
 
       For more, [see our community guidelines](/guidelines). This panel will only appear for your first %{education_posts_text}.
 
+    'new-topic': |
+          Welcome to %{site_name} &mdash; **thanks for starting your story!**
+
+          - Does the title sound interesting if you read it out loud? Is it a good summary?
+
+          - Who would be interested in this? Why does it matter? What kind of responses do you want?
+
+          - Stay in touch with other members!
+
+          For more, [see our community guidelines](/guidelines). This panel will only appear for your first story.
+
     'new-reply': |
       Welcome to %{site_name} &mdash; **thanks for contributing!**
 

@@ -500,6 +500,14 @@ const User = RestModel.extend({
 
               return summary;
            });
+  },
+
+  story (){ // not used for now
+      return ajax(`/users/${this.get("username_lower")}/story.json`)
+          .then(json => {
+              const story = json["story"]
+              return story;
+          });
   }
 
 });
